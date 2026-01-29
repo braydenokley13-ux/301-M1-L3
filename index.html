@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The GM Challenge - Master the Efficiency Frontier</title>
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/player-card.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="header-content">
+        <h1 class="logo">The GM Challenge</h1>
+        <div class="text-muted text-sm">Master the Efficiency Frontier</div>
+      </div>
+    </div>
+  </header>
+
+  <main class="main-content">
+    <div class="container">
+      <section class="hero text-center mb-xl">
+        <h2>Experience Diminishing Returns Through Sports GM Decisions</h2>
+        <p class="text-lg text-muted">
+          Draft real players from 2018-2020 seasons. Build winning rosters. Learn economic principles.
+        </p>
+      </section>
+
+      <section class="card">
+        <div class="card-header">
+          <h3 class="card-title">Your Progress</h3>
+        </div>
+        <div class="card-body">
+          <div id="progress-summary" class="grid grid-3">
+            <!-- Progress will be loaded here -->
+          </div>
+        </div>
+      </section>
+
+      <section class="grid grid-3 mt-xl">
+        <div class="card">
+          <div class="card-header">
+            <h4 class="card-title">MLB 2019</h4>
+            <span class="badge badge-success">Easy</span>
+          </div>
+          <div class="card-body">
+            <p class="text-sm text-muted">
+              No salary cap. Draft 5 players and learn to recognize diminishing returns naturally.
+            </p>
+            <ul class="text-sm mb-md">
+              <li>Starting Pitcher</li>
+              <li>Relief Pitcher</li>
+              <li>Shortstop</li>
+              <li>Outfielder</li>
+              <li>Designated Hitter</li>
+            </ul>
+            <div class="scenario-status" data-league="MLB_2019">
+              <span class="status-text text-muted">Not started</span>
+            </div>
+            <button class="btn btn-primary mt-md" onclick="startScenario('MLB_2019')">
+              Start MLB Draft
+            </button>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-header">
+            <h4 class="card-title">NFL 2020</h4>
+            <span class="badge badge-warning">Medium</span>
+          </div>
+          <div class="card-body">
+            <p class="text-sm text-muted">
+              Hard salary cap at $198.2M. Make tough trade-offs across 5 key positions.
+            </p>
+            <ul class="text-sm mb-md">
+              <li>Quarterback</li>
+              <li>Left Tackle</li>
+              <li>Edge Rusher</li>
+              <li>Wide Receiver</li>
+              <li>Cornerback</li>
+            </ul>
+            <div class="scenario-status" data-league="NFL_2020">
+              <span class="status-text text-muted">Not started</span>
+            </div>
+            <button class="btn btn-primary mt-md" onclick="startScenario('NFL_2020')">
+              Start NFL Draft
+            </button>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-header">
+            <h4 class="card-title">NBA 2018-19</h4>
+            <span class="badge badge-danger">Hard</span>
+          </div>
+          <div class="card-body">
+            <p class="text-sm text-muted">
+              Soft cap with luxury tax at $123.7M. Strategic spending with tax penalties.
+            </p>
+            <ul class="text-sm mb-md">
+              <li>Point Guard</li>
+              <li>Shooting Guard</li>
+              <li>Small Forward</li>
+              <li>Power Forward</li>
+              <li>Center</li>
+            </ul>
+            <div class="scenario-status" data-league="NBA_2019">
+              <span class="status-text text-muted">Not started</span>
+            </div>
+            <button class="btn btn-primary mt-md" onclick="startScenario('NBA_2019')">
+              Start NBA Draft
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <section class="card mt-xl">
+        <div class="card-header">
+          <h3 class="card-title">Learning Objectives</h3>
+        </div>
+        <div class="card-body">
+          <div class="grid grid-2">
+            <div>
+              <h5>📊 Diminishing Returns</h5>
+              <p class="text-sm text-muted">
+                Experience how additional spending yields decreasing marginal benefits.
+                Learn to identify the point where spending more doesn't create proportional value.
+              </p>
+            </div>
+            <div>
+              <h5>📈 Efficiency Frontier</h5>
+              <p class="text-sm text-muted">
+                Visualize the frontier through real-time charts showing optimal spending levels.
+                Understand when you're on, near, or past the efficiency frontier.
+              </p>
+            </div>
+            <div>
+              <h5>💰 Resource Constraints</h5>
+              <p class="text-sm text-muted">
+                Learn how different cap structures (no cap, hard cap, soft cap with tax)
+                affect decision-making and strategic resource allocation.
+              </p>
+            </div>
+            <div>
+              <h5>⚖️ Trade-offs</h5>
+              <p class="text-sm text-muted">
+                Make tough choices between star players and roster balance.
+                Understand opportunity cost through concrete player comparisons.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="badges-section" class="card mt-xl" style="display: none;">
+        <div class="card-header">
+          <h3 class="card-title">Your Badges</h3>
+        </div>
+        <div class="card-body">
+          <div id="badges-display" class="flex gap-md">
+            <!-- Badges will be loaded here -->
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p class="text-sm">
+        &copy; 2024 The GM Challenge | An Interactive Economics Learning Activity
+      </p>
+      <p class="text-sm text-muted">
+        Player data from Baseball Reference, Pro Football Reference, and Basketball Reference
+      </p>
+    </div>
+  </footer>
+
+  <script src="js/config.js"></script>
+  <script src="js/storage.js"></script>
+  <script src="js/utils.js"></script>
+  <script>
+    // Initialize session storage
+    const storage = new SessionStorage();
+
+    // Load progress on page load
+    document.addEventListener('DOMContentLoaded', () => {
+      loadProgress();
+      loadBadges();
+    });
+
+    function loadProgress() {
+      const summary = storage.getSummary();
+      const scenarios = storage.session.scenarios;
+
+      // Update scenario statuses
+      for (const [league, scenario] of Object.entries(scenarios)) {
+        const statusEl = document.querySelector(`[data-league="${league}"] .status-text`);
+        if (statusEl) {
+          if (scenario.completed) {
+            statusEl.textContent = `Completed - Score: ${scenario.score}/100`;
+            statusEl.className = 'status-text text-bold';
+            statusEl.style.color = 'var(--color-secondary)';
+          }
+        }
+      }
+
+      // Show progress summary
+      const progressEl = document.getElementById('progress-summary');
+      progressEl.innerHTML = `
+        <div class="metric-card">
+          <div class="metric-label">Total Score</div>
+          <div class="metric-value">${summary.totalScore}/300</div>
+        </div>
+        <div class="metric-card">
+          <div class="metric-label">Scenarios Completed</div>
+          <div class="metric-value">${summary.scenariosCompleted}/3</div>
+        </div>
+        <div class="metric-card">
+          <div class="metric-label">Grade</div>
+          <div class="metric-value">${summary.grade || '-'}</div>
+        </div>
+      `;
+    }
+
+    function loadBadges() {
+      const badges = storage.session.badges;
+      if (badges.length > 0) {
+        const badgesSection = document.getElementById('badges-section');
+        const badgesDisplay = document.getElementById('badges-display');
+        badgesSection.style.display = 'block';
+
+        badgesDisplay.innerHTML = badges.map(badgeId => {
+          const badge = getBadgeInfo(badgeId);
+          return `
+            <div class="card" style="text-align: center; min-width: 150px;">
+              <div style="font-size: 3rem;">${badge.icon}</div>
+              <h5 class="mt-sm mb-xs">${badge.name}</h5>
+              <p class="text-sm text-muted">${badge.description}</p>
+            </div>
+          `;
+        }).join('');
+      }
+    }
+
+    function startScenario(league) {
+      // Save current league
+      storage.session.currentScenario = league;
+      storage.saveSession();
+
+      // Navigate to activity page
+      window.location.href = `activity.html?league=${league}`;
+    }
+
+    // Reset session (for testing)
+    function resetProgress() {
+      if (confirm('Are you sure you want to reset all progress?')) {
+        storage.resetSession();
+        loadProgress();
+        loadBadges();
+        showToast('Progress reset successfully', 'success');
+      }
+    }
+  </script>
+</body>
+</html>

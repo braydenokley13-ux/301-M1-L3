@@ -1,0 +1,82 @@
+{
+  "MLB_2019": {
+    "max_efficiency": {
+      "budget": 110000000,
+      "players": [
+        { "position": "SP", "name": "Shane Bieber", "tier": "Value", "salary": 8000000 },
+        { "position": "RP", "name": "Liam Hendriks", "tier": "Value", "salary": 6000000 },
+        { "position": "SS", "name": "Marcus Semien", "tier": "Value", "salary": 16000000 },
+        { "position": "OF", "name": "Ronald Acuna Jr.", "tier": "Value", "salary": 14000000 },
+        { "position": "DH", "name": "Yordan Alvarez", "tier": "Value", "salary": 7000000 }
+      ],
+      "wins": 55,
+      "efficiency": 1.0
+    },
+    "balanced": {
+      "budget": 145000000,
+      "players": [
+        { "position": "SP", "name": "Gerrit Cole", "tier": "Value", "salary": 20000000 },
+        { "position": "RP", "name": "Kirby Yates", "tier": "Value", "salary": 7000000 },
+        { "position": "SS", "name": "Xander Bogaerts", "tier": "Value", "salary": 15000000 },
+        { "position": "OF", "name": "Christian Yelich", "tier": "Value", "salary": 20000000 },
+        { "position": "DH", "name": "Nelson Cruz", "tier": "Market", "salary": 18000000 }
+      ],
+      "wins": 58,
+      "efficiency": 0.92
+    }
+  },
+  "NFL_2020": {
+    "max_efficiency": {
+      "budget": 165000000,
+      "players": [
+        { "position": "QB", "name": "Aaron Rodgers", "tier": "Market", "salary": 33000000 },
+        { "position": "LT", "name": "Trent Williams", "tier": "Value", "salary": 18000000 },
+        { "position": "EDGE", "name": "T.J. Watt", "tier": "Value", "salary": 20000000 },
+        { "position": "WR", "name": "Davante Adams", "tier": "Value", "salary": 18000000 },
+        { "position": "CB", "name": "Jalen Ramsey", "tier": "Value", "salary": 18000000 }
+      ],
+      "wins": 10.8,
+      "efficiency": 1.0
+    },
+    "cap_maximizer": {
+      "budget": 195000000,
+      "players": [
+        { "position": "QB", "name": "Patrick Mahomes", "tier": "Market", "salary": 35000000 },
+        { "position": "LT", "name": "David Bakhtiari", "tier": "Market", "salary": 25000000 },
+        { "position": "EDGE", "name": "Myles Garrett", "tier": "Market", "salary": 27000000 },
+        { "position": "WR", "name": "Tyreek Hill", "tier": "Market", "salary": 25000000 },
+        { "position": "CB", "name": "Tre'Davious White", "tier": "Market", "salary": 23000000 }
+      ],
+      "wins": 11.2,
+      "efficiency": 0.92
+    }
+  },
+  "NBA_2019": {
+    "under_cap": {
+      "budget": 98000000,
+      "players": [
+        { "position": "PG", "name": "Damian Lillard", "tier": "Star", "salary": 23000000 },
+        { "position": "SG", "name": "CJ McCollum", "tier": "Star", "salary": 18000000 },
+        { "position": "SF", "name": "Pascal Siakam", "tier": "Value", "salary": 12000000 },
+        { "position": "PF", "name": "Domantas Sabonis", "tier": "Value", "salary": 12000000 },
+        { "position": "C", "name": "Nikola Jokic", "tier": "Star", "salary": 24000000 }
+      ],
+      "wins": 52,
+      "efficiency": 1.0,
+      "luxuryTax": 0
+    },
+    "over_tax": {
+      "budget": 140000000,
+      "players": [
+        { "position": "PG", "name": "Stephen Curry", "tier": "Supermax", "salary": 37000000 },
+        { "position": "SG", "name": "James Harden", "tier": "Star", "salary": 30000000 },
+        { "position": "SF", "name": "Kawhi Leonard", "tier": "Star", "salary": 26000000 },
+        { "position": "PF", "name": "Anthony Davis", "tier": "Star", "salary": 26000000 },
+        { "position": "C", "name": "Rudy Gobert", "tier": "Star", "salary": 21000000 }
+      ],
+      "wins": 58,
+      "efficiency": 0.85,
+      "luxuryTax": 24600000
+    }
+  }
+}

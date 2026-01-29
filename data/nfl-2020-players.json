@@ -1,0 +1,2097 @@
+{
+  "QB": [
+    {
+      "id": "rodgers-aaron-2020",
+      "name": "Aaron Rodgers",
+      "team": "GB",
+      "season": 2020,
+      "stats": {
+        "epa": 142.5,
+        "completions": 372,
+        "attempts": 526,
+        "yards": 4299,
+        "tds": 48
+      },
+      "salaryTiers": [
+        {
+          "amount": 22000000,
+          "label": "Value tier",
+          "description": "MVP efficiency pricing",
+          "percentile": 75
+        },
+        {
+          "amount": 33000000,
+          "label": "Market tier",
+          "description": "Elite QB market rate",
+          "percentile": 90
+        },
+        {
+          "amount": 42000000,
+          "label": "Premium tier",
+          "description": "Age premium - diminishing returns",
+          "percentile": 95
+        }
+      ],
+      "context": "MVP season at age 37, historic TD-INT ratio"
+    },
+    {
+      "id": "mahomes-patrick-2020",
+      "name": "Patrick Mahomes",
+      "team": "KC",
+      "season": 2020,
+      "stats": {
+        "epa": 138.2,
+        "completions": 390,
+        "attempts": 588,
+        "yards": 4740,
+        "tds": 38
+      },
+      "salaryTiers": [
+        {
+          "amount": 25000000,
+          "label": "Value tier",
+          "description": "Rookie deal extension value",
+          "percentile": 78
+        },
+        {
+          "amount": 35000000,
+          "label": "Market tier",
+          "description": "Elite franchise QB",
+          "percentile": 92
+        },
+        {
+          "amount": 45000000,
+          "label": "Premium tier",
+          "description": "Supermax - diminishing returns",
+          "percentile": 96
+        }
+      ],
+      "context": "Signed $503M extension, led KC to Super Bowl"
+    },
+    {
+      "id": "allen-josh-2020",
+      "name": "Josh Allen",
+      "team": "BUF",
+      "season": 2020,
+      "stats": {
+        "epa": 130.1,
+        "completions": 396,
+        "attempts": 572,
+        "yards": 4544,
+        "tds": 37
+      },
+      "salaryTiers": [
+        {
+          "amount": 18000000,
+          "label": "Value tier",
+          "description": "Breakout QB value",
+          "percentile": 72
+        },
+        {
+          "amount": 28000000,
+          "label": "Market tier",
+          "description": "Elite dual-threat pricing",
+          "percentile": 88
+        },
+        {
+          "amount": 38000000,
+          "label": "Premium tier",
+          "description": "Superstar premium",
+          "percentile": 94
+        }
+      ],
+      "context": "Breakout MVP candidate, rushed for 421 yards"
+    },
+    {
+      "id": "wilson-russell-2020",
+      "name": "Russell Wilson",
+      "team": "SEA",
+      "season": 2020,
+      "stats": {
+        "epa": 110.4,
+        "completions": 384,
+        "attempts": 558,
+        "yards": 4212,
+        "tds": 40
+      },
+      "salaryTiers": [
+        {
+          "amount": 20000000,
+          "label": "Value tier",
+          "description": "Elite dual-threat value",
+          "percentile": 70
+        },
+        {
+          "amount": 32000000,
+          "label": "Market tier",
+          "description": "Proven winner pricing",
+          "percentile": 87
+        },
+        {
+          "amount": 40000000,
+          "label": "Premium tier",
+          "description": "Superstar tax",
+          "percentile": 93
+        }
+      ],
+      "context": "MVP candidate early season, faded late"
+    },
+    {
+      "id": "tannehill-ryan-2020",
+      "name": "Ryan Tannehill",
+      "team": "TEN",
+      "season": 2020,
+      "stats": {
+        "epa": 95.2,
+        "completions": 315,
+        "attempts": 481,
+        "yards": 3819,
+        "tds": 33
+      },
+      "salaryTiers": [
+        {
+          "amount": 18000000,
+          "label": "Value tier",
+          "description": "Efficient game manager",
+          "percentile": 68
+        },
+        {
+          "amount": 25000000,
+          "label": "Market tier",
+          "description": "Proven starter value",
+          "percentile": 82
+        }
+      ],
+      "context": "Efficient in Titans' run-first offense"
+    },
+    {
+      "id": "brady-tom-2020",
+      "name": "Tom Brady",
+      "team": "TB",
+      "season": 2020,
+      "stats": {
+        "epa": 88.7,
+        "completions": 401,
+        "attempts": 610,
+        "yards": 4633,
+        "tds": 40
+      },
+      "salaryTiers": [
+        {
+          "amount": 15000000,
+          "label": "Value tier",
+          "description": "Discount for rings",
+          "percentile": 65
+        },
+        {
+          "amount": 25000000,
+          "label": "Market tier",
+          "description": "Championship pedigree",
+          "percentile": 80
+        },
+        {
+          "amount": 33000000,
+          "label": "Premium tier",
+          "description": "Age premium overpay",
+          "percentile": 88
+        }
+      ],
+      "context": "Won Super Bowl in first year with Bucs"
+    },
+    {
+      "id": "herbert-justin-2020",
+      "name": "Justin Herbert",
+      "team": "LAC",
+      "season": 2020,
+      "stats": {
+        "epa": 82.3,
+        "completions": 396,
+        "attempts": 595,
+        "yards": 4336,
+        "tds": 31
+      },
+      "salaryTiers": [
+        {
+          "amount": 8000000,
+          "label": "Value tier",
+          "description": "Rookie contract steal",
+          "percentile": 60
+        },
+        {
+          "amount": 15000000,
+          "label": "Market tier",
+          "description": "ROY performance value",
+          "percentile": 75
+        }
+      ],
+      "context": "Offensive Rookie of the Year, instant starter"
+    },
+    {
+      "id": "cousins-kirk-2020",
+      "name": "Kirk Cousins",
+      "team": "MIN",
+      "season": 2020,
+      "stats": {
+        "epa": 75.6,
+        "completions": 349,
+        "attempts": 516,
+        "yards": 4265,
+        "tds": 35
+      },
+      "salaryTiers": [
+        {
+          "amount": 18000000,
+          "label": "Value tier",
+          "description": "Solid starter value",
+          "percentile": 65
+        },
+        {
+          "amount": 28000000,
+          "label": "Market tier",
+          "description": "Proven veteran pricing",
+          "percentile": 78
+        }
+      ],
+      "context": "Consistent production, question mark in big games"
+    },
+    {
+      "id": "carr-derek-2020",
+      "name": "Derek Carr",
+      "team": "LV",
+      "season": 2020,
+      "stats": {
+        "epa": 70.2,
+        "completions": 348,
+        "attempts": 517,
+        "yards": 4103,
+        "tds": 27
+      },
+      "salaryTiers": [
+        {
+          "amount": 15000000,
+          "label": "Value tier",
+          "description": "Solid starter value",
+          "percentile": 62
+        },
+        {
+          "amount": 22000000,
+          "label": "Market tier",
+          "description": "Competent veteran",
+          "percentile": 75
+        }
+      ],
+      "context": "Steady production, led Raiders to playoffs"
+    },
+    {
+      "id": "ryan-matt-2020",
+      "name": "Matt Ryan",
+      "team": "ATL",
+      "season": 2020,
+      "stats": {
+        "epa": 68.4,
+        "completions": 407,
+        "attempts": 626,
+        "yards": 4581,
+        "tds": 26
+      },
+      "salaryTiers": [
+        {
+          "amount": 17000000,
+          "label": "Value tier",
+          "description": "Fading veteran value",
+          "percentile": 60
+        },
+        {
+          "amount": 26000000,
+          "label": "Market tier",
+          "description": "Former MVP pricing",
+          "percentile": 74
+        }
+      ],
+      "context": "High volume but declining efficiency"
+    },
+    {
+      "id": "watson-deshaun-2020",
+      "name": "Deshaun Watson",
+      "team": "HOU",
+      "season": 2020,
+      "stats": {
+        "epa": 95.8,
+        "completions": 382,
+        "attempts": 544,
+        "yards": 4823,
+        "tds": 33
+      },
+      "salaryTiers": [
+        {
+          "amount": 20000000,
+          "label": "Value tier",
+          "description": "Elite QB value",
+          "percentile": 72
+        },
+        {
+          "amount": 30000000,
+          "label": "Market tier",
+          "description": "Franchise QB pricing",
+          "percentile": 86
+        }
+      ],
+      "context": "Elite despite poor team, dual-threat QB"
+    },
+    {
+      "id": "murray-kyler-2020",
+      "name": "Kyler Murray",
+      "team": "ARI",
+      "season": 2020,
+      "stats": {
+        "epa": 78.9,
+        "completions": 375,
+        "attempts": 558,
+        "yards": 3971,
+        "tds": 26
+      },
+      "salaryTiers": [
+        {
+          "amount": 12000000,
+          "label": "Value tier",
+          "description": "Dual-threat upside",
+          "percentile": 65
+        },
+        {
+          "amount": 22000000,
+          "label": "Market tier",
+          "description": "Young star pricing",
+          "percentile": 80
+        }
+      ],
+      "context": "Dynamic dual-threat, improving passer"
+    },
+    {
+      "id": "lamar-jackson-2020",
+      "name": "Lamar Jackson",
+      "team": "BAL",
+      "season": 2020,
+      "stats": {
+        "epa": 65.3,
+        "completions": 242,
+        "attempts": 376,
+        "yards": 2757,
+        "tds": 26
+      },
+      "salaryTiers": [
+        {
+          "amount": 16000000,
+          "label": "Value tier",
+          "description": "Down year discount",
+          "percentile": 60
+        },
+        {
+          "amount": 26000000,
+          "label": "Market tier",
+          "description": "Former MVP pricing",
+          "percentile": 76
+        }
+      ],
+      "context": "Struggled with injuries, down from MVP year"
+    },
+    {
+      "id": "stafford-matthew-2020",
+      "name": "Matthew Stafford",
+      "team": "DET",
+      "season": 2020,
+      "stats": {
+        "epa": 71.5,
+        "completions": 339,
+        "attempts": 528,
+        "yards": 4084,
+        "tds": 26
+      },
+      "salaryTiers": [
+        {
+          "amount": 16000000,
+          "label": "Value tier",
+          "description": "Solid veteran value",
+          "percentile": 63
+        },
+        {
+          "amount": 24000000,
+          "label": "Market tier",
+          "description": "Proven starter pricing",
+          "percentile": 77
+        }
+      ],
+      "context": "Consistent production on poor team"
+    },
+    {
+      "id": "mayfield-baker-2020",
+      "name": "Baker Mayfield",
+      "team": "CLE",
+      "season": 2020,
+      "stats": {
+        "epa": 58.7,
+        "completions": 305,
+        "attempts": 486,
+        "yards": 3563,
+        "tds": 26
+      },
+      "salaryTiers": [
+        {
+          "amount": 11000000,
+          "label": "Value tier",
+          "description": "Bounce-back value",
+          "percentile": 58
+        },
+        {
+          "amount": 20000000,
+          "label": "Market tier",
+          "description": "Former #1 pick pricing",
+          "percentile": 72
+        }
+      ],
+      "context": "Resurgence under Stefanski, led Browns to playoffs"
+    }
+  ],
+  "LT": [
+    {
+      "id": "williams-trent-2020",
+      "name": "Trent Williams",
+      "team": "SF",
+      "season": 2020,
+      "stats": {
+        "epa": 72.3,
+        "pbwr": 91.2,
+        "snaps": 1056
+      },
+      "salaryTiers": [
+        {
+          "amount": 18000000,
+          "label": "Value tier",
+          "description": "Elite pass protection",
+          "percentile": 75
+        },
+        {
+          "amount": 26000000,
+          "label": "Market tier",
+          "description": "Top LT pricing",
+          "percentile": 90
+        }
+      ],
+      "context": "First year with 49ers, elite performance"
+    },
+    {
+      "id": "bakhtiari-david-2020",
+      "name": "David Bakhtiari",
+      "team": "GB",
+      "season": 2020,
+      "stats": {
+        "epa": 68.5,
+        "pbwr": 89.4,
+        "snaps": 878
+      },
+      "salaryTiers": [
+        {
+          "amount": 17000000,
+          "label": "Value tier",
+          "description": "Consistent elite tackle",
+          "percentile": 73
+        },
+        {
+          "amount": 25000000,
+          "label": "Market tier",
+          "description": "Premium LT pricing",
+          "percentile": 88
+        },
+        {
+          "amount": 32000000,
+          "label": "Premium tier",
+          "description": "Age/injury premium",
+          "percentile": 94
+        }
+      ],
+      "context": "Perennial All-Pro, injury shortened season"
+    },
+    {
+      "id": "tunsil-laremy-2020",
+      "name": "Laremy Tunsil",
+      "team": "HOU",
+      "season": 2020,
+      "stats": {
+        "epa": 64.2,
+        "pbwr": 87.6,
+        "snaps": 1021
+      },
+      "salaryTiers": [
+        {
+          "amount": 16000000,
+          "label": "Value tier",
+          "description": "Young elite tackle",
+          "percentile": 70
+        },
+        {
+          "amount": 24000000,
+          "label": "Market tier",
+          "description": "Top-tier LT pricing",
+          "percentile": 86
+        }
+      ],
+      "context": "Signed massive extension, elite blind-side protector"
+    },
+    {
+      "id": "ramczyk-ryan-2020",
+      "name": "Ryan Ramczyk",
+      "team": "NO",
+      "season": 2020,
+      "stats": {
+        "epa": 60.8,
+        "pbwr": 85.3,
+        "snaps": 1089
+      },
+      "salaryTiers": [
+        {
+          "amount": 15000000,
+          "label": "Value tier",
+          "description": "Consistent starter value",
+          "percentile": 68
+        },
+        {
+          "amount": 23000000,
+          "label": "Market tier",
+          "description": "Elite RT/LT pricing",
+          "percentile": 84
+        }
+      ],
+      "context": "Elite pass protector, durable workhorse"
+    },
+    {
+      "id": "stanley-ronnie-2020",
+      "name": "Ronnie Stanley",
+      "team": "BAL",
+      "season": 2020,
+      "stats": {
+        "epa": 58.4,
+        "pbwr": 88.7,
+        "snaps": 537
+      },
+      "salaryTiers": [
+        {
+          "amount": 14000000,
+          "label": "Value tier",
+          "description": "Injury-limited value",
+          "percentile": 65
+        },
+        {
+          "amount": 22000000,
+          "label": "Market tier",
+          "description": "When healthy, elite",
+          "percentile": 82
+        }
+      ],
+      "context": "Elite but injury-shortened season"
+    },
+    {
+      "id": "whitworth-andrew-2020",
+      "name": "Andrew Whitworth",
+      "team": "LAR",
+      "season": 2020,
+      "stats": {
+        "epa": 56.7,
+        "pbwr": 84.1,
+        "snaps": 1023
+      },
+      "salaryTiers": [
+        {
+          "amount": 13000000,
+          "label": "Value tier",
+          "description": "Ageless veteran value",
+          "percentile": 63
+        },
+        {
+          "amount": 20000000,
+          "label": "Market tier",
+          "description": "Elite at age 39",
+          "percentile": 78
+        }
+      ],
+      "context": "Age 39 All-Pro season, incredible durability"
+    },
+    {
+      "id": "smith-tyron-2020",
+      "name": "Tyron Smith",
+      "team": "DAL",
+      "season": 2020,
+      "stats": {
+        "epa": 52.3,
+        "pbwr": 82.5,
+        "snaps": 714
+      },
+      "salaryTiers": [
+        {
+          "amount": 12000000,
+          "label": "Value tier",
+          "description": "Injury concerns discount",
+          "percentile": 60
+        },
+        {
+          "amount": 19000000,
+          "label": "Market tier",
+          "description": "When healthy, top-tier",
+          "percentile": 75
+        }
+      ],
+      "context": "Injury-plagued but elite when playing"
+    },
+    {
+      "id": "brown-orlando-2020",
+      "name": "Orlando Brown Jr.",
+      "team": "BAL",
+      "season": 2020,
+      "stats": {
+        "epa": 54.8,
+        "pbwr": 83.2,
+        "snaps": 1089
+      },
+      "salaryTiers": [
+        {
+          "amount": 11000000,
+          "label": "Value tier",
+          "description": "Young rising tackle",
+          "percentile": 62
+        },
+        {
+          "amount": 18000000,
+          "label": "Market tier",
+          "description": "Solid starter pricing",
+          "percentile": 77
+        }
+      ],
+      "context": "Moved from RT to LT, strong performance"
+    },
+    {
+      "id": "wirfs-tristan-2020",
+      "name": "Tristan Wirfs",
+      "team": "TB",
+      "season": 2020,
+      "stats": {
+        "epa": 49.5,
+        "pbwr": 80.8,
+        "snaps": 1089
+      },
+      "salaryTiers": [
+        {
+          "amount": 9000000,
+          "label": "Value tier",
+          "description": "Rookie contract steal",
+          "percentile": 58
+        },
+        {
+          "amount": 16000000,
+          "label": "Market tier",
+          "description": "ROY-caliber value",
+          "percentile": 73
+        }
+      ],
+      "context": "Rookie protecting Brady, immediate impact"
+    },
+    {
+      "id": "armstead-terron-2020",
+      "name": "Terron Armstead",
+      "team": "NO",
+      "season": 2020,
+      "stats": {
+        "epa": 48.2,
+        "pbwr": 81.4,
+        "snaps": 812
+      },
+      "salaryTiers": [
+        {
+          "amount": 11000000,
+          "label": "Value tier",
+          "description": "Injury history discount",
+          "percentile": 60
+        },
+        {
+          "amount": 18000000,
+          "label": "Market tier",
+          "description": "When healthy, elite",
+          "percentile": 74
+        }
+      ],
+      "context": "Elite but struggles to stay healthy"
+    },
+    {
+      "id": "williams-jedrick-2020",
+      "name": "Jedrick Wills Jr.",
+      "team": "CLE",
+      "season": 2020,
+      "stats": {
+        "epa": 42.7,
+        "pbwr": 76.9,
+        "snaps": 1008
+      },
+      "salaryTiers": [
+        {
+          "amount": 8000000,
+          "label": "Value tier",
+          "description": "Rookie starter value",
+          "percentile": 55
+        },
+        {
+          "amount": 15000000,
+          "label": "Market tier",
+          "description": "High-upside rookie",
+          "percentile": 70
+        }
+      ],
+      "context": "Top-10 pick, solid rookie season"
+    },
+    {
+      "id": "decker-taylor-2020",
+      "name": "Taylor Decker",
+      "team": "DET",
+      "season": 2020,
+      "stats": {
+        "epa": 44.8,
+        "pbwr": 78.2,
+        "snaps": 951
+      },
+      "salaryTiers": [
+        {
+          "amount": 10000000,
+          "label": "Value tier",
+          "description": "Solid starter value",
+          "percentile": 58
+        },
+        {
+          "amount": 17000000,
+          "label": "Market tier",
+          "description": "Mid-tier LT pricing",
+          "percentile": 72
+        }
+      ],
+      "context": "Consistent left tackle, reliable starter"
+    },
+    {
+      "id": "villanueva-alejandro-2020",
+      "name": "Alejandro Villanueva",
+      "team": "PIT",
+      "season": 2020,
+      "stats": {
+        "epa": 38.4,
+        "pbwr": 74.5,
+        "snaps": 1020
+      },
+      "salaryTiers": [
+        {
+          "amount": 9000000,
+          "label": "Value tier",
+          "description": "Veteran starter value",
+          "percentile": 54
+        },
+        {
+          "amount": 16000000,
+          "label": "Market tier",
+          "description": "Proven veteran pricing",
+          "percentile": 68
+        }
+      ],
+      "context": "Aging veteran, still serviceable"
+    },
+    {
+      "id": "becton-mekhi-2020",
+      "name": "Mekhi Becton",
+      "team": "NYJ",
+      "season": 2020,
+      "stats": {
+        "epa": 40.2,
+        "pbwr": 75.8,
+        "snaps": 882
+      },
+      "salaryTiers": [
+        {
+          "amount": 8000000,
+          "label": "Value tier",
+          "description": "High-upside rookie",
+          "percentile": 56
+        },
+        {
+          "amount": 15000000,
+          "label": "Market tier",
+          "description": "Top-15 pick value",
+          "percentile": 71
+        }
+      ],
+      "context": "Massive rookie, flashes of dominance"
+    },
+    {
+      "id": "thomas-andrew-2020",
+      "name": "Andrew Thomas",
+      "team": "NYG",
+      "season": 2020,
+      "stats": {
+        "epa": 35.6,
+        "pbwr": 72.3,
+        "snaps": 1033
+      },
+      "salaryTiers": [
+        {
+          "amount": 7000000,
+          "label": "Value tier",
+          "description": "Rookie learning curve",
+          "percentile": 52
+        },
+        {
+          "amount": 14000000,
+          "label": "Market tier",
+          "description": "Top-5 pick upside",
+          "percentile": 68
+        }
+      ],
+      "context": "Struggled early but improved late"
+    }
+  ],
+  "EDGE": [
+    {
+      "id": "watt-tj-2020",
+      "name": "T.J. Watt",
+      "team": "PIT",
+      "season": 2020,
+      "stats": {
+        "epa": 88.4,
+        "prwr": 25.3,
+        "sacks": 15.0,
+        "pressures": 62
+      },
+      "salaryTiers": [
+        {
+          "amount": 20000000,
+          "label": "Value tier",
+          "description": "DPOY-caliber value",
+          "percentile": 80
+        },
+        {
+          "amount": 28000000,
+          "label": "Market tier",
+          "description": "Elite edge defender",
+          "percentile": 92
+        },
+        {
+          "amount": 36000000,
+          "label": "Premium tier",
+          "description": "Peak overpay",
+          "percentile": 96
+        }
+      ],
+      "context": "DPOY candidate, dominant pass rusher"
+    },
+    {
+      "id": "garrett-myles-2020",
+      "name": "Myles Garrett",
+      "team": "CLE",
+      "season": 2020,
+      "stats": {
+        "epa": 82.7,
+        "prwr": 23.8,
+        "sacks": 12.0,
+        "pressures": 57
+      },
+      "salaryTiers": [
+        {
+          "amount": 19000000,
+          "label": "Value tier",
+          "description": "Elite disruptor value",
+          "percentile": 78
+        },
+        {
+          "amount": 27000000,
+          "label": "Market tier",
+          "description": "Top-tier edge pricing",
+          "percentile": 90
+        }
+      ],
+      "context": "All-Pro season, game-wrecker"
+    },
+    {
+      "id": "bosa-joey-2020",
+      "name": "Joey Bosa",
+      "team": "LAC",
+      "season": 2020,
+      "stats": {
+        "epa": 76.5,
+        "prwr": 22.1,
+        "sacks": 7.5,
+        "pressures": 49
+      },
+      "salaryTiers": [
+        {
+          "amount": 18000000,
+          "label": "Value tier",
+          "description": "Elite edge value",
+          "percentile": 75
+        },
+        {
+          "amount": 26000000,
+          "label": "Market tier",
+          "description": "Premium edge rusher",
+          "percentile": 88
+        }
+      ],
+      "context": "Injury-shortened but elite when healthy"
+    },
+    {
+      "id": "donald-aaron-2020",
+      "name": "Aaron Donald",
+      "team": "LAR",
+      "season": 2020,
+      "stats": {
+        "epa": 94.2,
+        "prwr": 27.6,
+        "sacks": 13.5,
+        "pressures": 68
+      },
+      "salaryTiers": [
+        {
+          "amount": 22000000,
+          "label": "Value tier",
+          "description": "Best defender value",
+          "percentile": 82
+        },
+        {
+          "amount": 30000000,
+          "label": "Market tier",
+          "description": "Generational talent",
+          "percentile": 94
+        },
+        {
+          "amount": 38000000,
+          "label": "Premium tier",
+          "description": "Peak overpay",
+          "percentile": 97
+        }
+      ],
+      "context": "3x DPOY, best defender in football"
+    },
+    {
+      "id": "jones-chris-2020",
+      "name": "Chris Jones",
+      "team": "KC",
+      "season": 2020,
+      "stats": {
+        "epa": 68.3,
+        "prwr": 20.2,
+        "sacks": 7.5,
+        "pressures": 46
+      },
+      "salaryTiers": [
+        {
+          "amount": 16000000,
+          "label": "Value tier",
+          "description": "Interior disruptor",
+          "percentile": 72
+        },
+        {
+          "amount": 24000000,
+          "label": "Market tier",
+          "description": "Elite DT pricing",
+          "percentile": 86
+        }
+      ],
+      "context": "Elite interior pass rusher, versatile"
+    },
+    {
+      "id": "smith-za-darius-2020",
+      "name": "Za'Darius Smith",
+      "team": "GB",
+      "season": 2020,
+      "stats": {
+        "epa": 72.8,
+        "prwr": 21.4,
+        "sacks": 12.5,
+        "pressures": 51
+      },
+      "salaryTiers": [
+        {
+          "amount": 17000000,
+          "label": "Value tier",
+          "description": "Versatile edge value",
+          "percentile": 74
+        },
+        {
+          "amount": 25000000,
+          "label": "Market tier",
+          "description": "Elite edge pricing",
+          "percentile": 87
+        }
+      ],
+      "context": "Dominant edge rusher, elite production"
+    },
+    {
+      "id": "chandler-jones-2020",
+      "name": "Chandler Jones",
+      "team": "ARI",
+      "season": 2020,
+      "stats": {
+        "epa": 56.2,
+        "prwr": 17.8,
+        "sacks": 5.0,
+        "pressures": 38
+      },
+      "salaryTiers": [
+        {
+          "amount": 14000000,
+          "label": "Value tier",
+          "description": "Injury-limited value",
+          "percentile": 65
+        },
+        {
+          "amount": 22000000,
+          "label": "Market tier",
+          "description": "Proven sack artist",
+          "percentile": 80
+        }
+      ],
+      "context": "Injury-shortened, elite track record"
+    },
+    {
+      "id": "hunter-danielle-2020",
+      "name": "Danielle Hunter",
+      "team": "MIN",
+      "season": 2020,
+      "stats": {
+        "epa": 12.4,
+        "prwr": 8.2,
+        "sacks": 0.0,
+        "pressures": 8
+      },
+      "salaryTiers": [
+        {
+          "amount": 12000000,
+          "label": "Value tier",
+          "description": "Injury year discount",
+          "percentile": 55
+        },
+        {
+          "amount": 20000000,
+          "label": "Market tier",
+          "description": "Elite upside pricing",
+          "percentile": 72
+        }
+      ],
+      "context": "Missed nearly entire season, elite track record"
+    },
+    {
+      "id": "clark-frank-2020",
+      "name": "Frank Clark",
+      "team": "KC",
+      "season": 2020,
+      "stats": {
+        "epa": 52.7,
+        "prwr": 16.4,
+        "sacks": 6.0,
+        "pressures": 39
+      },
+      "salaryTiers": [
+        {
+          "amount": 15000000,
+          "label": "Value tier",
+          "description": "Solid edge value",
+          "percentile": 66
+        },
+        {
+          "amount": 23000000,
+          "label": "Market tier",
+          "description": "Playoff performer pricing",
+          "percentile": 82
+        }
+      ],
+      "context": "Big-game player, consistent pressure"
+    },
+    {
+      "id": "young-chase-2020",
+      "name": "Chase Young",
+      "team": "WAS",
+      "season": 2020,
+      "stats": {
+        "epa": 64.5,
+        "prwr": 19.2,
+        "sacks": 7.5,
+        "pressures": 44
+      },
+      "salaryTiers": [
+        {
+          "amount": 12000000,
+          "label": "Value tier",
+          "description": "Rookie contract value",
+          "percentile": 68
+        },
+        {
+          "amount": 20000000,
+          "label": "Market tier",
+          "description": "DROY performance",
+          "percentile": 84
+        }
+      ],
+      "context": "Defensive Rookie of the Year, instant impact"
+    },
+    {
+      "id": "barrett-shaq-2020",
+      "name": "Shaquil Barrett",
+      "team": "TB",
+      "season": 2020,
+      "stats": {
+        "epa": 58.3,
+        "prwr": 18.1,
+        "sacks": 8.0,
+        "pressures": 41
+      },
+      "salaryTiers": [
+        {
+          "amount": 13000000,
+          "label": "Value tier",
+          "description": "Proven pass rusher",
+          "percentile": 64
+        },
+        {
+          "amount": 21000000,
+          "label": "Market tier",
+          "description": "Former sack leader",
+          "percentile": 78
+        }
+      ],
+      "context": "Championship contributor, solid season"
+    },
+    {
+      "id": "bosa-nick-2020",
+      "name": "Nick Bosa",
+      "team": "SF",
+      "season": 2020,
+      "stats": {
+        "epa": 8.5,
+        "prwr": 4.1,
+        "sacks": 0.0,
+        "pressures": 4
+      },
+      "salaryTiers": [
+        {
+          "amount": 10000000,
+          "label": "Value tier",
+          "description": "Injury recovery discount",
+          "percentile": 50
+        },
+        {
+          "amount": 18000000,
+          "label": "Market tier",
+          "description": "DROY upside",
+          "percentile": 68
+        }
+      ],
+      "context": "ACL tear, elite potential when healthy"
+    },
+    {
+      "id": "mack-khalil-2020",
+      "name": "Khalil Mack",
+      "team": "CHI",
+      "season": 2020,
+      "stats": {
+        "epa": 60.7,
+        "prwr": 18.6,
+        "sacks": 9.0,
+        "pressures": 43
+      },
+      "salaryTiers": [
+        {
+          "amount": 17000000,
+          "label": "Value tier",
+          "description": "Elite defender value",
+          "percentile": 70
+        },
+        {
+          "amount": 25000000,
+          "label": "Market tier",
+          "description": "Former DPOY pricing",
+          "percentile": 84
+        }
+      ],
+      "context": "Still elite, slight decline from peak"
+    },
+    {
+      "id": "ngakoue-yannick-2020",
+      "name": "Yannick Ngakoue",
+      "team": "MIN/BAL/LV",
+      "season": 2020,
+      "stats": {
+        "epa": 54.2,
+        "prwr": 16.8,
+        "sacks": 8.0,
+        "pressures": 40
+      },
+      "salaryTiers": [
+        {
+          "amount": 13000000,
+          "label": "Value tier",
+          "description": "Consistent rusher value",
+          "percentile": 62
+        },
+        {
+          "amount": 21000000,
+          "label": "Market tier",
+          "description": "Proven edge rusher",
+          "percentile": 76
+        }
+      ],
+      "context": "Traded twice, still productive"
+    },
+    {
+      "id": "dupree-bud-2020",
+      "name": "Bud Dupree",
+      "team": "PIT",
+      "season": 2020,
+      "stats": {
+        "epa": 48.6,
+        "prwr": 15.2,
+        "sacks": 8.0,
+        "pressures": 36
+      },
+      "salaryTiers": [
+        {
+          "amount": 12000000,
+          "label": "Value tier",
+          "description": "Solid edge value",
+          "percentile": 60
+        },
+        {
+          "amount": 20000000,
+          "label": "Market tier",
+          "description": "Breakout season pricing",
+          "percentile": 74
+        }
+      ],
+      "context": "Strong season before ACL tear"
+    }
+  ],
+  "WR": [
+    {
+      "id": "adams-davante-2020",
+      "name": "Davante Adams",
+      "team": "GB",
+      "season": 2020,
+      "stats": {
+        "epa": 98.2,
+        "receptions": 115,
+        "yards": 1374,
+        "tds": 18
+      },
+      "salaryTiers": [
+        {
+          "amount": 18000000,
+          "label": "Value tier",
+          "description": "Elite WR1 value",
+          "percentile": 80
+        },
+        {
+          "amount": 26000000,
+          "label": "Market tier",
+          "description": "Top WR pricing",
+          "percentile": 92
+        },
+        {
+          "amount": 34000000,
+          "label": "Premium tier",
+          "description": "Superstar overpay",
+          "percentile": 96
+        }
+      ],
+      "context": "Best WR in football, incredible chemistry with Rodgers"
+    },
+    {
+      "id": "hill-tyreek-2020",
+      "name": "Tyreek Hill",
+      "team": "KC",
+      "season": 2020,
+      "stats": {
+        "epa": 92.5,
+        "receptions": 87,
+        "yards": 1276,
+        "tds": 15
+      },
+      "salaryTiers": [
+        {
+          "amount": 17000000,
+          "label": "Value tier",
+          "description": "Elite speed threat",
+          "percentile": 78
+        },
+        {
+          "amount": 25000000,
+          "label": "Market tier",
+          "description": "Game-breaking WR",
+          "percentile": 90
+        },
+        {
+          "amount": 33000000,
+          "label": "Premium tier",
+          "description": "Superstar premium",
+          "percentile": 95
+        }
+      ],
+      "context": "Fastest player in NFL, deep threat extraordinaire"
+    },
+    {
+      "id": "hopkins-deandre-2020",
+      "name": "DeAndre Hopkins",
+      "team": "ARI",
+      "season": 2020,
+      "stats": {
+        "epa": 85.7,
+        "receptions": 115,
+        "yards": 1407,
+        "tds": 6
+      },
+      "salaryTiers": [
+        {
+          "amount": 16000000,
+          "label": "Value tier",
+          "description": "Elite possession WR",
+          "percentile": 76
+        },
+        {
+          "amount": 24000000,
+          "label": "Market tier",
+          "description": "Proven WR1 pricing",
+          "percentile": 88
+        }
+      ],
+      "context": "Incredible hands, first year in Arizona"
+    },
+    {
+      "id": "diggs-stefon-2020",
+      "name": "Stefon Diggs",
+      "team": "BUF",
+      "season": 2020,
+      "stats": {
+        "epa": 88.4,
+        "receptions": 127,
+        "yards": 1535,
+        "tds": 8
+      },
+      "salaryTiers": [
+        {
+          "amount": 15000000,
+          "label": "Value tier",
+          "description": "Volume WR1 value",
+          "percentile": 74
+        },
+        {
+          "amount": 23000000,
+          "label": "Market tier",
+          "description": "Reception leader pricing",
+          "percentile": 86
+        }
+      ],
+      "context": "Led NFL in receptions, perfect fit in Buffalo"
+    },
+    {
+      "id": "metcalf-dk-2020",
+      "name": "DK Metcalf",
+      "team": "SEA",
+      "season": 2020,
+      "stats": {
+        "epa": 78.6,
+        "receptions": 83,
+        "yards": 1303,
+        "tds": 10
+      },
+      "salaryTiers": [
+        {
+          "amount": 12000000,
+          "label": "Value tier",
+          "description": "Young star value",
+          "percentile": 70
+        },
+        {
+          "amount": 20000000,
+          "label": "Market tier",
+          "description": "Breakout WR pricing",
+          "percentile": 84
+        }
+      ],
+      "context": "Physical freak, explosive playmaker"
+    },
+    {
+      "id": "ridley-calvin-2020",
+      "name": "Calvin Ridley",
+      "team": "ATL",
+      "season": 2020,
+      "stats": {
+        "epa": 72.4,
+        "receptions": 90,
+        "yards": 1374,
+        "tds": 9
+      },
+      "salaryTiers": [
+        {
+          "amount": 11000000,
+          "label": "Value tier",
+          "description": "Emerging WR1 value",
+          "percentile": 68
+        },
+        {
+          "amount": 19000000,
+          "label": "Market tier",
+          "description": "High-volume WR pricing",
+          "percentile": 82
+        }
+      ],
+      "context": "Emerged as true WR1, elite route runner"
+    },
+    {
+      "id": "allen-keenan-2020",
+      "name": "Keenan Allen",
+      "team": "LAC",
+      "season": 2020,
+      "stats": {
+        "epa": 76.8,
+        "receptions": 100,
+        "yards": 992,
+        "tds": 8
+      },
+      "salaryTiers": [
+        {
+          "amount": 13000000,
+          "label": "Value tier",
+          "description": "Consistent possession WR",
+          "percentile": 70
+        },
+        {
+          "amount": 21000000,
+          "label": "Market tier",
+          "description": "Proven WR1 pricing",
+          "percentile": 84
+        }
+      ],
+      "context": "Mr. Reliable, elite route running"
+    },
+    {
+      "id": "jefferson-justin-2020",
+      "name": "Justin Jefferson",
+      "team": "MIN",
+      "season": 2020,
+      "stats": {
+        "epa": 82.5,
+        "receptions": 88,
+        "yards": 1400,
+        "tds": 7
+      },
+      "salaryTiers": [
+        {
+          "amount": 10000000,
+          "label": "Value tier",
+          "description": "Rookie sensation value",
+          "percentile": 72
+        },
+        {
+          "amount": 18000000,
+          "label": "Market tier",
+          "description": "OROY performance",
+          "percentile": 86
+        }
+      ],
+      "context": "Offensive Rookie of the Year, historic season"
+    },
+    {
+      "id": "robinson-allen-2020",
+      "name": "Allen Robinson",
+      "team": "CHI",
+      "season": 2020,
+      "stats": {
+        "epa": 68.2,
+        "receptions": 102,
+        "yards": 1250,
+        "tds": 6
+      },
+      "salaryTiers": [
+        {
+          "amount": 12000000,
+          "label": "Value tier",
+          "description": "Volume WR value",
+          "percentile": 66
+        },
+        {
+          "amount": 20000000,
+          "label": "Market tier",
+          "description": "Proven WR1 pricing",
+          "percentile": 80
+        }
+      ],
+      "context": "Productive despite inconsistent QB play"
+    },
+    {
+      "id": "evans-mike-2020",
+      "name": "Mike Evans",
+      "team": "TB",
+      "season": 2020,
+      "stats": {
+        "epa": 64.5,
+        "receptions": 70,
+        "yards": 1006,
+        "tds": 13
+      },
+      "salaryTiers": [
+        {
+          "amount": 13000000,
+          "label": "Value tier",
+          "description": "Red zone specialist",
+          "percentile": 68
+        },
+        {
+          "amount": 21000000,
+          "label": "Market tier",
+          "description": "Proven touchdown maker",
+          "percentile": 82
+        }
+      ],
+      "context": "TD machine, championship contributor"
+    },
+    {
+      "id": "thielen-adam-2020",
+      "name": "Adam Thielen",
+      "team": "MIN",
+      "season": 2020,
+      "stats": {
+        "epa": 62.7,
+        "receptions": 74,
+        "yards": 925,
+        "tds": 14
+      },
+      "salaryTiers": [
+        {
+          "amount": 11000000,
+          "label": "Value tier",
+          "description": "Red zone threat value",
+          "percentile": 65
+        },
+        {
+          "amount": 19000000,
+          "label": "Market tier",
+          "description": "Veteran WR pricing",
+          "percentile": 78
+        }
+      ],
+      "context": "Touchdown machine, elite in red zone"
+    },
+    {
+      "id": "lockett-tyler-2020",
+      "name": "Tyler Lockett",
+      "team": "SEA",
+      "season": 2020,
+      "stats": {
+        "epa": 70.3,
+        "receptions": 100,
+        "yards": 1054,
+        "tds": 10
+      },
+      "salaryTiers": [
+        {
+          "amount": 12000000,
+          "label": "Value tier",
+          "description": "Efficient WR2 value",
+          "percentile": 67
+        },
+        {
+          "amount": 20000000,
+          "label": "Market tier",
+          "description": "Reliable WR1/2 pricing",
+          "percentile": 81
+        }
+      ],
+      "context": "Perfect complement to Metcalf, efficient"
+    },
+    {
+      "id": "cooper-amari-2020",
+      "name": "Amari Cooper",
+      "team": "DAL",
+      "season": 2020,
+      "stats": {
+        "epa": 58.4,
+        "receptions": 92,
+        "yards": 1114,
+        "tds": 5
+      },
+      "salaryTiers": [
+        {
+          "amount": 14000000,
+          "label": "Value tier",
+          "description": "Proven WR1 value",
+          "percentile": 64
+        },
+        {
+          "amount": 22000000,
+          "label": "Market tier",
+          "description": "Top WR pricing",
+          "percentile": 76
+        }
+      ],
+      "context": "Productive despite QB carousel"
+    },
+    {
+      "id": "godwin-chris-2020",
+      "name": "Chris Godwin",
+      "team": "TB",
+      "season": 2020,
+      "stats": {
+        "epa": 54.6,
+        "receptions": 65,
+        "yards": 840,
+        "tds": 7
+      },
+      "salaryTiers": [
+        {
+          "amount": 10000000,
+          "label": "Value tier",
+          "description": "Injury-limited value",
+          "percentile": 62
+        },
+        {
+          "amount": 18000000,
+          "label": "Market tier",
+          "description": "When healthy, WR1",
+          "percentile": 76
+        }
+      ],
+      "context": "Injury-shortened, championship contributor"
+    },
+    {
+      "id": "mclaurin-terry-2020",
+      "name": "Terry McLaurin",
+      "team": "WAS",
+      "season": 2020,
+      "stats": {
+        "epa": 56.8,
+        "receptions": 87,
+        "yards": 1118,
+        "tds": 4
+      },
+      "salaryTiers": [
+        {
+          "amount": 9000000,
+          "label": "Value tier",
+          "description": "Emerging star value",
+          "percentile": 64
+        },
+        {
+          "amount": 17000000,
+        "label": "Market tier",
+          "description": "Productive despite QB issues",
+          "percentile": 78
+        }
+      ],
+      "context": "Elite despite poor QB play"
+    }
+  ],
+  "CB": [
+    {
+      "id": "ramsey-jalen-2020",
+      "name": "Jalen Ramsey",
+      "team": "LAR",
+      "season": 2020,
+      "stats": {
+        "epa": -45.2,
+        "ints": 2,
+        "pds": 14,
+        "targets": 71
+      },
+      "salaryTiers": [
+        {
+          "amount": 18000000,
+          "label": "Value tier",
+          "description": "Lockdown corner value",
+          "percentile": 85
+        },
+        {
+          "amount": 25000000,
+          "label": "Market tier",
+          "description": "Elite CB1 pricing",
+          "percentile": 94
+        }
+      ],
+      "context": "Best cover corner in NFL, shutdown defender"
+    },
+    {
+      "id": "white-tre-2020",
+      "name": "Tre'Davious White",
+      "team": "BUF",
+      "season": 2020,
+      "stats": {
+        "epa": -38.4,
+        "ints": 3,
+        "pds": 14,
+        "targets": 68
+      },
+      "salaryTiers": [
+        {
+          "amount": 16000000,
+          "label": "Value tier",
+          "description": "Elite coverage value",
+          "percentile": 80
+        },
+        {
+          "amount": 23000000,
+          "label": "Market tier",
+          "description": "Top CB pricing",
+          "percentile": 90
+        }
+      ],
+      "context": "All-Pro corner, elite ball skills"
+    },
+    {
+      "id": "alexander-jaire-2020",
+      "name": "Jaire Alexander",
+      "team": "GB",
+      "season": 2020,
+      "stats": {
+        "epa": -42.6,
+        "ints": 2,
+        "pds": 17,
+        "targets": 65
+      },
+      "salaryTiers": [
+        {
+          "amount": 15000000,
+          "label": "Value tier",
+          "description": "Elite young corner",
+          "percentile": 78
+        },
+        {
+          "amount": 22000000,
+          "label": "Market tier",
+          "description": "Top-tier CB pricing",
+          "percentile": 88
+        }
+      ],
+      "context": "All-Pro season, elite coverage skills"
+    },
+    {
+      "id": "ward-denzel-2020",
+      "name": "Denzel Ward",
+      "team": "CLE",
+      "season": 2020,
+      "stats": {
+        "epa": -32.5,
+        "ints": 2,
+        "pds": 10,
+        "targets": 58
+      },
+      "salaryTiers": [
+        {
+          "amount": 14000000,
+          "label": "Value tier",
+          "description": "Young elite corner",
+          "percentile": 75
+        },
+        {
+          "amount": 21000000,
+          "label": "Market tier",
+          "description": "Top CB pricing",
+          "percentile": 86
+        }
+      ],
+      "context": "Elite cover skills, some injury concerns"
+    },
+    {
+      "id": "gilmore-stephon-2020",
+      "name": "Stephon Gilmore",
+      "team": "NE",
+      "season": 2020,
+      "stats": {
+        "epa": -28.7,
+        "ints": 1,
+        "pds": 11,
+        "targets": 52
+      },
+      "salaryTiers": [
+        {
+          "amount": 13000000,
+          "label": "Value tier",
+          "description": "Elite but aging",
+          "percentile": 72
+        },
+        {
+          "amount": 20000000,
+          "label": "Market tier",
+          "description": "Former DPOY pricing",
+          "percentile": 84
+        }
+      ],
+      "context": "Former DPOY, still elite but aging"
+    },
+    {
+      "id": "peterson-patrick-2020",
+      "name": "Patrick Peterson",
+      "team": "ARI",
+      "season": 2020,
+      "stats": {
+        "epa": -24.3,
+        "ints": 3,
+        "pds": 9,
+        "targets": 64
+      },
+      "salaryTiers": [
+        {
+          "amount": 12000000,
+          "label": "Value tier",
+          "description": "Veteran corner value",
+          "percentile": 68
+        },
+        {
+          "amount": 19000000,
+          "label": "Market tier",
+          "description": "Proven veteran pricing",
+          "percentile": 80
+        }
+      ],
+      "context": "Veteran corner, still productive"
+    },
+    {
+      "id": "fuller-kyle-2020",
+      "name": "Kyle Fuller",
+      "team": "CHI",
+      "season": 2020,
+      "stats": {
+        "epa": -30.2,
+        "ints": 1,
+        "pds": 8,
+        "targets": 60
+      },
+      "salaryTiers": [
+        {
+          "amount": 13000000,
+          "label": "Value tier",
+          "description": "Solid CB1 value",
+          "percentile": 70
+        },
+        {
+          "amount": 20000000,
+          "label": "Market tier",
+          "description": "Proven starter pricing",
+          "percentile": 82
+        }
+      ],
+      "context": "Consistent starter, reliable coverage"
+    },
+    {
+      "id": "jackson-jc-2020",
+      "name": "J.C. Jackson",
+      "team": "NE",
+      "season": 2020,
+      "stats": {
+        "epa": -35.8,
+        "ints": 9,
+        "pds": 14,
+        "targets": 72
+      },
+      "salaryTiers": [
+        {
+          "amount": 11000000,
+          "label": "Value tier",
+          "description": "Ball hawk value",
+          "percentile": 74
+        },
+        {
+          "amount": 19000000,
+          "label": "Market tier",
+          "description": "INT leader pricing",
+          "percentile": 86
+        }
+      ],
+      "context": "Led NFL in INTs, elite ball skills"
+    },
+    {
+      "id": "bradberry-james-2020",
+      "name": "James Bradberry",
+      "team": "NYG",
+      "season": 2020,
+      "stats": {
+        "epa": -33.4,
+        "ints": 3,
+        "pds": 18,
+        "targets": 70
+      },
+      "salaryTiers": [
+        {
+          "amount": 12000000,
+          "label": "Value tier",
+          "description": "Underrated corner value",
+          "percentile": 72
+        },
+        {
+          "amount": 19000000,
+          "label": "Market tier",
+          "description": "Solid CB1 pricing",
+          "percentile": 84
+        }
+      ],
+      "context": "Breakout season with Giants, All-Pro"
+    },
+    {
+      "id": "humphrey-marlon-2020",
+      "name": "Marlon Humphrey",
+      "team": "BAL",
+      "season": 2020,
+      "stats": {
+        "epa": -29.6,
+        "ints": 3,
+        "pds": 10,
+        "targets": 63
+      },
+      "salaryTiers": [
+        {
+          "amount": 14000000,
+          "label": "Value tier",
+          "description": "Young elite corner",
+          "percentile": 73
+        },
+        {
+          "amount": 21000000,
+          "label": "Market tier",
+          "description": "Top CB pricing",
+          "percentile": 85
+        }
+      ],
+      "context": "Physical corner, elite in run support"
+    },
+    {
+      "id": "howard-xavien-2020",
+      "name": "Xavien Howard",
+      "team": "MIA",
+      "season": 2020,
+      "stats": {
+        "epa": -40.5,
+        "ints": 10,
+        "pds": 20,
+        "targets": 81
+      },
+      "salaryTiers": [
+        {
+          "amount": 15000000,
+          "label": "Value tier",
+          "description": "Ball hawk extraordinaire",
+          "percentile": 78
+        },
+        {
+          "amount": 22000000,
+          "label": "Market tier",
+          "description": "Elite playmaker pricing",
+          "percentile": 88
+        }
+      ],
+      "context": "Led NFL in INTs, elite ball skills"
+    },
+    {
+      "id": "diggs-trevon-2020",
+      "name": "Trevon Diggs",
+      "team": "DAL",
+      "season": 2020,
+      "stats": {
+        "epa": -18.4,
+        "ints": 3,
+        "pds": 14,
+        "targets": 68
+      },
+      "salaryTiers": [
+        {
+          "amount": 8000000,
+          "label": "Value tier",
+          "description": "Rookie upside value",
+          "percentile": 62
+        },
+        {
+          "amount": 16000000,
+          "label": "Market tier",
+          "description": "High-upside rookie",
+          "percentile": 76
+        }
+      ],
+      "context": "Rookie playmaker, aggressive coverage"
+    },
+    {
+      "id": "mullen-trayvon-2020",
+      "name": "Trayvon Mullen",
+      "team": "LV",
+      "season": 2020,
+      "stats": {
+        "epa": -22.6,
+        "ints": 2,
+        "pds": 8,
+        "targets": 55
+      },
+      "salaryTiers": [
+        {
+          "amount": 7000000,
+          "label": "Value tier",
+          "description": "Solid young corner",
+          "percentile": 58
+        },
+        {
+          "amount": 14000000,
+          "label": "Market tier",
+          "description": "Emerging starter pricing",
+          "percentile": 72
+        }
+      ],
+      "context": "Emerging corner, solid coverage"
+    },
+    {
+      "id": "hayward-casey-2020",
+      "name": "Casey Hayward",
+      "team": "LAC",
+      "season": 2020,
+      "stats": {
+        "epa": -26.8,
+        "ints": 4,
+        "pds": 9,
+        "targets": 62
+      },
+      "salaryTiers": [
+        {
+          "amount": 11000000,
+          "label": "Value tier",
+          "description": "Veteran corner value",
+          "percentile": 66
+        },
+        {
+          "amount": 18000000,
+          "label": "Market tier",
+          "description": "Proven veteran pricing",
+          "percentile": 78
+        }
+      ],
+      "context": "Veteran corner, consistent coverage"
+    },
+    {
+      "id": "lattimore-marshon-2020",
+      "name": "Marshon Lattimore",
+      "team": "NO",
+      "season": 2020,
+      "stats": {
+        "epa": -31.2,
+        "ints": 2,
+        "pds": 14,
+        "targets": 66
+      },
+      "salaryTiers": [
+        {
+          "amount": 13000000,
+          "label": "Value tier",
+          "description": "Solid CB1 value",
+          "percentile": 71
+        },
+        {
+          "amount": 20000000,
+          "label": "Market tier",
+          "description": "Proven starter pricing",
+          "percentile": 83
+        }
+      ],
+      "context": "Former DROY, consistent starter"
+    }
+  ]
+}
