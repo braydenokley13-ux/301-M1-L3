@@ -53,6 +53,9 @@ class DraftEngine {
 
     this.updateUI();
 
+    // Update efficiency chart
+    this.updateEfficiencyFrontierChart();
+
     if (this.currentPositionIndex < this.config.draftOrder.length) {
       this.displayAvailablePlayers();
     } else {
@@ -204,6 +207,74 @@ class DraftEngine {
   enableSubmit() {
     document.getElementById('submit-btn').disabled = false;
     showToast('Draft complete! Review your roster and submit when ready.', 'success');
+  }
+
+  /**
+   * Update efficiency frontier visualization
+   */
+  updateEfficiencyFrontierChart() {
+    if (!window.chartManager) return;
+
+    const studentData = this.buildCumulativeData();
+    const optimalData = this.buildOptimalFrontierData();
+
+    chartManager.updateEfficiencyChart(studentData, optimalData);
+  }
+
+  /**
+   * Build cumulative spending/wins data for student's selections
+   */
+  buildCumulativeData() {
+    const points = [];
+    let cumulativeSpent = 0;
+    let cumulativeWins = 0;
+
+    for (const position of this.config.draftOrder) {
+      const selection = this.roster[position];
+      if (selection.player && selection.salary) {
+        cumulativeSpent += selection.salary;
+        cumulativeWins += selection.winContribution;
+        points.push({
+          spending: cumulativeSpent / 1000000,
+          wins: cumulativeWins
+        });
+      }
+    }
+
+    return {
+      labels: points.map(p => p.spending.toFixed(1)),
+      values: points.map(p => p.wins.toFixed(2))
+    };
+  }
+
+  /**
+   * Build optimal frontier curve based on efficiency thresholds
+   */
+  buildOptimalFrontierData() {
+    const points = [];
+    let totalSpent = 0;
+    let totalWins = 0;
+
+    for (const position of this.config.draftOrder) {
+      const posConfig = this.config.positions[position];
+
+      // Optimal point: 80% of efficiency threshold for ~85% of max production
+      const optimalSalary = posConfig.efficiencyThreshold * 0.8;
+      const optimalWins = (posConfig.positionWeight * 100 * 0.85);
+
+      totalSpent += optimalSalary;
+      totalWins += optimalWins;
+
+      points.push({
+        spending: totalSpent / 1000000,
+        wins: totalWins
+      });
+    }
+
+    return {
+      labels: points.map(p => p.spending.toFixed(1)),
+      values: points.map(p => p.wins.toFixed(2))
+    };
   }
 
   submitRoster() {

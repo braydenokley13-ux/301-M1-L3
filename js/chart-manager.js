@@ -70,7 +70,12 @@ class ChartManager {
     this.charts.efficiency.data.labels = studentData.labels || [];
     this.charts.efficiency.data.datasets[0].data = studentData.values || [];
     this.charts.efficiency.data.datasets[1].data = optimalData.values || [];
-    this.charts.efficiency.update();
+
+    // Smooth animation
+    this.charts.efficiency.update({
+      duration: 750,
+      easing: 'easeInOutQuart'
+    });
   }
 
   destroy() {
