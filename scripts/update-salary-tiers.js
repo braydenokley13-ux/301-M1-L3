@@ -11,7 +11,8 @@ const LEAGUE_CONFIG = {
       OF: { positionMax: 9.0, efficiencyThreshold: 28000000 },
       DH: { positionMax: 3.5, efficiencyThreshold: 15000000 }
     },
-    statKey: 'war'
+    statKey: 'war',
+    defensivePositions: []
   },
   NFL_2020: {
     positions: {
@@ -21,7 +22,8 @@ const LEAGUE_CONFIG = {
       WR: { positionMax: 100.0, efficiencyThreshold: 20000000 },
       CB: { positionMax: 50.0, efficiencyThreshold: 17000000 }
     },
-    statKey: 'epa'
+    statKey: 'epa',
+    defensivePositions: ['EDGE', 'CB']  // Defensive positions have negative EPA
   },
   NBA_2019: {
     positions: {
@@ -31,13 +33,20 @@ const LEAGUE_CONFIG = {
       PF: { positionMax: 29.0, efficiencyThreshold: 30000000 },
       C: { positionMax: 27.0, efficiencyThreshold: 28000000 }
     },
-    statKey: 'per'
+    statKey: 'per',
+    defensivePositions: []
   }
 };
 
-function calculateMarketValue(player, position, leagueConfig, statKey) {
+function calculateMarketValue(player, position, leagueConfig, statKey, defensivePositions) {
   const posConfig = leagueConfig[position];
-  const stat = player.stats[statKey];
+  let stat = player.stats[statKey];
+
+  // Use absolute value for defensive positions (negative EPA is good for defense)
+  if (defensivePositions.includes(position)) {
+    stat = Math.abs(stat);
+  }
+
   const normalizedStat = stat / posConfig.positionMax;
   const baseValue = posConfig.efficiencyThreshold * normalizedStat * 1.2;
 
@@ -53,10 +62,11 @@ function updatePlayerSalaries(filename, leagueKey) {
   const data = JSON.parse(fs.readFileSync(filepath, 'utf8'));
   const leagueConfig = LEAGUE_CONFIG[leagueKey];
   const statKey = leagueConfig.statKey;
+  const defensivePositions = leagueConfig.defensivePositions || [];
 
   for (const [position, players] of Object.entries(data)) {
     players.forEach(player => {
-      const marketValue = calculateMarketValue(player, position, leagueConfig.positions, statKey);
+      const marketValue = calculateMarketValue(player, position, leagueConfig.positions, statKey, defensivePositions);
 
       player.salaryTiers = [
         {

@@ -17,13 +17,13 @@ class EfficiencyCalculator {
     const posConfig = this.config.positions[position];
     const stat = this.getPlayerStat(player, position);
 
-    // Normalize stat to 0-1 scale
-    const normalizedStat = stat / posConfig.positionMax;
+    // Normalize stat to 0-1 scale, capped at 1.0
+    const normalizedStat = Math.min(stat / posConfig.positionMax, 1.0);
 
     // Apply diminishing returns based on salary
     const efficiencyFactor = 1 - Math.exp(-salary / posConfig.efficiencyThreshold);
 
-    // Calculate win contribution
+    // Calculate win contribution (max per position is positionWeight * 100)
     const winContribution = normalizedStat * efficiencyFactor * posConfig.positionWeight * 100;
 
     return Math.max(0, winContribution);
@@ -58,6 +58,7 @@ class EfficiencyCalculator {
    */
   getPlayerStat(player, position) {
     const stats = player.stats;
+    const defensivePositions = ['EDGE', 'CB']; // Defensive positions with negative EPA
 
     // MLB uses WAR
     if (stats.war !== undefined) {
@@ -66,7 +67,8 @@ class EfficiencyCalculator {
 
     // NFL uses EPA
     if (stats.epa !== undefined) {
-      return stats.epa;
+      // Use absolute value for defensive positions (negative EPA is good for defense)
+      return defensivePositions.includes(position) ? Math.abs(stats.epa) : stats.epa;
     }
 
     // NFL uses pass block win rate for OL
@@ -116,6 +118,9 @@ class EfficiencyCalculator {
 
     // Calculate optimal spending (where efficiency peaks)
     const optimalSpending = this.calculateOptimalSpending(roster);
+
+    // Cap total wins at 100
+    totalWins = Math.min(totalWins, 100);
 
     // Calculate efficiency ratio
     const efficiency = totalSpent > 0 ?

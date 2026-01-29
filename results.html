@@ -56,7 +56,7 @@
         <button class="btn btn-secondary" onclick="window.location.href='index.html'">
           Return to Home
         </button>
-        <button class="btn btn-primary" onclick="nextScenario()">
+        <button class="btn btn-primary" id="next-btn" onclick="nextScenario()">
           Next Scenario
         </button>
       </div>
@@ -157,6 +157,15 @@
           <div class="metric-value">${formatCurrency(calculateTotalSalary(results.roster), true)}</div>
         </div>
       `;
+
+      // Update button text for final scenario
+      const leagues = ['MLB_2019', 'NFL_2020', 'NBA_2019'];
+      const currentIndex = leagues.indexOf(currentLeague);
+      const isLastScenario = currentIndex === leagues.length - 1;
+
+      if (isLastScenario) {
+        document.getElementById('next-btn').textContent = 'Review Results';
+      }
     }
 
     function nextScenario() {

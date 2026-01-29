@@ -45,6 +45,12 @@ class DraftEngine {
 
     if (!player) return;
 
+    // Check if player accepts the offer
+    if (!this.playerAcceptsOffer(player, salary, currentPosition)) {
+      showToast(`${player.name} rejected your offer of ${formatCurrency(salary, true)}. Try a higher tier!`, 'warning');
+      return;
+    }
+
     const winContribution = this.calculator.calculateWinContribution(player, salary, currentPosition);
 
     this.roster[currentPosition] = { player, salary, winContribution };
@@ -69,6 +75,46 @@ class DraftEngine {
       if (found) return found;
     }
     return null;
+  }
+
+  /**
+   * Determine if a player accepts the contract offer
+   * Uses simple AI logic based on offer tier and player quality
+   * @param {Object} player - Player object
+   * @param {number} salary - Offered salary
+   * @param {string} position - Position code
+   * @returns {boolean} True if player accepts
+   */
+  playerAcceptsOffer(player, salary, position) {
+    // Find which tier this salary corresponds to
+    const tierIndex = player.salaryTiers.findIndex(tier => tier.amount === salary);
+    if (tierIndex === -1) return false;
+
+    const tier = player.salaryTiers[tierIndex];
+
+    // Calculate player's relative quality (0-1 scale)
+    const stat = this.calculator.getPlayerStat(player, position);
+    const posConfig = this.config.positions[position];
+    const playerQuality = Math.min(stat / posConfig.positionMax, 1.0);
+
+    // Base acceptance rates by tier
+    let baseAcceptanceRate;
+    if (tier.label === "Premium") {
+      baseAcceptanceRate = 0.99; // Almost always accept overpay
+    } else if (tier.label === "Market") {
+      baseAcceptanceRate = 0.85; // Usually accept fair market
+    } else { // Efficient (below market)
+      baseAcceptanceRate = 0.65; // Sometimes reject lowball offers
+    }
+
+    // Elite players (quality > 0.8) are pickier about efficient tier
+    if (tier.label === "Efficient" && playerQuality > 0.8) {
+      baseAcceptanceRate -= 0.20; // Elite players more likely to reject low offers
+    }
+
+    // Add some randomness for realism
+    const random = Math.random();
+    return random < baseAcceptanceRate;
   }
 
   undoLastPick() {
