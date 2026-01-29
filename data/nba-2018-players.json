@@ -1,0 +1,2112 @@
+{
+  "PG": [
+    {
+      "id": "curry-stephen-2019",
+      "name": "Stephen Curry",
+      "team": "GSW",
+      "season": "2018-19",
+      "stats": {
+        "per": 27.5,
+        "ws": 9.4,
+        "ppg": 27.3,
+        "apg": 5.2,
+        "rpg": 5.3
+      },
+      "salaryTiers": [
+        {
+          "amount": 28000000,
+          "label": "Star tier",
+          "description": "Elite PG value",
+          "percentile": 85
+        },
+        {
+          "amount": 37000000,
+          "label": "Supermax tier",
+          "description": "Superstar pricing",
+          "percentile": 95
+        }
+      ],
+      "context": "Two-time MVP, greatest shooter ever"
+    },
+    {
+      "id": "westbrook-russell-2019",
+      "name": "Russell Westbrook",
+      "team": "OKC",
+      "season": "2018-19",
+      "stats": {
+        "per": 23.5,
+        "ws": 8.9,
+        "ppg": 22.9,
+        "apg": 10.7,
+        "rpg": 11.1
+      },
+      "salaryTiers": [
+        {
+          "amount": 25000000,
+          "label": "Star tier",
+          "description": "Triple-double machine",
+          "percentile": 82
+        },
+        {
+          "amount": 35000000,
+          "label": "Supermax tier",
+          "description": "Former MVP pricing",
+          "percentile": 93
+        }
+      ],
+      "context": "Third straight triple-double season, MVP pedigree"
+    },
+    {
+      "id": "lillard-damian-2019",
+      "name": "Damian Lillard",
+      "team": "POR",
+      "season": "2018-19",
+      "stats": {
+        "per": 23.1,
+        "ws": 9.7,
+        "ppg": 25.8,
+        "apg": 6.9,
+        "rpg": 4.6
+      },
+      "salaryTiers": [
+        {
+          "amount": 23000000,
+          "label": "Star tier",
+          "description": "Clutch scorer value",
+          "percentile": 80
+        },
+        {
+          "amount": 31000000,
+          "label": "Supermax tier",
+          "description": "Elite PG pricing",
+          "percentile": 91
+        }
+      ],
+      "context": "Clutch performer, 'Dame Time' legend"
+    },
+    {
+      "id": "irving-kyrie-2019",
+      "name": "Kyrie Irving",
+      "team": "BOS",
+      "season": "2018-19",
+      "stats": {
+        "per": 22.6,
+        "ws": 7.4,
+        "ppg": 23.8,
+        "apg": 6.9,
+        "rpg": 5.0
+      },
+      "salaryTiers": [
+        {
+          "amount": 18000000,
+          "label": "Star tier",
+          "description": "Elite scorer value",
+          "percentile": 78
+        },
+        {
+          "amount": 28000000,
+          "label": "Supermax tier",
+          "description": "Championship pedigree",
+          "percentile": 89
+        }
+      ],
+      "context": "Elite ball-handler, championship experience"
+    },
+    {
+      "id": "walker-kemba-2019",
+      "name": "Kemba Walker",
+      "team": "CHA",
+      "season": "2018-19",
+      "stats": {
+        "per": 21.2,
+        "ws": 7.6,
+        "ppg": 25.6,
+        "apg": 5.9,
+        "rpg": 4.4
+      },
+      "salaryTiers": [
+        {
+          "amount": 16000000,
+          "label": "Star tier",
+          "description": "All-Star value",
+          "percentile": 75
+        },
+        {
+          "amount": 24000000,
+          "label": "Supermax tier",
+          "description": "Franchise PG pricing",
+          "percentile": 86
+        }
+      ],
+      "context": "Franchise player, All-Star third time"
+    },
+    {
+      "id": "simmons-ben-2019",
+      "name": "Ben Simmons",
+      "team": "PHI",
+      "season": "2018-19",
+      "stats": {
+        "per": 18.8,
+        "ws": 6.2,
+        "ppg": 16.9,
+        "apg": 7.7,
+        "rpg": 8.8
+      },
+      "salaryTiers": [
+        {
+          "amount": 10000000,
+          "label": "Value tier",
+          "description": "Young star value",
+          "percentile": 70
+        },
+        {
+          "amount": 18000000,
+          "label": "Star tier",
+          "description": "All-around talent",
+          "percentile": 82
+        }
+      ],
+      "context": "All-Star, elite passer and defender"
+    },
+    {
+      "id": "lowry-kyle-2019",
+      "name": "Kyle Lowry",
+      "team": "TOR",
+      "season": "2018-19",
+      "stats": {
+        "per": 19.2,
+        "ws": 8.5,
+        "ppg": 14.2,
+        "apg": 8.7,
+        "rpg": 4.8
+      },
+      "salaryTiers": [
+        {
+          "amount": 20000000,
+          "label": "Star tier",
+          "description": "Championship floor general",
+          "percentile": 76
+        },
+        {
+          "amount": 28000000,
+          "label": "Supermax tier",
+          "description": "Veteran leader pricing",
+          "percentile": 87
+        }
+      ],
+      "context": "Won championship, elite facilitator"
+    },
+    {
+      "id": "conley-mike-2019",
+      "name": "Mike Conley",
+      "team": "MEM",
+      "season": "2018-19",
+      "stats": {
+        "per": 17.9,
+        "ws": 5.8,
+        "ppg": 21.1,
+        "apg": 6.4,
+        "rpg": 3.4
+      },
+      "salaryTiers": [
+        {
+          "amount": 17000000,
+          "label": "Star tier",
+          "description": "Steady veteran value",
+          "percentile": 72
+        },
+        {
+          "amount": 25000000,
+          "label": "Supermax tier",
+          "description": "Veteran starter pricing",
+          "percentile": 83
+        }
+      ],
+      "context": "Underrated veteran, consistent performer"
+    },
+    {
+      "id": "russell-dangelo-2019",
+      "name": "D'Angelo Russell",
+      "team": "BKN",
+      "season": "2018-19",
+      "stats": {
+        "per": 18.9,
+        "ws": 5.3,
+        "ppg": 21.1,
+        "apg": 7.0,
+        "rpg": 3.9
+      },
+      "salaryTiers": [
+        {
+          "amount": 14000000,
+          "label": "Star tier",
+          "description": "Breakout season value",
+          "percentile": 70
+        },
+        {
+          "amount": 22000000,
+          "label": "Supermax tier",
+          "description": "Young All-Star pricing",
+          "percentile": 81
+        }
+      ],
+      "context": "First All-Star appearance, breakout year"
+    },
+    {
+      "id": "holiday-jrue-2019",
+      "name": "Jrue Holiday",
+      "team": "NOP",
+      "season": "2018-19",
+      "stats": {
+        "per": 18.4,
+        "ws": 5.9,
+        "ppg": 21.2,
+        "apg": 7.7,
+        "rpg": 5.0
+      },
+      "salaryTiers": [
+        {
+          "amount": 15000000,
+          "label": "Star tier",
+          "description": "Two-way guard value",
+          "percentile": 71
+        },
+        {
+          "amount": 23000000,
+          "label": "Supermax tier",
+          "description": "Elite defender pricing",
+          "percentile": 82
+        }
+      ],
+      "context": "Elite two-way player, All-Defense caliber"
+    },
+    {
+      "id": "paul-chris-2019",
+      "name": "Chris Paul",
+      "team": "HOU",
+      "season": "2018-19",
+      "stats": {
+        "per": 20.2,
+        "ws": 5.6,
+        "ppg": 15.6,
+        "apg": 8.2,
+        "rpg": 4.6
+      },
+      "salaryTiers": [
+        {
+          "amount": 22000000,
+          "label": "Star tier",
+          "description": "Aging star value",
+          "percentile": 73
+        },
+        {
+          "amount": 30000000,
+          "label": "Supermax tier",
+          "description": "Legacy contract pricing",
+          "percentile": 85
+        }
+      ],
+      "context": "Future HOF, still effective at 33"
+    },
+    {
+      "id": "wall-john-2019",
+      "name": "John Wall",
+      "team": "WAS",
+      "season": "2018-19",
+      "stats": {
+        "per": 19.4,
+        "ws": 1.6,
+        "ppg": 20.7,
+        "apg": 8.7,
+        "rpg": 3.6
+      },
+      "salaryTiers": [
+        {
+          "amount": 18000000,
+          "label": "Star tier",
+          "description": "Injury risk discount",
+          "percentile": 65
+        },
+        {
+          "amount": 27000000,
+          "label": "Supermax tier",
+          "description": "Supermax contract burden",
+          "percentile": 78
+        }
+      ],
+      "context": "Injury-plagued season, only 32 games"
+    },
+    {
+      "id": "bledsoe-eric-2019",
+      "name": "Eric Bledsoe",
+      "team": "MIL",
+      "season": "2018-19",
+      "stats": {
+        "per": 16.8,
+        "ws": 5.5,
+        "ppg": 15.9,
+        "apg": 5.5,
+        "rpg": 4.6
+      },
+      "salaryTiers": [
+        {
+          "amount": 12000000,
+          "label": "Value tier",
+          "description": "Solid starter value",
+          "percentile": 66
+        },
+        {
+          "amount": 19000000,
+          "label": "Star tier",
+          "description": "Two-way guard pricing",
+          "percentile": 77
+        }
+      ],
+      "context": "Elite defender, inconsistent offense"
+    },
+    {
+      "id": "fox-deaaron-2019",
+      "name": "De'Aaron Fox",
+      "team": "SAC",
+      "season": "2018-19",
+      "stats": {
+        "per": 16.7,
+        "ws": 4.8,
+        "ppg": 17.3,
+        "apg": 7.3,
+        "rpg": 3.8
+      },
+      "salaryTiers": [
+        {
+          "amount": 10000000,
+          "label": "Value tier",
+          "description": "Emerging star value",
+          "percentile": 68
+        },
+        {
+          "amount": 18000000,
+          "label": "Star tier",
+          "description": "Young star pricing",
+          "percentile": 79
+        }
+      ],
+      "context": "Breakout sophomore season, elite speed"
+    },
+    {
+      "id": "young-trae-2019",
+      "name": "Trae Young",
+      "team": "ATL",
+      "season": "2018-19",
+      "stats": {
+        "per": 16.3,
+        "ws": 2.8,
+        "ppg": 19.1,
+        "apg": 8.1,
+        "rpg": 3.7
+      },
+      "salaryTiers": [
+        {
+          "amount": 8000000,
+          "label": "Value tier",
+          "description": "Rookie contract value",
+          "percentile": 65
+        },
+        {
+          "amount": 16000000,
+          "label": "Star tier",
+          "description": "High-upside rookie",
+          "percentile": 76
+        }
+      ],
+      "context": "Rookie sensation, elite passer and scorer"
+    }
+  ],
+  "SG": [
+    {
+      "id": "harden-james-2019",
+      "name": "James Harden",
+      "team": "HOU",
+      "season": "2018-19",
+      "stats": {
+        "per": 30.6,
+        "ws": 13.4,
+        "ppg": 36.1,
+        "apg": 7.5,
+        "rpg": 6.6
+      },
+      "salaryTiers": [
+        {
+          "amount": 30000000,
+          "label": "Star tier",
+          "description": "MVP-caliber value",
+          "percentile": 88
+        },
+        {
+          "amount": 40000000,
+          "label": "Supermax tier",
+          "description": "Historic scoring season",
+          "percentile": 96
+        }
+      ],
+      "context": "MVP, historic 36 PPG scoring season"
+    },
+    {
+      "id": "beal-bradley-2019",
+      "name": "Bradley Beal",
+      "team": "WAS",
+      "season": "2018-19",
+      "stats": {
+        "per": 21.9,
+        "ws": 5.6,
+        "ppg": 25.6,
+        "apg": 5.5,
+        "rpg": 5.0
+      },
+      "salaryTiers": [
+        {
+          "amount": 20000000,
+          "label": "Star tier",
+          "description": "Elite scorer value",
+          "percentile": 80
+        },
+        {
+          "amount": 28000000,
+          "label": "Supermax tier",
+          "description": "Top SG pricing",
+          "percentile": 90
+        }
+      ],
+      "context": "Elite scorer, carried Wizards offense"
+    },
+    {
+      "id": "mccollum-cj-2019",
+      "name": "CJ McCollum",
+      "team": "POR",
+      "season": "2018-19",
+      "stats": {
+        "per": 19.8,
+        "ws": 5.9,
+        "ppg": 21.0,
+        "apg": 3.0,
+        "rpg": 4.0
+      },
+      "salaryTiers": [
+        {
+          "amount": 18000000,
+          "label": "Star tier",
+          "description": "Scoring guard value",
+          "percentile": 75
+        },
+        {
+          "amount": 26000000,
+          "label": "Supermax tier",
+          "description": "High-volume scorer",
+          "percentile": 86
+        }
+      ],
+      "context": "Excellent second option, playoff performer"
+    },
+    {
+      "id": "booker-devin-2019",
+      "name": "Devin Booker",
+      "team": "PHX",
+      "season": "2018-19",
+      "stats": {
+        "per": 20.4,
+        "ws": 4.3,
+        "ppg": 26.6,
+        "apg": 6.8,
+        "rpg": 4.1
+      },
+      "salaryTiers": [
+        {
+          "amount": 19000000,
+          "label": "Star tier",
+          "description": "Young scorer value",
+          "percentile": 77
+        },
+        {
+          "amount": 27000000,
+          "label": "Supermax tier",
+          "description": "Emerging superstar",
+          "percentile": 87
+        }
+      ],
+      "context": "Elite young scorer, 26 PPG at age 22"
+    },
+    {
+      "id": "oladipo-victor-2019",
+      "name": "Victor Oladipo",
+      "team": "IND",
+      "season": "2018-19",
+      "stats": {
+        "per": 19.7,
+        "ws": 2.9,
+        "ppg": 18.8,
+        "apg": 5.2,
+        "rpg": 5.6
+      },
+      "salaryTiers": [
+        {
+          "amount": 15000000,
+          "label": "Star tier",
+          "description": "Injury-limited value",
+          "percentile": 70
+        },
+        {
+          "amount": 23000000,
+          "label": "Supermax tier",
+          "description": "When healthy, All-Star",
+          "percentile": 82
+        }
+      ],
+      "context": "Injury-shortened, All-Star caliber when healthy"
+    },
+    {
+      "id": "mitchell-donovan-2019",
+      "name": "Donovan Mitchell",
+      "team": "UTA",
+      "season": "2018-19",
+      "stats": {
+        "per": 19.4,
+        "ws": 4.3,
+        "ppg": 23.8,
+        "apg": 4.2,
+        "rpg": 4.1
+      },
+      "salaryTiers": [
+        {
+          "amount": 14000000,
+          "label": "Star tier",
+          "description": "Young star value",
+          "percentile": 73
+        },
+        {
+          "amount": 22000000,
+          "label": "Supermax tier",
+          "description": "Franchise player pricing",
+          "percentile": 84
+        }
+      ],
+      "context": "Explosive scorer, playoff performer"
+    },
+    {
+      "id": "lavine-zach-2019",
+      "name": "Zach LaVine",
+      "team": "CHI",
+      "season": "2018-19",
+      "stats": {
+        "per": 17.4,
+        "ws": 3.4,
+        "ppg": 23.7,
+        "apg": 4.7,
+        "rpg": 4.7
+      },
+      "salaryTiers": [
+        {
+          "amount": 13000000,
+          "label": "Star tier",
+          "description": "Athletic scorer value",
+          "percentile": 68
+        },
+        {
+          "amount": 20000000,
+          "label": "Supermax tier",
+          "description": "High-volume scorer",
+          "percentile": 78
+        }
+      ],
+      "context": "Elite athlete, high-volume scorer"
+    },
+    {
+      "id": "derozan-demar-2019",
+      "name": "DeMar DeRozan",
+      "team": "SAS",
+      "season": "2018-19",
+      "stats": {
+        "per": 19.3,
+        "ws": 5.3,
+        "ppg": 21.2,
+        "apg": 6.2,
+        "rpg": 6.0
+      },
+      "salaryTiers": [
+        {
+          "amount": 18000000,
+          "label": "Star tier",
+          "description": "Mid-range specialist",
+          "percentile": 72
+        },
+        {
+          "amount": 26000000,
+          "label": "Supermax tier",
+          "description": "All-Star veteran",
+          "percentile": 83
+        }
+      ],
+      "context": "First year with Spurs, solid production"
+    },
+    {
+      "id": "klay-thompson-2019",
+      "name": "Klay Thompson",
+      "team": "GSW",
+      "season": "2018-19",
+      "stats": {
+        "per": 16.7,
+        "ws": 6.7,
+        "ppg": 21.5,
+        "apg": 2.4,
+        "rpg": 3.8
+      },
+      "salaryTiers": [
+        {
+          "amount": 16000000,
+          "label": "Star tier",
+          "description": "3-and-D specialist value",
+          "percentile": 74
+        },
+        {
+          "amount": 24000000,
+          "label": "Supermax tier",
+          "description": "Championship pedigree",
+          "percentile": 85
+        }
+      ],
+      "context": "Elite shooter, championship experience"
+    },
+    {
+      "id": "middleton-khris-2019",
+      "name": "Khris Middleton",
+      "team": "MIL",
+      "season": "2018-19",
+      "stats": {
+        "per": 18.2,
+        "ws": 7.0,
+        "ppg": 18.3,
+        "apg": 4.3,
+        "rpg": 6.0
+      },
+      "salaryTiers": [
+        {
+          "amount": 15000000,
+          "label": "Star tier",
+          "description": "All-Star value",
+          "percentile": 71
+        },
+        {
+          "amount": 23000000,
+          "label": "Supermax tier",
+          "description": "Complete two-way player",
+          "percentile": 82
+        }
+      ],
+      "context": "All-Star, perfect complement to Giannis"
+    },
+    {
+      "id": "butler-jimmy-2019",
+      "name": "Jimmy Butler",
+      "team": "PHI",
+      "season": "2018-19",
+      "stats": {
+        "per": 20.8,
+        "ws": 5.3,
+        "ppg": 18.7,
+        "apg": 4.0,
+        "rpg": 5.3
+      },
+      "salaryTiers": [
+        {
+          "amount": 17000000,
+          "label": "Star tier",
+          "description": "Two-way star value",
+          "percentile": 75
+        },
+        {
+          "amount": 25000000,
+          "label": "Supermax tier",
+          "description": "Elite defender pricing",
+          "percentile": 86
+        }
+      ],
+      "context": "Elite two-way player, playoff experience"
+    },
+    {
+      "id": "harris-gary-2019",
+      "name": "Gary Harris",
+      "team": "DEN",
+      "season": "2018-19",
+      "stats": {
+        "per": 13.2,
+        "ws": 2.2,
+        "ppg": 12.9,
+        "apg": 2.3,
+        "rpg": 2.8
+      },
+      "salaryTiers": [
+        {
+          "amount": 11000000,
+          "label": "Value tier",
+          "description": "3-and-D role player",
+          "percentile": 62
+        },
+        {
+          "amount": 18000000,
+          "label": "Star tier",
+          "description": "Solid starter pricing",
+          "percentile": 74
+        }
+      ],
+      "context": "Injury-plagued, solid when healthy"
+    },
+    {
+      "id": "redick-jj-2019",
+      "name": "JJ Redick",
+      "team": "PHI",
+      "season": "2018-19",
+      "stats": {
+        "per": 15.9,
+        "ws": 4.8,
+        "ppg": 18.1,
+        "apg": 2.7,
+        "rpg": 2.4
+      },
+      "salaryTiers": [
+        {
+          "amount": 10000000,
+          "label": "Value tier",
+          "description": "Veteran shooter value",
+          "percentile": 66
+        },
+        {
+          "amount": 17000000,
+          "label": "Star tier",
+          "description": "Elite shooter pricing",
+          "percentile": 76
+        }
+      ],
+      "context": "Elite shooter, veteran presence"
+    },
+    {
+      "id": "green-danny-2019",
+      "name": "Danny Green",
+      "team": "TOR",
+      "season": "2018-19",
+      "stats": {
+        "per": 12.4,
+        "ws": 5.0,
+        "ppg": 10.3,
+        "apg": 1.6,
+        "rpg": 4.0
+      },
+      "salaryTiers": [
+        {
+          "amount": 9000000,
+          "label": "Value tier",
+          "description": "3-and-D specialist",
+          "percentile": 64
+        },
+        {
+          "amount": 15000000,
+          "label": "Star tier",
+          "description": "Championship contributor",
+          "percentile": 73
+        }
+      ],
+      "context": "Won championship, elite 3-and-D"
+    },
+    {
+      "id": "ingles-joe-2019",
+      "name": "Joe Ingles",
+      "team": "UTA",
+      "season": "2018-19",
+      "stats": {
+        "per": 15.1,
+        "ws": 5.7,
+        "ppg": 12.1,
+        "apg": 5.7,
+        "rpg": 4.0
+      },
+      "salaryTiers": [
+        {
+          "amount": 10000000,
+          "label": "Value tier",
+          "description": "Versatile role player",
+          "percentile": 65
+        },
+        {
+          "amount": 17000000,
+          "label": "Star tier",
+          "description": "High-IQ veteran",
+          "percentile": 75
+        }
+      ],
+      "context": "High-IQ playmaker, excellent shooter"
+    }
+  ],
+  "SF": [
+    {
+      "id": "george-paul-2019",
+      "name": "Paul George",
+      "team": "OKC",
+      "season": "2018-19",
+      "stats": {
+        "per": 22.4,
+        "ws": 8.9,
+        "ppg": 28.0,
+        "apg": 4.1,
+        "rpg": 8.2
+      },
+      "salaryTiers": [
+        {
+          "amount": 25000000,
+          "label": "Star tier",
+          "description": "MVP candidate value",
+          "percentile": 83
+        },
+        {
+          "amount": 33000000,
+          "label": "Supermax tier",
+          "description": "Elite two-way wing",
+          "percentile": 92
+        }
+      ],
+      "context": "MVP candidate, elite two-way player"
+    },
+    {
+      "id": "durant-kevin-2019",
+      "name": "Kevin Durant",
+      "team": "GSW",
+      "season": "2018-19",
+      "stats": {
+        "per": 24.7,
+        "ws": 8.8,
+        "ppg": 26.0,
+        "apg": 5.9,
+        "rpg": 6.4
+      },
+      "salaryTiers": [
+        {
+          "amount": 27000000,
+          "label": "Star tier",
+          "description": "Elite scorer value",
+          "percentile": 85
+        },
+        {
+          "amount": 35000000,
+          "label": "Supermax tier",
+          "description": "Generational talent",
+          "percentile": 94
+        }
+      ],
+      "context": "Two-time Finals MVP, elite scorer"
+    },
+    {
+      "id": "leonard-kawhi-2019",
+      "name": "Kawhi Leonard",
+      "team": "TOR",
+      "season": "2018-19",
+      "stats": {
+        "per": 26.0,
+        "ws": 10.8,
+        "ppg": 26.6,
+        "apg": 3.3,
+        "rpg": 7.3
+      },
+      "salaryTiers": [
+        {
+          "amount": 26000000,
+          "label": "Star tier",
+          "description": "Two-way superstar",
+          "percentile": 84
+        },
+        {
+          "amount": 34000000,
+          "label": "Supermax tier",
+          "description": "Finals MVP pricing",
+          "percentile": 93
+        }
+      ],
+      "context": "Finals MVP, championship run in Toronto"
+    },
+    {
+      "id": "lebron-james-2019",
+      "name": "LeBron James",
+      "team": "LAL",
+      "season": "2018-19",
+      "stats": {
+        "per": 25.6,
+        "ws": 6.3,
+        "ppg": 27.4,
+        "apg": 8.3,
+        "rpg": 8.5
+      },
+      "salaryTiers": [
+        {
+          "amount": 28000000,
+          "label": "Star tier",
+          "description": "All-time great value",
+          "percentile": 82
+        },
+        {
+          "amount": 37000000,
+          "label": "Supermax tier",
+          "description": "GOAT-tier pricing",
+          "percentile": 91
+        }
+      ],
+      "context": "Injury-shortened but still elite at 34"
+    },
+    {
+      "id": "tatum-jayson-2019",
+      "name": "Jayson Tatum",
+      "team": "BOS",
+      "season": "2018-19",
+      "stats": {
+        "per": 15.7,
+        "ws": 4.9,
+        "ppg": 15.7,
+        "apg": 2.1,
+        "rpg": 6.0
+      },
+      "salaryTiers": [
+        {
+          "amount": 10000000,
+          "label": "Value tier",
+          "description": "Young star upside",
+          "percentile": 68
+        },
+        {
+          "amount": 18000000,
+          "label": "Star tier",
+          "description": "High-potential wing",
+          "percentile": 79
+        }
+      ],
+      "context": "Sophomore slump, high ceiling"
+    },
+    {
+      "id": "siakam-pascal-2019",
+      "name": "Pascal Siakam",
+      "team": "TOR",
+      "season": "2018-19",
+      "stats": {
+        "per": 19.2,
+        "ws": 7.9,
+        "ppg": 16.9,
+        "apg": 3.1,
+        "rpg": 6.9
+      },
+      "salaryTiers": [
+        {
+          "amount": 12000000,
+          "label": "Value tier",
+          "description": "MIP value",
+          "percentile": 72
+        },
+        {
+          "amount": 20000000,
+          "label": "Star tier",
+          "description": "Breakout star pricing",
+          "percentile": 83
+        }
+      ],
+      "context": "Most Improved Player, championship contributor"
+    },
+    {
+      "id": "hayward-gordon-2019",
+      "name": "Gordon Hayward",
+      "team": "BOS",
+      "season": "2018-19",
+      "stats": {
+        "per": 14.7,
+        "ws": 3.3,
+        "ppg": 11.5,
+        "apg": 3.4,
+        "rpg": 4.5
+      },
+      "salaryTiers": [
+        {
+          "amount": 16000000,
+          "label": "Star tier",
+          "description": "Injury recovery value",
+          "percentile": 64
+        },
+        {
+          "amount": 24000000,
+          "label": "Supermax tier",
+          "description": "Former All-Star pricing",
+          "percentile": 76
+        }
+      ],
+      "context": "Recovering from gruesome injury"
+    },
+    {
+      "id": "ingram-brandon-2019",
+      "name": "Brandon Ingram",
+      "team": "LAL",
+      "season": "2018-19",
+      "stats": {
+        "per": 15.0,
+        "ws": 2.9,
+        "ppg": 18.3,
+        "apg": 3.0,
+        "rpg": 5.1
+      },
+      "salaryTiers": [
+        {
+          "amount": 11000000,
+          "label": "Value tier",
+          "description": "Young developing wing",
+          "percentile": 66
+        },
+        {
+          "amount": 19000000,
+          "label": "Star tier",
+          "description": "High-upside wing",
+          "percentile": 77
+        }
+      ],
+      "context": "Developing wing, injury concerns"
+    },
+    {
+      "id": "harris-tobias-2019",
+      "name": "Tobias Harris",
+      "team": "LAC/PHI",
+      "season": "2018-19",
+      "stats": {
+        "per": 17.8,
+        "ws": 5.6,
+        "ppg": 20.0,
+        "apg": 2.8,
+        "rpg": 7.9
+      },
+      "salaryTiers": [
+        {
+          "amount": 15000000,
+          "label": "Star tier",
+          "description": "Versatile scorer value",
+          "percentile": 70
+        },
+        {
+          "amount": 23000000,
+          "label": "Supermax tier",
+          "description": "Solid starter pricing",
+          "percentile": 81
+        }
+      ],
+      "context": "Traded mid-season, consistent scorer"
+    },
+    {
+      "id": "porter-otto-2019",
+      "name": "Otto Porter Jr.",
+      "team": "WAS/CHI",
+      "season": "2018-19",
+      "stats": {
+        "per": 16.4,
+        "ws": 3.8,
+        "ppg": 14.7,
+        "apg": 2.0,
+        "rpg": 6.4
+      },
+      "salaryTiers": [
+        {
+          "amount": 16000000,
+          "label": "Star tier",
+          "description": "3-and-D wing value",
+          "percentile": 67
+        },
+        {
+          "amount": 24000000,
+          "label": "Supermax tier",
+          "description": "Overpaid role player",
+          "percentile": 78
+        }
+      ],
+      "context": "Solid 3-and-D wing, injury concerns"
+    },
+    {
+      "id": "bogdanovic-bojan-2019",
+      "name": "Bojan Bogdanovic",
+      "team": "IND",
+      "season": "2018-19",
+      "stats": {
+        "per": 17.4,
+        "ws": 5.6,
+        "ppg": 18.0,
+        "apg": 2.0,
+        "rpg": 4.1
+      },
+      "salaryTiers": [
+        {
+          "amount": 12000000,
+          "label": "Value tier",
+          "description": "Efficient scorer value",
+          "percentile": 69
+        },
+        {
+          "amount": 20000000,
+          "label": "Star tier",
+          "description": "Shooting specialist",
+          "percentile": 80
+        }
+      ],
+      "context": "Efficient scorer, excellent shooter"
+    },
+    {
+      "id": "doncic-luka-2019",
+      "name": "Luka Doncic",
+      "team": "DAL",
+      "season": "2018-19",
+      "stats": {
+        "per": 21.3,
+        "ws": 6.8,
+        "ppg": 21.2,
+        "apg": 6.0,
+        "rpg": 7.8
+      },
+      "salaryTiers": [
+        {
+          "amount": 10000000,
+          "label": "Value tier",
+          "description": "Rookie sensation value",
+          "percentile": 74
+        },
+        {
+          "amount": 18000000,
+          "label": "Star tier",
+          "description": "ROY performance",
+          "percentile": 85
+        }
+      ],
+      "context": "Rookie of the Year, generational talent"
+    },
+    {
+      "id": "gallinari-danilo-2019",
+      "name": "Danilo Gallinari",
+      "team": "LAC",
+      "season": "2018-19",
+      "stats": {
+        "per": 18.2,
+        "ws": 5.1,
+        "ppg": 19.8,
+        "apg": 2.6,
+        "rpg": 6.1
+      },
+      "salaryTiers": [
+        {
+          "amount": 14000000,
+          "label": "Star tier",
+          "description": "Veteran scorer value",
+          "percentile": 68
+        },
+        {
+          "amount": 22000000,
+          "label": "Supermax tier",
+          "description": "Injury-prone veteran",
+          "percentile": 79
+        }
+      ],
+      "context": "Skilled scorer, injury history"
+    },
+    {
+      "id": "warren-tj-2019",
+      "name": "TJ Warren",
+      "team": "PHX",
+      "season": "2018-19",
+      "stats": {
+        "per": 16.6,
+        "ws": 3.8,
+        "ppg": 18.0,
+        "apg": 1.5,
+        "rpg": 4.0
+      },
+      "salaryTiers": [
+        {
+          "amount": 9000000,
+          "label": "Value tier",
+          "description": "Efficient scorer value",
+          "percentile": 65
+        },
+        {
+          "amount": 17000000,
+          "label": "Star tier",
+          "description": "Mid-tier scorer",
+          "percentile": 75
+        }
+      ],
+      "context": "Efficient mid-range scorer"
+    },
+    {
+      "id": "wiggins-andrew-2019",
+      "name": "Andrew Wiggins",
+      "team": "MIN",
+      "season": "2018-19",
+      "stats": {
+        "per": 14.0,
+        "ws": 1.4,
+        "ppg": 18.1,
+        "apg": 2.5,
+        "rpg": 4.8
+      },
+      "salaryTiers": [
+        {
+          "amount": 17000000,
+          "label": "Star tier",
+          "description": "Underperforming max player",
+          "percentile": 60
+        },
+        {
+          "amount": 25000000,
+          "label": "Supermax tier",
+          "description": "Overpaid disappointment",
+          "percentile": 72
+        }
+      ],
+      "context": "Disappointing given max contract"
+    }
+  ],
+  "PF": [
+    {
+      "id": "giannis-antetokounmpo-2019",
+      "name": "Giannis Antetokounmpo",
+      "team": "MIL",
+      "season": "2018-19",
+      "stats": {
+        "per": 28.3,
+        "ws": 14.4,
+        "ppg": 27.7,
+        "apg": 5.9,
+        "rpg": 12.5
+      },
+      "salaryTiers": [
+        {
+          "amount": 28000000,
+          "label": "Star tier",
+          "description": "MVP value",
+          "percentile": 87
+        },
+        {
+          "amount": 37000000,
+          "label": "Supermax tier",
+          "description": "Dominant force pricing",
+          "percentile": 96
+        }
+      ],
+      "context": "MVP, best player in the league"
+    },
+    {
+      "id": "davis-anthony-2019",
+      "name": "Anthony Davis",
+      "team": "NOP",
+      "season": "2018-19",
+      "stats": {
+        "per": 27.7,
+        "ws": 9.4,
+        "ppg": 25.9,
+        "apg": 3.9,
+        "rpg": 12.0
+      },
+      "salaryTiers": [
+        {
+          "amount": 26000000,
+          "label": "Star tier",
+          "description": "Elite two-way big",
+          "percentile": 85
+        },
+        {
+          "amount": 34000000,
+          "label": "Supermax tier",
+          "description": "Superstar pricing",
+          "percentile": 94
+        }
+      ],
+      "context": "Requested trade, still dominant"
+    },
+    {
+      "id": "griffin-blake-2019",
+      "name": "Blake Griffin",
+      "team": "DET",
+      "season": "2018-19",
+      "stats": {
+        "per": 21.4,
+        "ws": 6.0,
+        "ppg": 24.5,
+        "apg": 5.4,
+        "rpg": 7.5
+      },
+      "salaryTiers": [
+        {
+          "amount": 22000000,
+          "label": "Star tier",
+          "description": "All-Star value",
+          "percentile": 78
+        },
+        {
+          "amount": 30000000,
+          "label": "Supermax tier",
+          "description": "Max contract burden",
+          "percentile": 88
+        }
+      ],
+      "context": "All-Star with Pistons, reinvented game"
+    },
+    {
+      "id": "aldridge-lamarcus-2019",
+      "name": "LaMarcus Aldridge",
+      "team": "SAS",
+      "season": "2018-19",
+      "stats": {
+        "per": 21.9,
+        "ws": 7.4,
+        "ppg": 21.3,
+        "apg": 2.4,
+        "rpg": 9.2
+      },
+      "salaryTiers": [
+        {
+          "amount": 19000000,
+          "label": "Star tier",
+          "description": "Veteran All-Star value",
+          "percentile": 76
+        },
+        {
+          "amount": 27000000,
+          "label": "Supermax tier",
+          "description": "Veteran star pricing",
+          "percentile": 86
+        }
+      ],
+      "context": "All-Star, mid-range maestro"
+    },
+    {
+      "id": "randle-julius-2019",
+      "name": "Julius Randle",
+      "team": "NOP",
+      "season": "2018-19",
+      "stats": {
+        "per": 20.6,
+        "ws": 5.4,
+        "ppg": 21.4,
+        "apg": 3.1,
+        "rpg": 8.7
+      },
+      "salaryTiers": [
+        {
+          "amount": 13000000,
+          "label": "Star tier",
+          "description": "Breakout season value",
+          "percentile": 72
+        },
+        {
+          "amount": 21000000,
+          "label": "Supermax tier",
+          "description": "Emerging star pricing",
+          "percentile": 82
+        }
+      ],
+      "context": "Breakout season, double-double machine"
+    },
+    {
+      "id": "love-kevin-2019",
+      "name": "Kevin Love",
+      "team": "CLE",
+      "season": "2018-19",
+      "stats": {
+        "per": 19.9,
+        "ws": 3.3,
+        "ppg": 17.0,
+        "apg": 2.2,
+        "rpg": 10.9
+      },
+      "salaryTiers": [
+        {
+          "amount": 18000000,
+          "label": "Star tier",
+          "description": "Injury-limited value",
+          "percentile": 68
+        },
+        {
+          "amount": 26000000,
+          "label": "Supermax tier",
+          "description": "Former All-Star pricing",
+          "percentile": 79
+        }
+      ],
+      "context": "Injury-plagued, still productive"
+    },
+    {
+      "id": "millsap-paul-2019",
+      "name": "Paul Millsap",
+      "team": "DEN",
+      "season": "2018-19",
+      "stats": {
+        "per": 17.7,
+        "ws": 5.6,
+        "ppg": 12.6,
+        "apg": 2.0,
+        "rpg": 7.2
+      },
+      "salaryTiers": [
+        {
+          "amount": 16000000,
+          "label": "Star tier",
+          "description": "Veteran glue guy",
+          "percentile": 70
+        },
+        {
+          "amount": 24000000,
+          "label": "Supermax tier",
+          "description": "Veteran overpay",
+          "percentile": 80
+        }
+      ],
+      "context": "Solid veteran, playoff experience"
+    },
+    {
+      "id": "markkanen-lauri-2019",
+      "name": "Lauri Markkanen",
+      "team": "CHI",
+      "season": "2018-19",
+      "stats": {
+        "per": 16.8,
+        "ws": 3.8,
+        "ppg": 18.7,
+        "apg": 1.5,
+        "rpg": 9.0
+      },
+      "salaryTiers": [
+        {
+          "amount": 10000000,
+          "label": "Value tier",
+          "description": "Stretch big value",
+          "percentile": 66
+        },
+        {
+          "amount": 18000000,
+          "label": "Star tier",
+          "description": "Young shooter pricing",
+          "percentile": 76
+        }
+      ],
+      "context": "Stretch big, inconsistent season"
+    },
+    {
+      "id": "collins-john-2019",
+      "name": "John Collins",
+      "team": "ATL",
+      "season": "2018-19",
+      "stats": {
+        "per": 21.4,
+        "ws": 5.9,
+        "ppg": 19.5,
+        "apg": 2.0,
+        "rpg": 9.8
+      },
+      "salaryTiers": [
+        {
+          "amount": 11000000,
+          "label": "Value tier",
+          "description": "Young athletic big",
+          "percentile": 70
+        },
+        {
+          "amount": 19000000,
+          "label": "Star tier",
+          "description": "Emerging star pricing",
+          "percentile": 81
+        }
+      ],
+      "context": "Athletic rim-runner, improving shooter"
+    },
+    {
+      "id": "sabonis-domantas-2019",
+      "name": "Domantas Sabonis",
+      "team": "IND",
+      "season": "2018-19",
+      "stats": {
+        "per": 20.9,
+        "ws": 6.8,
+        "ppg": 14.1,
+        "apg": 2.9,
+        "rpg": 9.3
+      },
+      "salaryTiers": [
+        {
+          "amount": 12000000,
+          "label": "Value tier",
+          "description": "Versatile big value",
+          "percentile": 71
+        },
+        {
+          "amount": 20000000,
+          "label": "Star tier",
+          "description": "All-Star upside",
+          "percentile": 82
+        }
+      ],
+      "context": "Breakout sixth man, future All-Star"
+    },
+    {
+      "id": "porzingis-kristaps-2019",
+      "name": "Kristaps Porzingis",
+      "team": "NYK/DAL",
+      "season": "2018-19",
+      "stats": {
+        "per": 0.0,
+        "ws": 0.0,
+        "ppg": 0.0,
+        "apg": 0.0,
+        "rpg": 0.0
+      },
+      "salaryTiers": [
+        {
+          "amount": 15000000,
+          "label": "Star tier",
+          "description": "Injury year discount",
+          "percentile": 55
+        },
+        {
+          "amount": 23000000,
+          "label": "Supermax tier",
+          "description": "Former All-Star upside",
+          "percentile": 70
+        }
+      ],
+      "context": "Missed entire season with ACL injury"
+    },
+    {
+      "id": "green-draymond-2019",
+      "name": "Draymond Green",
+      "team": "GSW",
+      "season": "2018-19",
+      "stats": {
+        "per": 13.9,
+        "ws": 6.4,
+        "ppg": 7.4,
+        "apg": 6.9,
+        "rpg": 7.3
+      },
+      "salaryTiers": [
+        {
+          "amount": 14000000,
+          "label": "Star tier",
+          "description": "Defensive anchor value",
+          "percentile": 68
+        },
+        {
+          "amount": 22000000,
+          "label": "Supermax tier",
+          "description": "Championship pedigree",
+          "percentile": 78
+        }
+      ],
+      "context": "DPOY-caliber, playmaking big"
+    },
+    {
+      "id": "harris-montrezl-2019",
+      "name": "Montrezl Harrell",
+      "team": "LAC",
+      "season": "2018-19",
+      "stats": {
+        "per": 24.0,
+        "ws": 6.0,
+        "ppg": 16.6,
+        "apg": 2.0,
+        "rpg": 6.5
+      },
+      "salaryTiers": [
+        {
+          "amount": 9000000,
+          "label": "Value tier",
+          "description": "6th Man value",
+          "percentile": 69
+        },
+        {
+          "amount": 17000000,
+          "label": "Star tier",
+          "description": "6MOY pricing",
+          "percentile": 80
+        }
+      ],
+      "context": "Sixth Man of the Year, energy big"
+    },
+    {
+      "id": "bagley-marvin-2019",
+      "name": "Marvin Bagley III",
+      "team": "SAC",
+      "season": "2018-19",
+      "stats": {
+        "per": 17.7,
+        "ws": 3.0,
+        "ppg": 14.9,
+        "apg": 1.0,
+        "rpg": 7.6
+      },
+      "salaryTiers": [
+        {
+          "amount": 9000000,
+          "label": "Value tier",
+          "description": "Rookie upside value",
+          "percentile": 64
+        },
+        {
+          "amount": 17000000,
+          "label": "Star tier",
+          "description": "High-ceiling rookie",
+          "percentile": 75
+        }
+      ],
+      "context": "High-upside rookie, injury concerns"
+    },
+    {
+      "id": "young-thaddeus-2019",
+      "name": "Thaddeus Young",
+      "team": "IND",
+      "season": "2018-19",
+      "stats": {
+        "per": 16.3,
+        "ws": 5.2,
+        "ppg": 11.8,
+        "apg": 1.7,
+        "rpg": 5.7
+      },
+      "salaryTiers": [
+        {
+          "amount": 11000000,
+          "label": "Value tier",
+          "description": "Veteran role player",
+          "percentile": 65
+        },
+        {
+          "amount": 18000000,
+          "label": "Star tier",
+          "description": "Solid starter pricing",
+          "percentile": 74
+        }
+      ],
+      "context": "Versatile veteran, solid defender"
+    }
+  ],
+  "C": [
+    {
+      "id": "jokic-nikola-2019",
+      "name": "Nikola Jokic",
+      "team": "DEN",
+      "season": "2018-19",
+      "stats": {
+        "per": 26.4,
+        "ws": 15.2,
+        "ppg": 20.1,
+        "apg": 7.3,
+        "rpg": 10.8
+      },
+      "salaryTiers": [
+        {
+          "amount": 24000000,
+          "label": "Star tier",
+          "description": "Elite playmaking big",
+          "percentile": 84
+        },
+        {
+          "amount": 32000000,
+          "label": "Supermax tier",
+          "description": "Unique talent pricing",
+          "percentile": 93
+        }
+      ],
+      "context": "Best passing big ever, led Nuggets to 2nd seed"
+    },
+    {
+      "id": "embiid-joel-2019",
+      "name": "Joel Embiid",
+      "team": "PHI",
+      "season": "2018-19",
+      "stats": {
+        "per": 26.8,
+        "ws": 9.4,
+        "ppg": 27.5,
+        "apg": 3.7,
+        "rpg": 13.6
+      },
+      "salaryTiers": [
+        {
+          "amount": 25000000,
+          "label": "Star tier",
+          "description": "Dominant two-way center",
+          "percentile": 85
+        },
+        {
+          "amount": 33000000,
+          "label": "Supermax tier",
+          "description": "Elite center pricing",
+          "percentile": 94
+        }
+      ],
+      "context": "MVP candidate, dominant when healthy"
+    },
+    {
+      "id": "towns-karl-anthony-2019",
+      "name": "Karl-Anthony Towns",
+      "team": "MIN",
+      "season": "2018-19",
+      "stats": {
+        "per": 23.8,
+        "ws": 7.9,
+        "ppg": 24.4,
+        "apg": 3.4,
+        "rpg": 12.4
+      },
+      "salaryTiers": [
+        {
+          "amount": 23000000,
+          "label": "Star tier",
+          "description": "Versatile big value",
+          "percentile": 82
+        },
+        {
+          "amount": 31000000,
+          "label": "Supermax tier",
+          "description": "Modern big pricing",
+          "percentile": 91
+        }
+      ],
+      "context": "Elite shooting big, All-Star"
+    },
+    {
+      "id": "gobert-rudy-2019",
+      "name": "Rudy Gobert",
+      "team": "UTA",
+      "season": "2018-19",
+      "stats": {
+        "per": 21.3,
+        "ws": 11.7,
+        "ppg": 15.9,
+        "apg": 2.0,
+        "rpg": 12.9
+      },
+      "salaryTiers": [
+        {
+          "amount": 21000000,
+          "label": "Star tier",
+          "description": "DPOY value",
+          "percentile": 80
+        },
+        {
+          "amount": 29000000,
+          "label": "Supermax tier",
+          "description": "Defensive anchor pricing",
+          "percentile": 89
+        }
+      ],
+      "context": "Two-time DPOY, elite rim protector"
+    },
+    {
+      "id": "vucevic-nikola-2019",
+      "name": "Nikola Vucevic",
+      "team": "ORL",
+      "season": "2018-19",
+      "stats": {
+        "per": 22.4,
+        "ws": 8.1,
+        "ppg": 20.8,
+        "apg": 3.8,
+        "rpg": 12.0
+      },
+      "salaryTiers": [
+        {
+          "amount": 18000000,
+          "label": "Star tier",
+          "description": "First-time All-Star",
+          "percentile": 77
+        },
+        {
+          "amount": 26000000,
+          "label": "Supermax tier",
+          "description": "All-Star center pricing",
+          "percentile": 86
+        }
+      ],
+      "context": "First All-Star appearance, breakout season"
+    },
+    {
+      "id": "capela-clint-2019",
+      "name": "Clint Capela",
+      "team": "HOU",
+      "season": "2018-19",
+      "stats": {
+        "per": 21.5,
+        "ws": 7.1,
+        "ppg": 16.6,
+        "apg": 0.9,
+        "rpg": 12.7
+      },
+      "salaryTiers": [
+        {
+          "amount": 16000000,
+          "label": "Star tier",
+          "description": "Rim-running big value",
+          "percentile": 75
+        },
+        {
+          "amount": 24000000,
+          "label": "Supermax tier",
+          "description": "Lob threat pricing",
+          "percentile": 84
+        }
+      ],
+      "context": "Elite rim-runner, perfect for Rockets system"
+    },
+    {
+      "id": "drummond-andre-2019",
+      "name": "Andre Drummond",
+      "team": "DET",
+      "season": "2018-19",
+      "stats": {
+        "per": 20.3,
+        "ws": 5.7,
+        "ppg": 17.3,
+        "apg": 1.4,
+        "rpg": 15.6
+      },
+      "salaryTiers": [
+        {
+          "amount": 19000000,
+          "label": "Star tier",
+          "description": "Double-double machine",
+          "percentile": 76
+        },
+        {
+          "amount": 27000000,
+          "label": "Supermax tier",
+          "description": "Elite rebounder pricing",
+          "percentile": 85
+        }
+      ],
+      "context": "Led league in rebounds, All-Star"
+    },
+    {
+      "id": "turner-myles-2019",
+      "name": "Myles Turner",
+      "team": "IND",
+      "season": "2018-19",
+      "stats": {
+        "per": 18.8,
+        "ws": 5.5,
+        "ppg": 13.3,
+        "apg": 1.6,
+        "rpg": 7.2
+      },
+      "salaryTiers": [
+        {
+          "amount": 14000000,
+          "label": "Star tier",
+          "description": "Stretch big value",
+          "percentile": 72
+        },
+        {
+          "amount": 22000000,
+          "label": "Supermax tier",
+          "description": "Modern center pricing",
+          "percentile": 82
+        }
+      ],
+      "context": "Led league in blocks, stretch five"
+    },
+    {
+      "id": "gasol-marc-2019",
+      "name": "Marc Gasol",
+      "team": "MEM/TOR",
+      "season": "2018-19",
+      "stats": {
+        "per": 15.8,
+        "ws": 5.4,
+        "ppg": 13.6,
+        "apg": 4.1,
+        "rpg": 7.9
+      },
+      "salaryTiers": [
+        {
+          "amount": 17000000,
+          "label": "Star tier",
+          "description": "Veteran playmaker",
+          "percentile": 70
+        },
+        {
+          "amount": 25000000,
+          "label": "Supermax tier",
+          "description": "Championship contributor",
+          "percentile": 80
+        }
+      ],
+      "context": "Won championship with Toronto, high-IQ big"
+    },
+    {
+      "id": "horford-al-2019",
+      "name": "Al Horford",
+      "team": "BOS",
+      "season": "2018-19",
+      "stats": {
+        "per": 17.8,
+        "ws": 6.4,
+        "ppg": 13.6,
+        "apg": 4.2,
+        "rpg": 6.7
+      },
+      "salaryTiers": [
+        {
+          "amount": 18000000,
+          "label": "Star tier",
+          "description": "Versatile veteran value",
+          "percentile": 73
+        },
+        {
+          "amount": 26000000,
+          "label": "Supermax tier",
+          "description": "All-Star veteran pricing",
+          "percentile": 83
+        }
+      ],
+      "context": "Complete two-way big, playoff experience"
+    },
+    {
+      "id": "adams-steven-2019",
+      "name": "Steven Adams",
+      "team": "OKC",
+      "season": "2018-19",
+      "stats": {
+        "per": 18.0,
+        "ws": 5.5,
+        "ppg": 13.9,
+        "apg": 1.6,
+        "rpg": 9.5
+      },
+      "salaryTiers": [
+        {
+          "amount": 16000000,
+          "label": "Star tier",
+          "description": "Physical presence value",
+          "percentile": 71
+        },
+        {
+          "amount": 24000000,
+          "label": "Supermax tier",
+          "description": "Overpaid role player",
+          "percentile": 81
+        }
+      ],
+      "context": "Physical screener, solid rebounder"
+    },
+    {
+      "id": "whiteside-hassan-2019",
+      "name": "Hassan Whiteside",
+      "team": "MIA",
+      "season": "2018-19",
+      "stats": {
+        "per": 20.8,
+        "ws": 4.0,
+        "ppg": 12.3,
+        "apg": 0.8,
+        "rpg": 11.3
+      },
+      "salaryTiers": [
+        {
+          "amount": 17000000,
+          "label": "Star tier",
+          "description": "Shot-blocking big",
+          "percentile": 68
+        },
+        {
+          "amount": 25000000,
+          "label": "Supermax tier",
+          "description": "Overpaid contract",
+          "percentile": 77
+        }
+      ],
+      "context": "Elite shot-blocker, limited offensive game"
+    },
+    {
+      "id": "lopez-brook-2019",
+      "name": "Brook Lopez",
+      "team": "MIL",
+      "season": "2018-19",
+      "stats": {
+        "per": 17.5,
+        "ws": 7.4,
+        "ppg": 12.5,
+        "apg": 1.3,
+        "rpg": 4.9
+      },
+      "salaryTiers": [
+        {
+          "amount": 13000000,
+          "label": "Value tier",
+          "description": "Stretch big value",
+          "percentile": 70
+        },
+        {
+          "amount": 21000000,
+          "label": "Star tier",
+          "description": "3-and-D big pricing",
+          "percentile": 81
+        }
+      ],
+      "context": "Reinvented as stretch five, elite defense"
+    },
+    {
+      "id": "ayton-deandre-2019",
+      "name": "Deandre Ayton",
+      "team": "PHX",
+      "season": "2018-19",
+      "stats": {
+        "per": 18.9,
+        "ws": 4.9,
+        "ppg": 16.3,
+        "apg": 1.8,
+        "rpg": 10.3
+      },
+      "salaryTiers": [
+        {
+          "amount": 10000000,
+          "label": "Value tier",
+          "description": "Rookie #1 pick value",
+          "percentile": 68
+        },
+        {
+          "amount": 18000000,
+          "label": "Star tier",
+          "description": "High-ceiling rookie",
+          "percentile": 78
+        }
+      ],
+      "context": "#1 overall pick, solid rookie season"
+    },
+    {
+      "id": "valanciunas-jonas-2019",
+      "name": "Jonas Valanciunas",
+      "team": "TOR/MEM",
+      "season": "2018-19",
+      "stats": {
+        "per": 21.7,
+        "ws": 5.3,
+        "ppg": 15.4,
+        "apg": 1.1,
+        "rpg": 8.9
+      },
+      "salaryTiers": [
+        {
+          "amount": 13000000,
+          "label": "Value tier",
+          "description": "Traditional big value",
+          "percentile": 69
+        },
+        {
+          "amount": 21000000,
+          "label": "Star tier",
+          "description": "Solid starter pricing",
+          "percentile": 80
+        }
+      ],
+      "context": "Traded mid-season, strong post presence"
+    }
+  ]
+}

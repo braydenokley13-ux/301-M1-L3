@@ -1,0 +1,2133 @@
+{
+  "SP": [
+    {
+      "id": "cole-gerrit-2019",
+      "name": "Gerrit Cole",
+      "team": "HOU",
+      "season": 2019,
+      "stats": {
+        "war": 7.4,
+        "era": 2.50,
+        "strikeouts": 326,
+        "innings": 212.1
+      },
+      "salaryTiers": [
+        {
+          "amount": 20000000,
+          "label": "Value tier",
+          "description": "Below market - high efficiency",
+          "percentile": 70
+        },
+        {
+          "amount": 32000000,
+          "label": "Market tier",
+          "description": "Fair value for elite production",
+          "percentile": 90
+        },
+        {
+          "amount": 45000000,
+          "label": "Premium tier",
+          "description": "Overpay - diminishing returns",
+          "percentile": 95
+        }
+      ],
+      "context": "Led AL in strikeouts, signed record $324M deal with NYY after 2019"
+    },
+    {
+      "id": "degrom-jacob-2019",
+      "name": "Jacob deGrom",
+      "team": "NYM",
+      "season": 2019,
+      "stats": {
+        "war": 6.6,
+        "era": 2.43,
+        "strikeouts": 255,
+        "innings": 204.0
+      },
+      "salaryTiers": [
+        {
+          "amount": 18000000,
+          "label": "Value tier",
+          "description": "Below market rate",
+          "percentile": 70
+        },
+        {
+          "amount": 28000000,
+          "label": "Market tier",
+          "description": "Fair value for ace",
+          "percentile": 90
+        },
+        {
+          "amount": 40000000,
+          "label": "Premium tier",
+          "description": "Overpay - diminishing returns",
+          "percentile": 95
+        }
+      ],
+      "context": "Back-to-back Cy Young winner, dominant season"
+    },
+    {
+      "id": "verlander-justin-2019",
+      "name": "Justin Verlander",
+      "team": "HOU",
+      "season": 2019,
+      "stats": {
+        "war": 6.5,
+        "era": 2.58,
+        "strikeouts": 300,
+        "innings": 223.0
+      },
+      "salaryTiers": [
+        {
+          "amount": 19000000,
+          "label": "Value tier",
+          "description": "Below market - veteran value",
+          "percentile": 70
+        },
+        {
+          "amount": 30000000,
+          "label": "Market tier",
+          "description": "Fair value for elite pitcher",
+          "percentile": 90
+        },
+        {
+          "amount": 43000000,
+          "label": "Premium tier",
+          "description": "Overpay - age premium",
+          "percentile": 95
+        }
+      ],
+      "context": "AL Cy Young winner, 300 strikeouts at age 36"
+    },
+    {
+      "id": "scherzer-max-2019",
+      "name": "Max Scherzer",
+      "team": "WSH",
+      "season": 2019,
+      "stats": {
+        "war": 5.4,
+        "era": 2.92,
+        "strikeouts": 243,
+        "innings": 172.1
+      },
+      "salaryTiers": [
+        {
+          "amount": 22000000,
+          "label": "Value tier",
+          "description": "Below market for ace",
+          "percentile": 75
+        },
+        {
+          "amount": 35000000,
+          "label": "Market tier",
+          "description": "Star veteran pricing",
+          "percentile": 90
+        },
+        {
+          "amount": 48000000,
+          "label": "Premium tier",
+          "description": "Superstar tax - diminishing returns",
+          "percentile": 95
+        }
+      ],
+      "context": "Won World Series with Nationals, perennial ace"
+    },
+    {
+      "id": "flaherty-jack-2019",
+      "name": "Jack Flaherty",
+      "team": "STL",
+      "season": 2019,
+      "stats": {
+        "war": 5.5,
+        "era": 2.75,
+        "strikeouts": 231,
+        "innings": 196.1
+      },
+      "salaryTiers": [
+        {
+          "amount": 10000000,
+          "label": "Value tier",
+          "description": "Young talent, team control",
+          "percentile": 65
+        },
+        {
+          "amount": 18000000,
+          "label": "Market tier",
+          "description": "Breakout pricing",
+          "percentile": 85
+        }
+      ],
+      "context": "Breakout season, dominated down the stretch"
+    },
+    {
+      "id": "bieber-shane-2019",
+      "name": "Shane Bieber",
+      "team": "CLE",
+      "season": 2019,
+      "stats": {
+        "war": 5.1,
+        "era": 3.28,
+        "strikeouts": 259,
+        "innings": 214.1
+      },
+      "salaryTiers": [
+        {
+          "amount": 8000000,
+          "label": "Value tier",
+          "description": "Pre-arbitration pricing",
+          "percentile": 65
+        },
+        {
+          "amount": 15000000,
+          "label": "Market tier",
+          "description": "Emerging ace value",
+          "percentile": 85
+        }
+      ],
+      "context": "Breakout All-Star season, future Cy Young winner"
+    },
+    {
+      "id": "greinke-zack-2019",
+      "name": "Zack Greinke",
+      "team": "HOU",
+      "season": 2019,
+      "stats": {
+        "war": 4.7,
+        "era": 2.93,
+        "strikeouts": 187,
+        "innings": 208.2
+      },
+      "salaryTiers": [
+        {
+          "amount": 16000000,
+          "label": "Value tier",
+          "description": "Solid veteran value",
+          "percentile": 70
+        },
+        {
+          "amount": 24000000,
+          "label": "Market tier",
+          "description": "Veteran pricing",
+          "percentile": 85
+        },
+        {
+          "amount": 32000000,
+          "label": "Premium tier",
+          "description": "Overpay for age",
+          "percentile": 92
+        }
+      ],
+      "context": "Traded to Astros, solid veteran presence"
+    },
+    {
+      "id": "giolito-lucas-2019",
+      "name": "Lucas Giolito",
+      "team": "CHW",
+      "season": 2019,
+      "stats": {
+        "war": 4.7,
+        "era": 3.41,
+        "strikeouts": 228,
+        "innings": 176.2
+      },
+      "salaryTiers": [
+        {
+          "amount": 7000000,
+          "label": "Value tier",
+          "description": "Bounce-back pricing",
+          "percentile": 65
+        },
+        {
+          "amount": 14000000,
+          "label": "Market tier",
+          "description": "Breakout value",
+          "percentile": 80
+        }
+      ],
+      "context": "Complete turnaround season, All-Star"
+    },
+    {
+      "id": "soroka-mike-2019",
+      "name": "Mike Soroka",
+      "team": "ATL",
+      "season": 2019,
+      "stats": {
+        "war": 4.4,
+        "era": 2.68,
+        "strikeouts": 142,
+        "innings": 174.2
+      },
+      "salaryTiers": [
+        {
+          "amount": 6000000,
+          "label": "Value tier",
+          "description": "Rookie contract value",
+          "percentile": 60
+        },
+        {
+          "amount": 12000000,
+          "label": "Market tier",
+          "description": "Young ace pricing",
+          "percentile": 80
+        }
+      ],
+      "context": "Rookie sensation, led Braves rotation"
+    },
+    {
+      "id": "berrios-jose-2019",
+      "name": "Jose Berrios",
+      "team": "MIN",
+      "season": 2019,
+      "stats": {
+        "war": 3.4,
+        "era": 3.68,
+        "strikeouts": 195,
+        "innings": 200.1
+      },
+      "salaryTiers": [
+        {
+          "amount": 8000000,
+          "label": "Value tier",
+          "description": "Team control value",
+          "percentile": 60
+        },
+        {
+          "amount": 15000000,
+          "label": "Market tier",
+          "description": "Mid-rotation pricing",
+          "percentile": 75
+        }
+      ],
+      "context": "Solid mid-rotation workhorse"
+    },
+    {
+      "id": "marquez-german-2019",
+      "name": "German Marquez",
+      "team": "COL",
+      "season": 2019,
+      "stats": {
+        "war": 3.8,
+        "era": 4.76,
+        "strikeouts": 175,
+        "innings": 174.0
+      },
+      "salaryTiers": [
+        {
+          "amount": 7000000,
+          "label": "Value tier",
+          "description": "Coors Field discount",
+          "percentile": 55
+        },
+        {
+          "amount": 13000000,
+          "label": "Market tier",
+          "description": "Mid-rotation value",
+          "percentile": 70
+        }
+      ],
+      "context": "Pitching in Coors Field, solid despite ERA"
+    },
+    {
+      "id": "castillo-luis-2019",
+      "name": "Luis Castillo",
+      "team": "CIN",
+      "season": 2019,
+      "stats": {
+        "war": 4.3,
+        "era": 3.40,
+        "strikeouts": 226,
+        "innings": 190.2
+      },
+      "salaryTiers": [
+        {
+          "amount": 8000000,
+          "label": "Value tier",
+          "description": "Pre-arb value",
+          "percentile": 65
+        },
+        {
+          "amount": 16000000,
+          "label": "Market tier",
+          "description": "Solid starter value",
+          "percentile": 80
+        }
+      ],
+      "context": "Strikeout pitcher, All-Star appearance"
+    },
+    {
+      "id": "clevinger-mike-2019",
+      "name": "Mike Clevinger",
+      "team": "CLE",
+      "season": 2019,
+      "stats": {
+        "war": 3.6,
+        "era": 2.90,
+        "strikeouts": 169,
+        "innings": 126.0
+      },
+      "salaryTiers": [
+        {
+          "amount": 7000000,
+          "label": "Value tier",
+          "description": "Limited innings",
+          "percentile": 60
+        },
+        {
+          "amount": 14000000,
+          "label": "Market tier",
+          "description": "Per-inning value",
+          "percentile": 75
+        }
+      ],
+      "context": "Injury-shortened but effective season"
+    },
+    {
+      "id": "ryu-hyunjin-2019",
+      "name": "Hyun-Jin Ryu",
+      "team": "LAD",
+      "season": 2019,
+      "stats": {
+        "war": 4.8,
+        "era": 2.32,
+        "strikeouts": 163,
+        "innings": 182.2
+      },
+      "salaryTiers": [
+        {
+          "amount": 12000000,
+          "label": "Value tier",
+          "description": "Contact management ace",
+          "percentile": 70
+        },
+        {
+          "amount": 20000000,
+          "label": "Market tier",
+          "description": "Cy Young finalist value",
+          "percentile": 85
+        }
+      ],
+      "context": "Cy Young finalist, led NL in ERA"
+    },
+    {
+      "id": "morton-charlie-2019",
+      "name": "Charlie Morton",
+      "team": "TB",
+      "season": 2019,
+      "stats": {
+        "war": 4.2,
+        "era": 3.05,
+        "strikeouts": 240,
+        "innings": 194.2
+      },
+      "salaryTiers": [
+        {
+          "amount": 9000000,
+          "label": "Value tier",
+          "description": "Veteran efficiency",
+          "percentile": 65
+        },
+        {
+          "amount": 17000000,
+          "label": "Market tier",
+          "description": "Strikeout machine value",
+          "percentile": 80
+        }
+      ],
+      "context": "Late-career resurgence, K/9 leader"
+    }
+  ],
+  "RP": [
+    {
+      "id": "chapman-aroldis-2019",
+      "name": "Aroldis Chapman",
+      "team": "NYY",
+      "season": 2019,
+      "stats": {
+        "war": 2.2,
+        "era": 2.21,
+        "saves": 37,
+        "innings": 57.0
+      },
+      "salaryTiers": [
+        {
+          "amount": 10000000,
+          "label": "Value tier",
+          "description": "Elite closer value",
+          "percentile": 75
+        },
+        {
+          "amount": 17000000,
+          "label": "Market tier",
+          "description": "Top closer pricing",
+          "percentile": 90
+        }
+      ],
+      "context": "Elite velocity, dominant closer"
+    },
+    {
+      "id": "hader-josh-2019",
+      "name": "Josh Hader",
+      "team": "MIL",
+      "season": 2019,
+      "stats": {
+        "war": 3.5,
+        "era": 2.62,
+        "saves": 37,
+        "innings": 75.2
+      },
+      "salaryTiers": [
+        {
+          "amount": 7000000,
+          "label": "Value tier",
+          "description": "Multi-inning closer value",
+          "percentile": 70
+        },
+        {
+          "amount": 14000000,
+          "label": "Market tier",
+          "description": "Elite reliever pricing",
+          "percentile": 85
+        }
+      ],
+      "context": "Dominant multi-inning reliever"
+    },
+    {
+      "id": "hendriks-liam-2019",
+      "name": "Liam Hendriks",
+      "team": "OAK",
+      "season": 2019,
+      "stats": {
+        "war": 3.1,
+        "era": 1.80,
+        "saves": 25,
+        "innings": 85.0
+      },
+      "salaryTiers": [
+        {
+          "amount": 6000000,
+          "label": "Value tier",
+          "description": "Breakout closer value",
+          "percentile": 70
+        },
+        {
+          "amount": 12000000,
+          "label": "Market tier",
+          "description": "Top closer pricing",
+          "percentile": 85
+        }
+      ],
+      "context": "Breakout season, elite K rate"
+    },
+    {
+      "id": "leclerc-jose-2019",
+      "name": "Jose Leclerc",
+      "team": "TEX",
+      "season": 2019,
+      "stats": {
+        "war": 1.5,
+        "era": 4.33,
+        "saves": 14,
+        "innings": 60.0
+      },
+      "salaryTiers": [
+        {
+          "amount": 4000000,
+          "label": "Value tier",
+          "description": "Setup man value",
+          "percentile": 55
+        },
+        {
+          "amount": 8000000,
+          "label": "Market tier",
+          "description": "Volatile closer pricing",
+          "percentile": 70
+        }
+      ],
+      "context": "High-upside reliever"
+    },
+    {
+      "id": "treinen-blake-2019",
+      "name": "Blake Treinen",
+      "team": "OAK",
+      "season": 2019,
+      "stats": {
+        "war": 1.0,
+        "era": 4.91,
+        "saves": 16,
+        "innings": 58.2
+      },
+      "salaryTiers": [
+        {
+          "amount": 5000000,
+          "label": "Value tier",
+          "description": "Bounce-back potential",
+          "percentile": 50
+        },
+        {
+          "amount": 10000000,
+          "label": "Market tier",
+          "description": "Former elite closer",
+          "percentile": 65
+        }
+      ],
+      "context": "Down year after elite 2018"
+    },
+    {
+      "id": "pressly-ryan-2019",
+      "name": "Ryan Pressly",
+      "team": "HOU",
+      "season": 2019,
+      "stats": {
+        "war": 2.4,
+        "era": 2.32,
+        "saves": 2,
+        "innings": 54.2
+      },
+      "salaryTiers": [
+        {
+          "amount": 6000000,
+          "label": "Value tier",
+          "description": "Setup ace value",
+          "percentile": 65
+        },
+        {
+          "amount": 11000000,
+          "label": "Market tier",
+          "description": "Elite setup pricing",
+          "percentile": 80
+        }
+      ],
+      "context": "Elite setup man, low leverage saves"
+    },
+    {
+      "id": "yates-kirby-2019",
+      "name": "Kirby Yates",
+      "team": "SD",
+      "season": 2019,
+      "stats": {
+        "war": 2.7,
+        "era": 1.19,
+        "saves": 41,
+        "innings": 60.2
+      },
+      "salaryTiers": [
+        {
+          "amount": 7000000,
+          "label": "Value tier",
+          "description": "Elite closer efficiency",
+          "percentile": 75
+        },
+        {
+          "amount": 14000000,
+          "label": "Market tier",
+          "description": "Top closer pricing",
+          "percentile": 88
+        }
+      ],
+      "context": "Led MLB in saves, dominant season"
+    },
+    {
+      "id": "jansen-kenley-2019",
+      "name": "Kenley Jansen",
+      "team": "LAD",
+      "season": 2019,
+      "stats": {
+        "war": 1.6,
+        "era": 3.71,
+        "saves": 33,
+        "innings": 63.0
+      },
+      "salaryTiers": [
+        {
+          "amount": 8000000,
+          "label": "Value tier",
+          "description": "Fading closer value",
+          "percentile": 60
+        },
+        {
+          "amount": 16000000,
+          "label": "Market tier",
+          "description": "Name-brand pricing",
+          "percentile": 75
+        }
+      ],
+      "context": "Still effective but declining from peak"
+    },
+    {
+      "id": "hand-brad-2019",
+      "name": "Brad Hand",
+      "team": "CLE",
+      "season": 2019,
+      "stats": {
+        "war": 2.0,
+        "era": 3.30,
+        "saves": 34,
+        "innings": 71.0
+      },
+      "salaryTiers": [
+        {
+          "amount": 6000000,
+          "label": "Value tier",
+          "description": "Solid closer value",
+          "percentile": 65
+        },
+        {
+          "amount": 12000000,
+          "label": "Market tier",
+          "description": "Mid-tier closer pricing",
+          "percentile": 78
+        }
+      ],
+      "context": "Workhorse closer, high innings"
+    },
+    {
+      "id": "diaz-edwin-2019",
+      "name": "Edwin Diaz",
+      "team": "NYM",
+      "season": 2019,
+      "stats": {
+        "war": 0.2,
+        "era": 5.59,
+        "saves": 26,
+        "innings": 58.0
+      },
+      "salaryTiers": [
+        {
+          "amount": 4000000,
+          "label": "Value tier",
+          "description": "Struggling closer discount",
+          "percentile": 45
+        },
+        {
+          "amount": 9000000,
+          "label": "Market tier",
+          "description": "Reputation pricing",
+          "percentile": 60
+        }
+      ],
+      "context": "Disappointing first year with Mets"
+    },
+    {
+      "id": "smith-will-2019",
+      "name": "Will Smith",
+      "team": "SF",
+      "season": 2019,
+      "stats": {
+        "war": 2.5,
+        "era": 2.76,
+        "saves": 34,
+        "innings": 65.1
+      },
+      "salaryTiers": [
+        {
+          "amount": 6000000,
+          "label": "Value tier",
+          "description": "Under-the-radar closer",
+          "percentile": 70
+        },
+        {
+          "amount": 12000000,
+          "label": "Market tier",
+          "description": "Solid closer value",
+          "percentile": 82
+        }
+      ],
+      "context": "Quietly effective, traded mid-season"
+    },
+    {
+      "id": "gallegos-giovanny-2019",
+      "name": "Giovanny Gallegos",
+      "team": "STL",
+      "season": 2019,
+      "stats": {
+        "war": 2.1,
+        "era": 2.31,
+        "saves": 0,
+        "innings": 74.0
+      },
+      "salaryTiers": [
+        {
+          "amount": 4000000,
+          "label": "Value tier",
+          "description": "Setup specialist value",
+          "percentile": 65
+        },
+        {
+          "amount": 9000000,
+          "label": "Market tier",
+          "description": "Elite setup pricing",
+          "percentile": 78
+        }
+      ],
+      "context": "Elite setup man, Cardinals' secret weapon"
+    },
+    {
+      "id": "rogers-taylor-2019",
+      "name": "Taylor Rogers",
+      "team": "MIN",
+      "season": 2019,
+      "stats": {
+        "war": 2.3,
+        "era": 2.61,
+        "saves": 30,
+        "innings": 69.0
+      },
+      "salaryTiers": [
+        {
+          "amount": 5000000,
+          "label": "Value tier",
+          "description": "Solid closer value",
+          "percentile": 68
+        },
+        {
+          "amount": 11000000,
+          "label": "Market tier",
+          "description": "Reliable closer pricing",
+          "percentile": 80
+        }
+      ],
+      "context": "Consistent closer for playoff team"
+    },
+    {
+      "id": "osuna-roberto-2019",
+      "name": "Roberto Osuna",
+      "team": "HOU",
+      "season": 2019,
+      "stats": {
+        "war": 1.8,
+        "era": 2.63,
+        "saves": 38,
+        "innings": 65.0
+      },
+      "salaryTiers": [
+        {
+          "amount": 7000000,
+          "label": "Value tier",
+          "description": "Elite closer efficiency",
+          "percentile": 72
+        },
+        {
+          "amount": 13000000,
+          "label": "Market tier",
+          "description": "Top closer pricing",
+          "percentile": 85
+        }
+      ],
+      "context": "Dominant closer for AL pennant winners"
+    },
+    {
+      "id": "colome-alex-2019",
+      "name": "Alex Colome",
+      "team": "CHW",
+      "season": 2019,
+      "stats": {
+        "war": 1.4,
+        "era": 2.80,
+        "saves": 30,
+        "innings": 67.1
+      },
+      "salaryTiers": [
+        {
+          "amount": 5000000,
+          "label": "Value tier",
+          "description": "Solid closer value",
+          "percentile": 62
+        },
+        {
+          "amount": 10000000,
+          "label": "Market tier",
+          "description": "Mid-tier closer pricing",
+          "percentile": 75
+        }
+      ],
+      "context": "Reliable closer, consistent performance"
+    }
+  ],
+  "SS": [
+    {
+      "id": "lindor-francisco-2019",
+      "name": "Francisco Lindor",
+      "team": "CLE",
+      "season": 2019,
+      "stats": {
+        "war": 5.1,
+        "avg": 0.284,
+        "hr": 32,
+        "rbi": 74
+      },
+      "salaryTiers": [
+        {
+          "amount": 15000000,
+          "label": "Value tier",
+          "description": "Pre-free agency value",
+          "percentile": 75
+        },
+        {
+          "amount": 25000000,
+          "label": "Market tier",
+          "description": "Elite SS pricing",
+          "percentile": 90
+        },
+        {
+          "amount": 35000000,
+          "label": "Premium tier",
+          "description": "Superstar overpay",
+          "percentile": 95
+        }
+      ],
+      "context": "Elite two-way shortstop, perennial All-Star"
+    },
+    {
+      "id": "turner-trea-2019",
+      "name": "Trea Turner",
+      "team": "WSH",
+      "season": 2019,
+      "stats": {
+        "war": 3.9,
+        "avg": 0.298,
+        "hr": 19,
+        "sb": 35
+      },
+      "salaryTiers": [
+        {
+          "amount": 12000000,
+          "label": "Value tier",
+          "description": "Speed and power combo",
+          "percentile": 72
+        },
+        {
+          "amount": 22000000,
+          "label": "Market tier",
+          "description": "Five-tool player value",
+          "percentile": 87
+        },
+        {
+          "amount": 30000000,
+          "label": "Premium tier",
+          "description": "Superstar premium",
+          "percentile": 93
+        }
+      ],
+      "context": "World Series champion, elite speed"
+    },
+    {
+      "id": "story-trevor-2019",
+      "name": "Trevor Story",
+      "team": "COL",
+      "season": 2019,
+      "stats": {
+        "war": 5.4,
+        "avg": 0.294,
+        "hr": 35,
+        "rbi": 85
+      },
+      "salaryTiers": [
+        {
+          "amount": 14000000,
+          "label": "Value tier",
+          "description": "Power SS value",
+          "percentile": 73
+        },
+        {
+          "amount": 24000000,
+          "label": "Market tier",
+          "description": "Elite power hitter",
+          "percentile": 88
+        },
+        {
+          "amount": 32000000,
+          "label": "Premium tier",
+          "description": "Coors-adjusted overpay",
+          "percentile": 94
+        }
+      ],
+      "context": "30-30 potential, power at premium position"
+    },
+    {
+      "id": "baez-javier-2019",
+      "name": "Javier Baez",
+      "team": "CHC",
+      "season": 2019,
+      "stats": {
+        "war": 4.0,
+        "avg": 0.281,
+        "hr": 29,
+        "rbi": 85
+      },
+      "salaryTiers": [
+        {
+          "amount": 13000000,
+          "label": "Value tier",
+          "description": "Exciting all-around player",
+          "percentile": 70
+        },
+        {
+          "amount": 23000000,
+          "label": "Market tier",
+          "description": "Dynamic playmaker value",
+          "percentile": 85
+        }
+      ],
+      "context": "Flashy defender, aggressive hitter"
+    },
+    {
+      "id": "semien-marcus-2019",
+      "name": "Marcus Semien",
+      "team": "OAK",
+      "season": 2019,
+      "stats": {
+        "war": 7.6,
+        "avg": 0.285,
+        "hr": 33,
+        "rbi": 92
+      },
+      "salaryTiers": [
+        {
+          "amount": 16000000,
+          "label": "Value tier",
+          "description": "MVP candidate value",
+          "percentile": 80
+        },
+        {
+          "amount": 26000000,
+          "label": "Market tier",
+          "description": "Elite all-around SS",
+          "percentile": 92
+        }
+      ],
+      "context": "MVP finalist, career year at the plate"
+    },
+    {
+      "id": "bogaerts-xander-2019",
+      "name": "Xander Bogaerts",
+      "team": "BOS",
+      "season": 2019,
+      "stats": {
+        "war": 6.4,
+        "avg": 0.309,
+        "hr": 33,
+        "rbi": 117
+      },
+      "salaryTiers": [
+        {
+          "amount": 15000000,
+          "label": "Value tier",
+          "description": "Elite bat, solid glove",
+          "percentile": 77
+        },
+        {
+          "amount": 25000000,
+          "label": "Market tier",
+          "description": "Top-tier SS pricing",
+          "percentile": 90
+        }
+      ],
+      "context": "Silver Slugger, elite offensive SS"
+    },
+    {
+      "id": "polanco-jorge-2019",
+      "name": "Jorge Polanco",
+      "team": "MIN",
+      "season": 2019,
+      "stats": {
+        "war": 3.7,
+        "avg": 0.295,
+        "hr": 22,
+        "rbi": 79
+      },
+      "salaryTiers": [
+        {
+          "amount": 10000000,
+          "label": "Value tier",
+          "description": "Breakout SS value",
+          "percentile": 68
+        },
+        {
+          "amount": 18000000,
+          "label": "Market tier",
+          "description": "Solid everyday SS",
+          "percentile": 82
+        }
+      ],
+      "context": "First All-Star appearance, breakout season"
+    },
+    {
+      "id": "swanson-dansby-2019",
+      "name": "Dansby Swanson",
+      "team": "ATL",
+      "season": 2019,
+      "stats": {
+        "war": 4.8,
+        "avg": 0.251,
+        "hr": 17,
+        "rbi": 65
+      },
+      "salaryTiers": [
+        {
+          "amount": 9000000,
+          "label": "Value tier",
+          "description": "Defense-first SS",
+          "percentile": 65
+        },
+        {
+          "amount": 17000000,
+          "label": "Market tier",
+          "description": "Two-way value",
+          "percentile": 80
+        }
+      ],
+      "context": "Elite defender, improving bat"
+    },
+    {
+      "id": "dejong-paul-2019",
+      "name": "Paul DeJong",
+      "team": "STL",
+      "season": 2019,
+      "stats": {
+        "war": 2.4,
+        "avg": 0.233,
+        "hr": 30,
+        "rbi": 78
+      },
+      "salaryTiers": [
+        {
+          "amount": 8000000,
+          "label": "Value tier",
+          "description": "Power-first SS",
+          "percentile": 60
+        },
+        {
+          "amount": 15000000,
+          "label": "Market tier",
+          "description": "High-risk power play",
+          "percentile": 75
+        }
+      ],
+      "context": "Power hitter, struggles with contact"
+    },
+    {
+      "id": "anderson-tim-2019",
+      "name": "Tim Anderson",
+      "team": "CHW",
+      "season": 2019,
+      "stats": {
+        "war": 3.2,
+        "avg": 0.335,
+        "hr": 18,
+        "sb": 17
+      },
+      "salaryTiers": [
+        {
+          "amount": 9000000,
+          "label": "Value tier",
+          "description": "Batting champ value",
+          "percentile": 68
+        },
+        {
+          "amount": 17000000,
+          "label": "Market tier",
+          "description": "High-average hitter",
+          "percentile": 82
+        }
+      ],
+      "context": "AL batting champion, dynamic player"
+    },
+    {
+      "id": "bregman-alex-2019",
+      "name": "Alex Bregman",
+      "team": "HOU",
+      "season": 2019,
+      "stats": {
+        "war": 8.4,
+        "avg": 0.296,
+        "hr": 41,
+        "rbi": 112
+      },
+      "salaryTiers": [
+        {
+          "amount": 18000000,
+          "label": "Value tier",
+          "description": "MVP candidate value",
+          "percentile": 82
+        },
+        {
+          "amount": 28000000,
+          "label": "Market tier",
+          "description": "Elite all-around player",
+          "percentile": 93
+        },
+        {
+          "amount": 38000000,
+          "label": "Premium tier",
+          "description": "Superstar premium",
+          "percentile": 97
+        }
+      ],
+      "context": "MVP runner-up, elite third baseman/SS"
+    },
+    {
+      "id": "gregorius-didi-2019",
+      "name": "Didi Gregorius",
+      "team": "NYY",
+      "season": 2019,
+      "stats": {
+        "war": 1.2,
+        "avg": 0.238,
+        "hr": 16,
+        "rbi": 61
+      },
+      "salaryTiers": [
+        {
+          "amount": 7000000,
+          "label": "Value tier",
+          "description": "Injury comeback discount",
+          "percentile": 55
+        },
+        {
+          "amount": 14000000,
+          "label": "Market tier",
+          "description": "Proven veteran pricing",
+          "percentile": 70
+        }
+      ],
+      "context": "Returning from Tommy John surgery"
+    },
+    {
+      "id": "torres-gleyber-2019",
+      "name": "Gleyber Torres",
+      "team": "NYY",
+      "season": 2019,
+      "stats": {
+        "war": 4.1,
+        "avg": 0.278,
+        "hr": 38,
+        "rbi": 90
+      },
+      "salaryTiers": [
+        {
+          "amount": 10000000,
+          "label": "Value tier",
+          "description": "Young star value",
+          "percentile": 70
+        },
+        {
+          "amount": 19000000,
+          "label": "Market tier",
+          "description": "Emerging superstar",
+          "percentile": 85
+        }
+      ],
+      "context": "38 HRs at age 22, future superstar"
+    },
+    {
+      "id": "seager-corey-2019",
+      "name": "Corey Seager",
+      "team": "LAD",
+      "season": 2019,
+      "stats": {
+        "war": 1.9,
+        "avg": 0.272,
+        "hr": 19,
+        "rbi": 87
+      },
+      "salaryTiers": [
+        {
+          "amount": 11000000,
+          "label": "Value tier",
+          "description": "Injury recovery pricing",
+          "percentile": 65
+        },
+        {
+          "amount": 20000000,
+          "label": "Market tier",
+          "description": "Former ROY upside",
+          "percentile": 80
+        }
+      ],
+      "context": "Returning from injuries, solid season"
+    },
+    {
+      "id": "machado-manny-2019",
+      "name": "Manny Machado",
+      "team": "SD",
+      "season": 2019,
+      "stats": {
+        "war": 2.6,
+        "avg": 0.256,
+        "hr": 32,
+        "rbi": 85
+      },
+      "salaryTiers": [
+        {
+          "amount": 20000000,
+          "label": "Value tier",
+          "description": "Superstar floor value",
+          "percentile": 75
+        },
+        {
+          "amount": 30000000,
+          "label": "Market tier",
+          "description": "Mega-deal pricing",
+          "percentile": 88
+        },
+        {
+          "amount": 40000000,
+          "label": "Premium tier",
+          "description": "$300M contract overpay",
+          "percentile": 95
+        }
+      ],
+      "context": "First year of massive Padres contract"
+    }
+  ],
+  "OF": [
+    {
+      "id": "trout-mike-2019",
+      "name": "Mike Trout",
+      "team": "LAA",
+      "season": 2019,
+      "stats": {
+        "war": 8.6,
+        "avg": 0.291,
+        "hr": 45,
+        "rbi": 104
+      },
+      "salaryTiers": [
+        {
+          "amount": 28000000,
+          "label": "Value tier",
+          "description": "Best player value",
+          "percentile": 85
+        },
+        {
+          "amount": 38000000,
+          "label": "Market tier",
+          "description": "Generational talent pricing",
+          "percentile": 95
+        },
+        {
+          "amount": 50000000,
+          "label": "Premium tier",
+          "description": "Peak overpay",
+          "percentile": 98
+        }
+      ],
+      "context": "Best player in baseball, MVP finalist"
+    },
+    {
+      "id": "betts-mookie-2019",
+      "name": "Mookie Betts",
+      "team": "BOS",
+      "season": 2019,
+      "stats": {
+        "war": 6.8,
+        "avg": 0.295,
+        "hr": 29,
+        "rbi": 80
+      },
+      "salaryTiers": [
+        {
+          "amount": 22000000,
+          "label": "Value tier",
+          "description": "Five-tool star value",
+          "percentile": 80
+        },
+        {
+          "amount": 32000000,
+          "label": "Market tier",
+          "description": "Elite all-around OF",
+          "percentile": 92
+        },
+        {
+          "amount": 42000000,
+          "label": "Premium tier",
+          "description": "Superstar premium",
+          "percentile": 96
+        }
+      ],
+      "context": "Former MVP, elite defender and hitter"
+    },
+    {
+      "id": "yelich-christian-2019",
+      "name": "Christian Yelich",
+      "team": "MIL",
+      "season": 2019,
+      "stats": {
+        "war": 6.8,
+        "avg": 0.329,
+        "hr": 44,
+        "rbi": 97
+      },
+      "salaryTiers": [
+        {
+          "amount": 20000000,
+          "label": "Value tier",
+          "description": "MVP-caliber value",
+          "percentile": 78
+        },
+        {
+          "amount": 30000000,
+          "label": "Market tier",
+          "description": "Back-to-back MVP contender",
+          "percentile": 91
+        },
+        {
+          "amount": 40000000,
+          "label": "Premium tier",
+          "description": "Peak performance premium",
+          "percentile": 95
+        }
+      ],
+      "context": "NL MVP race leader, batting title contender"
+    },
+    {
+      "id": "bellinger-cody-2019",
+      "name": "Cody Bellinger",
+      "team": "LAD",
+      "season": 2019,
+      "stats": {
+        "war": 9.0,
+        "avg": 0.305,
+        "hr": 47,
+        "rbi": 115
+      },
+      "salaryTiers": [
+        {
+          "amount": 18000000,
+          "label": "Value tier",
+          "description": "MVP season value",
+          "percentile": 80
+        },
+        {
+          "amount": 28000000,
+          "label": "Market tier",
+          "description": "NL MVP pricing",
+          "percentile": 93
+        },
+        {
+          "amount": 38000000,
+          "label": "Premium tier",
+          "description": "Peak season overpay",
+          "percentile": 96
+        }
+      ],
+      "context": "NL MVP, historic offensive season"
+    },
+    {
+      "id": "acuna-ronald-2019",
+      "name": "Ronald Acuna Jr.",
+      "team": "ATL",
+      "season": 2019,
+      "stats": {
+        "war": 5.3,
+        "avg": 0.280,
+        "hr": 41,
+        "sb": 37
+      },
+      "salaryTiers": [
+        {
+          "amount": 14000000,
+          "label": "Value tier",
+          "description": "40-40 potential value",
+          "percentile": 75
+        },
+        {
+          "amount": 24000000,
+          "label": "Market tier",
+          "description": "Young superstar pricing",
+          "percentile": 88
+        }
+      ],
+      "context": "Youngest 40-40 player, future superstar"
+    },
+    {
+      "id": "springer-george-2019",
+      "name": "George Springer",
+      "team": "HOU",
+      "season": 2019,
+      "stats": {
+        "war": 4.5,
+        "avg": 0.292,
+        "hr": 39,
+        "rbi": 96
+      },
+      "salaryTiers": [
+        {
+          "amount": 16000000,
+          "label": "Value tier",
+          "description": "Power-speed combo",
+          "percentile": 72
+        },
+        {
+          "amount": 26000000,
+          "label": "Market tier",
+          "description": "Elite leadoff hitter",
+          "percentile": 86
+        }
+      ],
+      "context": "World Series MVP, elite center fielder"
+    },
+    {
+      "id": "soto-juan-2019",
+      "name": "Juan Soto",
+      "team": "WSH",
+      "season": 2019,
+      "stats": {
+        "war": 5.0,
+        "avg": 0.282,
+        "hr": 34,
+        "rbi": 110
+      },
+      "salaryTiers": [
+        {
+          "amount": 12000000,
+          "label": "Value tier",
+          "description": "Elite plate discipline",
+          "percentile": 73
+        },
+        {
+          "amount": 22000000,
+          "label": "Market tier",
+          "description": "Young star value",
+          "percentile": 87
+        }
+      ],
+      "context": "Age 20 season, World Series champion"
+    },
+    {
+      "id": "blackmon-charlie-2019",
+      "name": "Charlie Blackmon",
+      "team": "COL",
+      "season": 2019,
+      "stats": {
+        "war": 3.6,
+        "avg": 0.314,
+        "hr": 32,
+        "rbi": 86
+      },
+      "salaryTiers": [
+        {
+          "amount": 15000000,
+          "label": "Value tier",
+          "description": "Coors-adjusted value",
+          "percentile": 68
+        },
+        {
+          "amount": 24000000,
+          "label": "Market tier",
+          "description": "Proven producer",
+          "percentile": 82
+        }
+      ],
+      "context": "Consistent production, leadoff bat"
+    },
+    {
+      "id": "judge-aaron-2019",
+      "name": "Aaron Judge",
+      "team": "NYY",
+      "season": 2019,
+      "stats": {
+        "war": 3.7,
+        "avg": 0.272,
+        "hr": 27,
+        "rbi": 55
+      },
+      "salaryTiers": [
+        {
+          "amount": 14000000,
+          "label": "Value tier",
+          "description": "Injury-limited value",
+          "percentile": 70
+        },
+        {
+          "amount": 24000000,
+          "label": "Market tier",
+          "description": "When healthy, elite",
+          "percentile": 84
+        }
+      ],
+      "context": "Injury-shortened but productive"
+    },
+    {
+      "id": "conforto-michael-2019",
+      "name": "Michael Conforto",
+      "team": "NYM",
+      "season": 2019,
+      "stats": {
+        "war": 3.9,
+        "avg": 0.257,
+        "hr": 33,
+        "rbi": 92
+      },
+      "salaryTiers": [
+        {
+          "amount": 11000000,
+          "label": "Value tier",
+          "description": "Solid everyday OF",
+          "percentile": 67
+        },
+        {
+          "amount": 19000000,
+          "label": "Market tier",
+          "description": "Power bat value",
+          "percentile": 80
+        }
+      ],
+      "context": "Power-hitting corner outfielder"
+    },
+    {
+      "id": "ozuna-marcell-2019",
+      "name": "Marcell Ozuna",
+      "team": "STL",
+      "season": 2019,
+      "stats": {
+        "war": 3.4,
+        "avg": 0.241,
+        "hr": 29,
+        "rbi": 89
+      },
+      "salaryTiers": [
+        {
+          "amount": 10000000,
+          "label": "Value tier",
+          "description": "Power potential",
+          "percentile": 64
+        },
+        {
+          "amount": 18000000,
+          "label": "Market tier",
+          "description": "Proven power hitter",
+          "percentile": 78
+        }
+      ],
+      "context": "Down year, still power threat"
+    },
+    {
+      "id": "castellanos-nicholas-2019",
+      "name": "Nicholas Castellanos",
+      "team": "DET/CHC",
+      "season": 2019,
+      "stats": {
+        "war": 2.7,
+        "avg": 0.289,
+        "hr": 27,
+        "rbi": 73
+      },
+      "salaryTiers": [
+        {
+          "amount": 10000000,
+          "label": "Value tier",
+          "description": "Offense-only value",
+          "percentile": 62
+        },
+        {
+          "amount": 18000000,
+          "label": "Market tier",
+          "description": "Pure bat pricing",
+          "percentile": 76
+        }
+      ],
+      "context": "Traded to Cubs, bat-first player"
+    },
+    {
+      "id": "gallo-joey-2019",
+      "name": "Joey Gallo",
+      "team": "TEX",
+      "season": 2019,
+      "stats": {
+        "war": 3.2,
+        "avg": 0.253,
+        "hr": 22,
+        "rbi": 49
+      },
+      "salaryTiers": [
+        {
+          "amount": 9000000,
+          "label": "Value tier",
+          "description": "Three true outcomes",
+          "percentile": 60
+        },
+        {
+          "amount": 17000000,
+          "label": "Market tier",
+          "description": "Power/patience combo",
+          "percentile": 74
+        }
+      ],
+      "context": "Elite power, low contact"
+    },
+    {
+      "id": "rosario-eddie-2019",
+      "name": "Eddie Rosario",
+      "team": "MIN",
+      "season": 2019,
+      "stats": {
+        "war": 2.5,
+        "avg": 0.276,
+        "hr": 32,
+        "rbi": 109
+      },
+      "salaryTiers": [
+        {
+          "amount": 9000000,
+          "label": "Value tier",
+          "description": "Solid everyday bat",
+          "percentile": 62
+        },
+        {
+          "amount": 17000000,
+          "label": "Market tier",
+          "description": "Middle-order production",
+          "percentile": 76
+        }
+      ],
+      "context": "Career-high power numbers"
+    },
+    {
+      "id": "pederson-joc-2019",
+      "name": "Joc Pederson",
+      "team": "LAD",
+      "season": 2019,
+      "stats": {
+        "war": 2.4,
+        "avg": 0.249,
+        "hr": 36,
+        "rbi": 74
+      },
+      "salaryTiers": [
+        {
+          "amount": 8000000,
+          "label": "Value tier",
+          "description": "Platoon power value",
+          "percentile": 58
+        },
+        {
+          "amount": 15000000,
+          "label": "Market tier",
+          "description": "Power bat pricing",
+          "percentile": 72
+        }
+      ],
+      "context": "Power off bench, platoon player"
+    }
+  ],
+  "DH": [
+    {
+      "id": "cruz-nelson-2019",
+      "name": "Nelson Cruz",
+      "team": "MIN",
+      "season": 2019,
+      "stats": {
+        "war": 3.1,
+        "avg": 0.311,
+        "hr": 41,
+        "rbi": 108
+      },
+      "salaryTiers": [
+        {
+          "amount": 10000000,
+          "label": "Value tier",
+          "description": "Ageless power hitter",
+          "percentile": 70
+        },
+        {
+          "amount": 18000000,
+          "label": "Market tier",
+          "description": "Elite DH production",
+          "percentile": 85
+        },
+        {
+          "amount": 25000000,
+          "label": "Premium tier",
+          "description": "Age premium overpay",
+          "percentile": 92
+        }
+      ],
+      "context": "Led AL in RBIs at age 39"
+    },
+    {
+      "id": "martinez-jd-2019",
+      "name": "J.D. Martinez",
+      "team": "BOS",
+      "season": 2019,
+      "stats": {
+        "war": 2.9,
+        "avg": 0.304,
+        "hr": 36,
+        "rbi": 105
+      },
+      "salaryTiers": [
+        {
+          "amount": 16000000,
+          "label": "Value tier",
+          "description": "Proven slugger value",
+          "percentile": 72
+        },
+        {
+          "amount": 26000000,
+          "label": "Market tier",
+          "description": "Elite bat pricing",
+          "percentile": 87
+        },
+        {
+          "amount": 35000000,
+          "label": "Premium tier",
+          "description": "Pure DH overpay",
+          "percentile": 94
+        }
+      ],
+      "context": "Consistent power bat, limited defense"
+    },
+    {
+      "id": "alvarez-yordan-2019",
+      "name": "Yordan Alvarez",
+      "team": "HOU",
+      "season": 2019,
+      "stats": {
+        "war": 3.2,
+        "avg": 0.313,
+        "hr": 27,
+        "rbi": 78
+      },
+      "salaryTiers": [
+        {
+          "amount": 7000000,
+          "label": "Value tier",
+          "description": "Rookie sensation value",
+          "percentile": 68
+        },
+        {
+          "amount": 14000000,
+          "label": "Market tier",
+          "description": "ROY production",
+          "percentile": 82
+        }
+      ],
+      "context": "AL Rookie of the Year, instant impact"
+    },
+    {
+      "id": "encarnacion-edwin-2019",
+      "name": "Edwin Encarnacion",
+      "team": "SEA/NYY",
+      "season": 2019,
+      "stats": {
+        "war": 1.9,
+        "avg": 0.244,
+        "hr": 34,
+        "rbi": 86
+      },
+      "salaryTiers": [
+        {
+          "amount": 12000000,
+          "label": "Value tier",
+          "description": "Veteran power value",
+          "percentile": 65
+        },
+        {
+          "amount": 20000000,
+          "label": "Market tier",
+          "description": "Proven slugger pricing",
+          "percentile": 78
+        }
+      ],
+      "context": "Veteran power hitter, traded mid-season"
+    },
+    {
+      "id": "khris-davis-2019",
+      "name": "Khris Davis",
+      "team": "OAK",
+      "season": 2019,
+      "stats": {
+        "war": 0.4,
+        "avg": 0.220,
+        "hr": 23,
+        "rbi": 73
+      },
+      "salaryTiers": [
+        {
+          "amount": 9000000,
+          "label": "Value tier",
+          "description": "Power potential",
+          "percentile": 55
+        },
+        {
+          "amount": 17000000,
+          "label": "Market tier",
+          "description": "High-risk power play",
+          "percentile": 70
+        }
+      ],
+      "context": "Down year after elite power stretch"
+    },
+    {
+      "id": "hunter-dozier-2019",
+      "name": "Hunter Dozier",
+      "team": "KC",
+      "season": 2019,
+      "stats": {
+        "war": 2.7,
+        "avg": 0.279,
+        "hr": 26,
+        "rbi": 84
+      },
+      "salaryTiers": [
+        {
+          "amount": 7000000,
+          "label": "Value tier",
+          "description": "Breakout season value",
+          "percentile": 60
+        },
+        {
+          "amount": 14000000,
+          "label": "Market tier",
+          "description": "Emerging power bat",
+          "percentile": 75
+        }
+      ],
+      "context": "Career year, power breakout"
+    },
+    {
+      "id": "ohtani-shohei-2019",
+      "name": "Shohei Ohtani",
+      "team": "LAA",
+      "season": 2019,
+      "stats": {
+        "war": 2.7,
+        "avg": 0.286,
+        "hr": 18,
+        "rbi": 62
+      },
+      "salaryTiers": [
+        {
+          "amount": 8000000,
+          "label": "Value tier",
+          "description": "Rehab year value",
+          "percentile": 62
+        },
+        {
+          "amount": 16000000,
+          "label": "Market tier",
+          "description": "Two-way player potential",
+          "percentile": 78
+        }
+      ],
+      "context": "Returning from Tommy John surgery"
+    },
+    {
+      "id": "morales-kendrys-2019",
+      "name": "Kendrys Morales",
+      "team": "NYY/OAK",
+      "season": 2019,
+      "stats": {
+        "war": -0.2,
+        "avg": 0.217,
+        "hr": 13,
+        "rbi": 48
+      },
+      "salaryTiers": [
+        {
+          "amount": 6000000,
+          "label": "Value tier",
+          "description": "Veteran bench value",
+          "percentile": 48
+        },
+        {
+          "amount": 12000000,
+          "label": "Market tier",
+          "description": "Veteran name pricing",
+          "percentile": 62
+        }
+      ],
+      "context": "Fading veteran, minimal production"
+    },
+    {
+      "id": "cron-cj-2019",
+      "name": "C.J. Cron",
+      "team": "MIN",
+      "season": 2019,
+      "stats": {
+        "war": 1.6,
+        "avg": 0.253,
+        "hr": 25,
+        "rbi": 78
+      },
+      "salaryTiers": [
+        {
+          "amount": 7000000,
+          "label": "Value tier",
+          "description": "Power off bench",
+          "percentile": 58
+        },
+        {
+          "amount": 14000000,
+          "label": "Market tier",
+          "description": "Platoon power value",
+          "percentile": 72
+        }
+      ],
+      "context": "Solid power producer, limited defense"
+    },
+    {
+      "id": "vogelbach-daniel-2019",
+      "name": "Daniel Vogelbach",
+      "team": "SEA",
+      "season": 2019,
+      "stats": {
+        "war": 1.5,
+        "avg": 0.208,
+        "hr": 30,
+        "rbi": 76
+      },
+      "salaryTiers": [
+        {
+          "amount": 6000000,
+          "label": "Value tier",
+          "description": "Power upside",
+          "percentile": 55
+        },
+        {
+          "amount": 12000000,
+          "label": "Market tier",
+          "description": "Low-average power",
+          "percentile": 68
+        }
+      ],
+      "context": "Breakout power, low batting average"
+    },
+    {
+      "id": "smoak-justin-2019",
+      "name": "Justin Smoak",
+      "team": "TOR",
+      "season": 2019,
+      "stats": {
+        "war": 1.3,
+        "avg": 0.208,
+        "hr": 22,
+        "rbi": 61
+      },
+      "salaryTiers": [
+        {
+          "amount": 6000000,
+          "label": "Value tier",
+          "description": "Power potential",
+          "percentile": 52
+        },
+        {
+          "amount": 12000000,
+          "label": "Market tier",
+          "description": "Streaky power bat",
+          "percentile": 66
+        }
+      ],
+      "context": "Inconsistent power hitter"
+    },
+    {
+      "id": "santana-carlos-2019",
+      "name": "Carlos Santana",
+      "team": "CLE",
+      "season": 2019,
+      "stats": {
+        "war": 3.4,
+        "avg": 0.281,
+        "hr": 34,
+        "rbi": 93
+      },
+      "salaryTiers": [
+        {
+          "amount": 11000000,
+          "label": "Value tier",
+          "description": "On-base machine",
+          "percentile": 68
+        },
+        {
+          "amount": 19000000,
+          "label": "Market tier",
+          "description": "Consistent production",
+          "percentile": 82
+        }
+      ],
+      "context": "Elite plate discipline, consistent power"
+    },
+    {
+      "id": "abreu-jose-2019",
+      "name": "Jose Abreu",
+      "team": "CHW",
+      "season": 2019,
+      "stats": {
+        "war": 2.5,
+        "avg": 0.284,
+        "hr": 33,
+        "rbi": 123
+      },
+      "salaryTiers": [
+        {
+          "amount": 11000000,
+          "label": "Value tier",
+          "description": "RBI machine",
+          "percentile": 66
+        },
+        {
+          "amount": 19000000,
+          "label": "Market tier",
+          "description": "Proven run producer",
+          "percentile": 80
+        }
+      ],
+      "context": "Led AL in RBIs, consistent slugger"
+    },
+    {
+      "id": "hosmer-eric-2019",
+      "name": "Eric Hosmer",
+      "team": "SD",
+      "season": 2019,
+      "stats": {
+        "war": 1.3,
+        "avg": 0.265,
+        "hr": 22,
+        "rbi": 99
+      },
+      "salaryTiers": [
+        {
+          "amount": 13000000,
+          "label": "Value tier",
+          "description": "Contract burden",
+          "percentile": 60
+        },
+        {
+          "amount": 21000000,
+          "label": "Market tier",
+          "description": "Overpaid veteran",
+          "percentile": 74
+        }
+      ],
+      "context": "Expensive contract, modest production"
+    },
+    {
+      "id": "alonso-yonder-2019",
+      "name": "Yonder Alonso",
+      "team": "COL/CHW",
+      "season": 2019,
+      "stats": {
+        "war": -0.5,
+        "avg": 0.178,
+        "hr": 7,
+        "rbi": 28
+      },
+      "salaryTiers": [
+        {
+          "amount": 5000000,
+          "label": "Value tier",
+          "description": "Veteran minimum",
+          "percentile": 42
+        },
+        {
+          "amount": 10000000,
+          "label": "Market tier",
+          "description": "High-risk veteran",
+          "percentile": 55
+        }
+      ],
+      "context": "Struggling veteran, limited playing time"
+    }
+  ]
+}

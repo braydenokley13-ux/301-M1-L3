@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Results - The GM Challenge</title>
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/player-card.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="header-content">
+        <h1 class="logo">The GM Challenge</h1>
+        <div class="text-lg">Draft Results</div>
+      </div>
+    </div>
+  </header>
+
+  <main class="main-content">
+    <div class="container">
+      <section class="card mb-xl">
+        <div class="card-header">
+          <h2 id="scenario-name" class="card-title"></h2>
+        </div>
+        <div class="card-body">
+          <div class="grid grid-4" id="score-display">
+            <!-- Scores will be loaded here -->
+          </div>
+        </div>
+      </section>
+
+      <section class="card mb-xl">
+        <div class="card-header">
+          <h3 class="card-title">Your Roster</h3>
+        </div>
+        <div class="card-body">
+          <div id="roster-display" class="grid grid-2">
+            <!-- Roster will be loaded here -->
+          </div>
+        </div>
+      </section>
+
+      <section class="card mb-xl">
+        <div class="card-header">
+          <h3 class="card-title">Performance Metrics</h3>
+        </div>
+        <div class="card-body">
+          <div id="metrics-display" class="grid grid-3">
+            <!-- Metrics will be loaded here -->
+          </div>
+        </div>
+      </section>
+
+      <div class="flex gap-md justify-center">
+        <button class="btn btn-secondary" onclick="window.location.href='index.html'">
+          Return to Home
+        </button>
+        <button class="btn btn-primary" onclick="nextScenario()">
+          Next Scenario
+        </button>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p class="text-sm">&copy; 2024 The GM Challenge</p>
+    </div>
+  </footer>
+
+  <script src="js/config.js"></script>
+  <script src="js/storage.js"></script>
+  <script src="js/utils.js"></script>
+  <script>
+    const storage = new SessionStorage();
+    let currentLeague;
+
+    document.addEventListener('DOMContentLoaded', () => {
+      const params = new URLSearchParams(window.location.search);
+      currentLeague = params.get('league');
+
+      if (!currentLeague) {
+        window.location.href = 'index.html';
+        return;
+      }
+
+      loadResults();
+    });
+
+    function loadResults() {
+      const results = storage.getScenarioData(currentLeague);
+      if (!results) {
+        window.location.href = 'index.html';
+        return;
+      }
+
+      const config = LEAGUE_CONFIG[currentLeague];
+
+      // Display scenario name
+      document.getElementById('scenario-name').textContent = config.displayName + ' Results';
+
+      // Display scores
+      const scoreDisplay = document.getElementById('score-display');
+      scoreDisplay.innerHTML = `
+        <div class="metric-card">
+          <div class="metric-label">Total Score</div>
+          <div class="metric-value">${results.scores.total}/100</div>
+        </div>
+        <div class="metric-card">
+          <div class="metric-label">Efficiency</div>
+          <div class="metric-value">${results.scores.efficiency}/50</div>
+        </div>
+        <div class="metric-card">
+          <div class="metric-label">Strategic</div>
+          <div class="metric-value">${results.scores.strategic}/30</div>
+        </div>
+        <div class="metric-card">
+          <div class="metric-label">Time</div>
+          <div class="metric-value">${formatTime(results.time)}</div>
+        </div>
+      `;
+
+      // Display roster
+      const rosterDisplay = document.getElementById('roster-display');
+      const rosterHTML = [];
+
+      for (const [position, selection] of Object.entries(results.roster)) {
+        if (selection.player) {
+          rosterHTML.push(`
+            <div class="card">
+              <h5>${config.positions[position].name}</h5>
+              <p class="text-lg text-bold">${selection.player.name}</p>
+              <p class="text-sm text-muted">${selection.player.team}</p>
+              <p class="text-md">${formatCurrency(selection.salary, true)}</p>
+              <p class="text-sm">Win Contribution: ${selection.winContribution.toFixed(1)}</p>
+            </div>
+          `);
+        }
+      }
+
+      rosterDisplay.innerHTML = rosterHTML.join('');
+
+      // Display metrics
+      const metricsDisplay = document.getElementById('metrics-display');
+      metricsDisplay.innerHTML = `
+        <div class="metric-card">
+          <div class="metric-label">Total Wins</div>
+          <div class="metric-value">${results.metrics.totalWins}</div>
+        </div>
+        <div class="metric-card">
+          <div class="metric-label">Efficiency</div>
+          <div class="metric-value">${formatPercent(results.metrics.efficiency / 100)}</div>
+        </div>
+        <div class="metric-card">
+          <div class="metric-label">Total Spent</div>
+          <div class="metric-value">${formatCurrency(calculateTotalSalary(results.roster), true)}</div>
+        </div>
+      `;
+    }
+
+    function nextScenario() {
+      const leagues = ['MLB_2019', 'NFL_2020', 'NBA_2019'];
+      const currentIndex = leagues.indexOf(currentLeague);
+      const nextIndex = (currentIndex + 1) % leagues.length;
+      const nextLeague = leagues[nextIndex];
+
+      if (storage.isScenarioCompleted(nextLeague)) {
+        window.location.href = 'index.html';
+      } else {
+        window.location.href = `activity.html?league=${nextLeague}`;
+      }
+    }
+
+    function calculateTotalSalary(roster) {
+      return Object.values(roster).reduce((total, sel) =>
+        total + (sel.salary || 0), 0);
+    }
+  </script>
+</body>
+</html>

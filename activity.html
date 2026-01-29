@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"="width=device-width, initial-scale=1.0">
+  <title>Draft - The GM Challenge</title>
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/player-card.css">
+  <link rel="stylesheet" href="css/activity.css">
+  <link rel="stylesheet" href="css/charts.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+</head>
+<body>
+  <header class="header">
+    <div class="container-fluid">
+      <div class="header-content">
+        <h1 class="logo">The GM Challenge</h1>
+        <div id="scenario-title" class="text-lg"></div>
+        <button class="btn btn-sm btn-outline" onclick="window.location.href='index.html'">
+          Exit Draft
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main class="main-content">
+    <div class="container-fluid">
+      <!-- Budget Display -->
+      <div class="budget-display">
+        <div class="budget-item">
+          <div class="budget-label">Budget</div>
+          <div id="budget-total" class="budget-value">$0</div>
+        </div>
+        <div class="budget-item">
+          <div class="budget-label">Spent</div>
+          <div id="budget-spent" class="budget-value">$0</div>
+        </div>
+        <div class="budget-item">
+          <div class="budget-label">Remaining</div>
+          <div id="budget-remaining" class="budget-value">$0</div>
+        </div>
+      </div>
+
+      <!-- Roster Display -->
+      <div class="roster-display" id="roster-display">
+        <!-- Roster slots will be generated here -->
+      </div>
+
+      <!-- Activity Container -->
+      <div class="activity-container">
+        <!-- Draft Panel -->
+        <div class="draft-panel">
+          <div class="player-list-header">
+            <div>
+              <div class="current-position" id="current-position">Select Position</div>
+              <div class="position-progress" id="position-progress">0 of 5 selected</div>
+            </div>
+          </div>
+
+          <div class="player-controls">
+            <input
+              type="text"
+              id="player-search"
+              class="form-control search-box"
+              placeholder="Search players...">
+            <select id="sort-select" class="form-control filter-select">
+              <option value="stat-desc">Highest Stats</option>
+              <option value="stat-asc">Lowest Stats</option>
+              <option value="name-asc">Name A-Z</option>
+            </select>
+          </div>
+
+          <div class="player-grid" id="player-grid">
+            <!-- Player cards will be generated here -->
+          </div>
+        </div>
+
+        <!-- Analytics Panel -->
+        <div class="analytics-panel">
+          <h4>Current Metrics</h4>
+
+          <div class="metric-card">
+            <div class="metric-label">Projected Wins</div>
+            <div id="metric-wins" class="metric-value">0.0</div>
+          </div>
+
+          <div class="metric-card">
+            <div class="metric-label">Efficiency</div>
+            <div id="metric-efficiency" class="metric-value">-</div>
+          </div>
+
+          <div class="chart-container">
+            <div class="chart-title">Spending Efficiency</div>
+            <canvas id="efficiency-chart"></canvas>
+          </div>
+
+          <div class="draft-actions">
+            <button class="btn btn-secondary" onclick="undoLastPick()" id="undo-btn" disabled>
+              Undo
+            </button>
+            <button class="btn btn-primary" onclick="submitRoster()" id="submit-btn" disabled>
+              Submit Roster
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <script src="js/config.js"></script>
+  <script src="js/calculator.js"></script>
+  <script src="js/storage.js"></script>
+  <script src="js/utils.js"></script>
+  <script src="js/draft-engine.js"></script>
+  <script src="js/player-card.js"></script>
+  <script src="js/chart-manager.js"></script>
+
+  <script>
+    // Initialize draft activity
+    let draftEngine;
+    let chartManager;
+
+    document.addEventListener('DOMContentLoaded', async () => {
+      // Get league from URL
+      const params = new URLSearchParams(window.location.search);
+      const league = params.get('league');
+
+      if (!league || !LEAGUE_CONFIG[league]) {
+        alert('Invalid league selected');
+        window.location.href = 'index.html';
+        return;
+      }
+
+      try {
+        // Initialize draft engine
+        draftEngine = new DraftEngine(league);
+        await draftEngine.initialize();
+
+        // Initialize chart manager
+        chartManager = new ChartManager();
+        chartManager.initializeCharts();
+
+        // Set up event listeners
+        setupEventListeners();
+
+        // Start draft
+        draftEngine.startDraft();
+      } catch (error) {
+        console.error('Error initializing draft:', error);
+        alert('Error loading player data. Please try again.');
+      }
+    });
+
+    function setupEventListeners() {
+      const searchInput = document.getElementById('player-search');
+      const sortSelect = document.getElementById('sort-select');
+
+      searchInput.addEventListener('input', debounce(() => {
+        draftEngine.filterAndSortPlayers();
+      }, 300));
+
+      sortSelect.addEventListener('change', () => {
+        draftEngine.filterAndSortPlayers();
+      });
+    }
+
+    function selectPlayer(playerId, salary) {
+      draftEngine.selectPlayer(playerId, salary);
+    }
+
+    function undoLastPick() {
+      draftEngine.undoLastPick();
+    }
+
+    function submitRoster() {
+      draftEngine.submitRoster();
+    }
+  </script>
+</body>
+</html>
