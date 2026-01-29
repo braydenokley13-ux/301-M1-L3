@@ -14,22 +14,25 @@
       },
       "salaryTiers": [
         {
-          "amount": 22000000,
-          "label": "Value tier",
-          "description": "MVP efficiency pricing",
-          "percentile": 75
+          "amount": 33915000,
+          "label": "Efficient",
+          "description": "85% of market value - high efficiency",
+          "percentile": 85,
+          "isRecommended": true
         },
         {
-          "amount": 33000000,
-          "label": "Market tier",
-          "description": "Elite QB market rate",
-          "percentile": 90
+          "amount": 39900000,
+          "label": "Market",
+          "description": "Fair market value for production",
+          "percentile": 100,
+          "isRecommended": false
         },
         {
-          "amount": 42000000,
-          "label": "Premium tier",
-          "description": "Age premium - diminishing returns",
-          "percentile": 95
+          "amount": 51870000,
+          "label": "Premium",
+          "description": "130% of market - overpay diminishes returns",
+          "percentile": 115,
+          "isRecommended": false
         }
       ],
       "context": "MVP season at age 37, historic TD-INT ratio"
@@ -48,22 +51,25 @@
       },
       "salaryTiers": [
         {
-          "amount": 25000000,
-          "label": "Value tier",
-          "description": "Rookie deal extension value",
-          "percentile": 78
+          "amount": 32891600,
+          "label": "Efficient",
+          "description": "85% of market value - high efficiency",
+          "percentile": 85,
+          "isRecommended": true
         },
         {
-          "amount": 35000000,
-          "label": "Market tier",
-          "description": "Elite franchise QB",
-          "percentile": 92
+          "amount": 38696000,
+          "label": "Market",
+          "description": "Fair market value for production",
+          "percentile": 100,
+          "isRecommended": false
         },
         {
-          "amount": 45000000,
-          "label": "Premium tier",
-          "description": "Supermax - diminishing returns",
-          "percentile": 96
+          "amount": 50304800,
+          "label": "Premium",
+          "description": "130% of market - overpay diminishes returns",
+          "percentile": 115,
+          "isRecommended": false
         }
       ],
       "context": "Signed $503M extension, led KC to Super Bowl"
@@ -82,22 +88,25 @@
       },
       "salaryTiers": [
         {
-          "amount": 18000000,
-          "label": "Value tier",
-          "description": "Breakout QB value",
-          "percentile": 72
+          "amount": 30963800,
+          "label": "Efficient",
+          "description": "85% of market value - high efficiency",
+          "percentile": 85,
+          "isRecommended": true
         },
         {
-          "amount": 28000000,
-          "label": "Market tier",
-          "description": "Elite dual-threat pricing",
-          "percentile": 88
+          "amount": 36428000,
+          "label": "Market",
+          "description": "Fair market value for production",
+          "percentile": 100,
+          "isRecommended": false
         },
         {
-          "amount": 38000000,
-          "label": "Premium tier",
-          "description": "Superstar premium",
-          "percentile": 94
+          "amount": 47356400,
+          "label": "Premium",
+          "description": "130% of market - overpay diminishes returns",
+          "percentile": 115,
+          "isRecommended": false
         }
       ],
       "context": "Breakout MVP candidate, rushed for 421 yards"
@@ -116,22 +125,25 @@
       },
       "salaryTiers": [
         {
-          "amount": 20000000,
-          "label": "Value tier",
-          "description": "Elite dual-threat value",
-          "percentile": 70
+          "amount": 26275200,
+          "label": "Efficient",
+          "description": "85% of market value - high efficiency",
+          "percentile": 85,
+          "isRecommended": true
         },
         {
-          "amount": 32000000,
-          "label": "Market tier",
-          "description": "Proven winner pricing",
-          "percentile": 87
+          "amount": 30912000,
+          "label": "Market",
+          "description": "Fair market value for production",
+          "percentile": 100,
+          "isRecommended": false
         },
         {
-          "amount": 40000000,
-          "label": "Premium tier",
-          "description": "Superstar tax",
-          "percentile": 93
+          "amount": 40185600,
+          "label": "Premium",
+          "description": "130% of market - overpay diminishes returns",
+          "percentile": 115,
+          "isRecommended": false
         }
       ],
       "context": "MVP candidate early season, faded late"
@@ -150,16 +162,25 @@
       },
       "salaryTiers": [
         {
-          "amount": 18000000,
-          "label": "Value tier",
-          "description": "Efficient game manager",
-          "percentile": 68
+          "amount": 22657600,
+          "label": "Efficient",
+          "description": "85% of market value - high efficiency",
+          "percentile": 85,
+          "isRecommended": true
         },
         {
-          "amount": 25000000,
-          "label": "Market tier",
-          "description": "Proven starter value",
-          "percentile": 82
+          "amount": 26656000,
+          "label": "Market",
+          "description": "Fair market value for production",
+          "percentile": 100,
+          "isRecommended": false
+        },
+        {
+          "amount": 34652800,
+          "label": "Premium",
+          "description": "130% of market - overpay diminishes returns",
+          "percentile": 115,
+          "isRecommended": false
         }
       ],
       "context": "Efficient in Titans' run-first offense"
@@ -178,22 +199,25 @@
       },
       "salaryTiers": [
         {
-          "amount": 15000000,
-          "label": "Value tier",
-          "description": "Discount for rings",
-          "percentile": 65
+          "amount": 21110600,
+          "label": "Efficient",
+          "description": "85% of market value - high efficiency",
+          "percentile": 85,
+          "isRecommended": true
         },
         {
-          "amount": 25000000,
-          "label": "Market tier",
-          "description": "Championship pedigree",
-          "percentile": 80
+          "amount": 24836000,
+          "label": "Market",
+          "description": "Fair market value for production",
+          "percentile": 100,
+          "isRecommended": false
         },
         {
-          "amount": 33000000,
-          "label": "Premium tier",
-          "description": "Age premium overpay",
-          "percentile": 88
+          "amount": 32286800,
+          "label": "Premium",
+          "description": "130% of market - overpay diminishes returns",
+          "percentile": 115,
+          "isRecommended": false
         }
       ],
       "context": "Won Super Bowl in first year with Bucs"
@@ -212,16 +236,25 @@
       },
       "salaryTiers": [
         {
-          "amount": 8000000,
-          "label": "Value tier",
-          "description": "Rookie contract steal",
-          "percentile": 60
+          "amount": 19587400,
+          "label": "Efficient",
+          "description": "85% of market value - high efficiency",
+          "percentile": 85,
+          "isRecommended": true
         },
         {
-          "amount": 15000000,
-          "label": "Market tier",
-          "description": "ROY performance value",
-          "percentile": 75
+          "amount": 23044000,
+          "label": "Market",
+          "description": "Fair market value for production",
+          "percentile": 100,
+          "isRecommended": false
+        },
+        {
+          "amount": 29957200,
+          "label": "Premium",
+          "description": "130% of market - overpay diminishes returns",
+          "percentile": 115,
+          "isRecommended": false
         }
       ],
       "context": "Offensive Rookie of the Year, instant starter"
@@ -240,16 +273,25 @@
       },
       "salaryTiers": [
         {
-          "amount": 18000000,
-          "label": "Value tier",
-          "description": "Solid starter value",
-          "percentile": 65
+          "amount": 17992800,
+          "label": "Efficient",
+          "description": "85% of market value - high efficiency",
+          "percentile": 85,
+          "isRecommended": true
         },
         {
-          "amount": 28000000,
-          "label": "Market tier",
-          "description": "Proven veteran pricing",
-          "percentile": 78
+          "amount": 21168000,
+          "label": "Market",
+          "description": "Fair market value for production",
+          "percentile": 100,
+          "isRecommended": false
+        },
+        {
+          "amount": 27518400,
+          "label": "Premium",
+          "description": "130% of market - overpay diminishes returns",
+          "percentile": 115,
+          "isRecommended": false
         }
       ],
       "context": "Consistent production, question mark in big games"
@@ -268,16 +310,25 @@
       },
       "salaryTiers": [
         {
-          "amount": 15000000,
-          "label": "Value tier",
-          "description": "Solid starter value",
-          "percentile": 62
+          "amount": 16707600,
+          "label": "Efficient",
+          "description": "85% of market value - high efficiency",
+          "percentile": 85,
+          "isRecommended": true
         },
         {
-          "amount": 22000000,
-          "label": "Market tier",
-          "description": "Competent veteran",
-          "percentile": 75
+          "amount": 19656000,
+          "label": "Market",
+          "description": "Fair market value for production",
+          "percentile": 100,
+          "isRecommended": false
+        },
+        {
+          "amount": 25552800,
+          "label": "Premium",
+          "description": "130% of market - overpay diminishes returns",
+          "percentile": 115,
+          "isRecommended": false
         }
       ],
       "context": "Steady production, led Raiders to playoffs"
@@ -296,16 +347,25 @@
       },
       "salaryTiers": [
         {
-          "amount": 17000000,
-          "label": "Value tier",
-          "description": "Fading veteran value",
-          "percentile": 60
+          "amount": 16279200,
+          "label": "Efficient",
+          "description": "85% of market value - high efficiency",
+          "percentile": 85,
+          "isRecommended": true
         },
         {
-          "amount": 26000000,
-          "label": "Market tier",
-          "description": "Former MVP pricing",
-          "percentile": 74
+          "amount": 19152000,
+          "label": "Market",
+          "description": "Fair market value for production",
+          "percentile": 100,
+          "isRecommended": false
+        },
+        {
+          "amount": 24897600,
+          "label": "Premium",
+          "description": "130% of market - overpay diminishes returns",
+          "percentile": 115,
+          "isRecommended": false
         }
       ],
       "context": "High volume but declining efficiency"
@@ -324,16 +384,25 @@
       },
       "salaryTiers": [
         {
-          "amount": 20000000,
-          "label": "Value tier",
-          "description": "Elite QB value",
-          "percentile": 72
+          "amount": 22800400,
+          "label": "Efficient",
+          "description": "85% of market value - high efficiency",
+          "percentile": 85,
+          "isRecommended": true
         },
         {
-          "amount": 30000000,
-          "label": "Market tier",
-          "description": "Franchise QB pricing",
-          "percentile": 86
+          "amount": 26824000,
+          "label": "Market",
+          "description": "Fair market value for production",
+          "percentile": 100,
+          "isRecommended": false
+        },
+        {
+          "amount": 34871200,
+          "label": "Premium",
+          "description": "130% of market - overpay diminishes returns",
+          "percentile": 115,
+          "isRecommended": false
         }
       ],
       "context": "Elite despite poor team, dual-threat QB"
@@ -352,16 +421,25 @@
       },
       "salaryTiers": [
         {
-          "amount": 12000000,
-          "label": "Value tier",
-          "description": "Dual-threat upside",
-          "percentile": 65
+          "amount": 18778200,
+          "label": "Efficient",
+          "description": "85% of market value - high efficiency",
+          "percentile": 85,
+          "isRecommended": true
         },
         {
-          "amount": 22000000,
-          "label": "Market tier",
-          "description": "Young star pricing",
-          "percentile": 80
+          "amount": 22092000,
+          "label": "Market",
+          "description": "Fair market value for production",
+          "percentile": 100,
+          "isRecommended": false
+        },
+        {
+          "amount": 28719600,
+          "label": "Premium",
+          "description": "130% of market - overpay diminishes returns",
+          "percentile": 115,
+          "isRecommended": false
         }
       ],
       "context": "Dynamic dual-threat, improving passer"
@@ -380,16 +458,25 @@
       },
       "salaryTiers": [
         {
-          "amount": 16000000,
-          "label": "Value tier",
-          "description": "Down year discount",
-          "percentile": 60
+          "amount": 15541400,
+          "label": "Efficient",
+          "description": "85% of market value - high efficiency",
+          "percentile": 85,
+          "isRecommended": true
         },
         {
-          "amount": 26000000,
-          "label": "Market tier",
-          "description": "Former MVP pricing",
-          "percentile": 76
+          "amount": 18284000,
+          "label": "Market",
+          "description": "Fair market value for production",
+          "percentile": 100,
+          "isRecommended": false
+        },
+        {
+          "amount": 23769200,
+          "label": "Premium",
+          "description": "130% of market - overpay diminishes returns",
+          "percentile": 115,
+          "isRecommended": false
         }
       ],
       "context": "Struggled with injuries, down from MVP year"
@@ -408,16 +495,25 @@
       },
       "salaryTiers": [
         {
-          "amount": 16000000,
-          "label": "Value tier",
-          "description": "Solid veteran value",
-          "percentile": 63
+          "amount": 17017000,
+          "label": "Efficient",
+          "description": "85% of market value - high efficiency",
+          "percentile": 85,
+          "isRecommended": true
         },
         {
-          "amount": 24000000,
-          "label": "Market tier",
-          "description": "Proven starter pricing",
-          "percentile": 77
+          "amount": 20020000,
+          "label": "Market",
+          "description": "Fair market value for production",
+          "percentile": 100,
+          "isRecommended": false
+        },
+        {
+          "amount": 26026000,
+          "label": "Premium",
+          "description": "130% of market - overpay diminishes returns",
+          "percentile": 115,
+          "isRecommended": false
         }
       ],
       "context": "Consistent production on poor team"
@@ -436,16 +532,25 @@
       },
       "salaryTiers": [
         {
-          "amount": 11000000,
-          "label": "Value tier",
-          "description": "Bounce-back value",
-          "percentile": 58
+          "amount": 13970600,
+          "label": "Efficient",
+          "description": "85% of market value - high efficiency",
+          "percentile": 85,
+          "isRecommended": true
         },
         {
-          "amount": 20000000,
-          "label": "Market tier",
-          "description": "Former #1 pick pricing",
-          "percentile": 72
+          "amount": 16436000,
+          "label": "Market",
+          "description": "Fair market value for production",
+          "percentile": 100,
+          "isRecommended": false
+        },
+        {
+          "amount": 21366800,
+          "label": "Premium",
+          "description": "130% of market - overpay diminishes returns",
+          "percentile": 115,
+          "isRecommended": false
         }
       ],
       "context": "Resurgence under Stefanski, led Browns to playoffs"
@@ -464,16 +569,25 @@
       },
       "salaryTiers": [
         {
-          "amount": 18000000,
-          "label": "Value tier",
-          "description": "Elite pass protection",
-          "percentile": 75
+          "amount": 16592850,
+          "label": "Efficient",
+          "description": "85% of market value - high efficiency",
+          "percentile": 85,
+          "isRecommended": true
         },
         {
-          "amount": 26000000,
-          "label": "Market tier",
-          "description": "Top LT pricing",
-          "percentile": 90
+          "amount": 19521000,
+          "label": "Market",
+          "description": "Fair market value for production",
+          "percentile": 100,
+          "isRecommended": false
+        },
+        {
+          "amount": 25377300,
+          "label": "Premium",
+          "description": "130% of market - overpay diminishes returns",
+          "percentile": 115,
+          "isRecommended": false
         }
       ],
       "context": "First year with 49ers, elite performance"
@@ -490,22 +604,25 @@
       },
       "salaryTiers": [
         {
-          "amount": 17000000,
-          "label": "Value tier",
-          "description": "Consistent elite tackle",
-          "percentile": 73
+          "amount": 15720750,
+          "label": "Efficient",
+          "description": "85% of market value - high efficiency",
+          "percentile": 85,
+          "isRecommended": true
         },
         {
-          "amount": 25000000,
-          "label": "Market tier",
-          "description": "Premium LT pricing",
-          "percentile": 88
+          "amount": 18495000,
+          "label": "Market",
+          "description": "Fair market value for production",
+          "percentile": 100,
+          "isRecommended": false
         },
         {
-          "amount": 32000000,
-          "label": "Premium tier",
-          "description": "Age/injury premium",
-          "percentile": 94
+          "amount": 24043500,
+          "label": "Premium",
+          "description": "130% of market - overpay diminishes returns",
+          "percentile": 115,
+          "isRecommended": false
         }
       ],
       "context": "Perennial All-Pro, injury shortened season"
@@ -522,16 +639,25 @@
       },
       "salaryTiers": [
         {
-          "amount": 16000000,
-          "label": "Value tier",
-          "description": "Young elite tackle",
-          "percentile": 70
+          "amount": 14733900,
+          "label": "Efficient",
+          "description": "85% of market value - high efficiency",
+          "percentile": 85,
+          "isRecommended": true
         },
         {
-          "amount": 24000000,
-          "label": "Market tier",
-          "description": "Top-tier LT pricing",
-          "percentile": 86
+          "amount": 17334000,
+          "label": "Market",
+          "description": "Fair market value for production",
+          "percentile": 100,
+          "isRecommended": false
+        },
+        {
+          "amount": 22534200,
+          "label": "Premium",
+          "description": "130% of market - overpay diminishes returns",
+          "percentile": 115,
+          "isRecommended": false
         }
       ],
       "context": "Signed massive extension, elite blind-side protector"
@@ -548,16 +674,25 @@
       },
       "salaryTiers": [
         {
-          "amount": 15000000,
-          "label": "Value tier",
-          "description": "Consistent starter value",
-          "percentile": 68
+          "amount": 13953600,
+          "label": "Efficient",
+          "description": "85% of market value - high efficiency",
+          "percentile": 85,
+          "isRecommended": true
         },
         {
-          "amount": 23000000,
-          "label": "Market tier",
-          "description": "Elite RT/LT pricing",
-          "percentile": 84
+          "amount": 16416000,
+          "label": "Market",
+          "description": "Fair market value for production",
+          "percentile": 100,
+          "isRecommended": false
+        },
+        {
+          "amount": 21340800,
+          "label": "Premium",
+          "description": "130% of market - overpay diminishes returns",
+          "percentile": 115,
+          "isRecommended": false
         }
       ],
       "context": "Elite pass protector, durable workhorse"
@@ -574,16 +709,25 @@
       },
       "salaryTiers": [
         {
-          "amount": 14000000,
-          "label": "Value tier",
-          "description": "Injury-limited value",
-          "percentile": 65
+          "amount": 13402800,
+          "label": "Efficient",
+          "description": "85% of market value - high efficiency",
+          "percentile": 85,
+          "isRecommended": true
         },
         {
-          "amount": 22000000,
-          "label": "Market tier",
-          "description": "When healthy, elite",
-          "percentile": 82
+          "amount": 15768000,
+          "label": "Market",
+          "description": "Fair market value for production",
+          "percentile": 100,
+          "isRecommended": false
+        },
+        {
+          "amount": 20498400,
+          "label": "Premium",
+          "description": "130% of market - overpay diminishes returns",
+          "percentile": 115,
+          "isRecommended": false
         }
       ],
       "context": "Elite but injury-shortened season"
@@ -600,16 +744,25 @@
       },
       "salaryTiers": [
         {
-          "amount": 13000000,
-          "label": "Value tier",
-          "description": "Ageless veteran value",
-          "percentile": 63
+          "amount": 13012650,
+          "label": "Efficient",
+          "description": "85% of market value - high efficiency",
+          "percentile": 85,
+          "isRecommended": true
         },
         {
-          "amount": 20000000,
-          "label": "Market tier",
-          "description": "Elite at age 39",
-          "percentile": 78
+          "amount": 15309000,
+          "label": "Market",
+          "description": "Fair market value for production",
+          "percentile": 100,
+          "isRecommended": false
+        },
+        {
+          "amount": 19901700,
+          "label": "Premium",
+          "description": "130% of market - overpay diminishes returns",
+          "percentile": 115,
+          "isRecommended": false
         }
       ],
       "context": "Age 39 All-Pro season, incredible durability"
@@ -626,16 +779,25 @@
       },
       "salaryTiers": [
         {
-          "amount": 12000000,
-          "label": "Value tier",
-          "description": "Injury concerns discount",
-          "percentile": 60
+          "amount": 12002850,
+          "label": "Efficient",
+          "description": "85% of market value - high efficiency",
+          "percentile": 85,
+          "isRecommended": true
         },
         {
-          "amount": 19000000,
-          "label": "Market tier",
-          "description": "When healthy, top-tier",
-          "percentile": 75
+          "amount": 14121000,
+          "label": "Market",
+          "description": "Fair market value for production",
+          "percentile": 100,
+          "isRecommended": false
+        },
+        {
+          "amount": 18357300,
+          "label": "Premium",
+          "description": "130% of market - overpay diminishes returns",
+          "percentile": 115,
+          "isRecommended": false
         }
       ],
       "context": "Injury-plagued but elite when playing"
@@ -652,16 +814,25 @@
       },
       "salaryTiers": [
         {
-          "amount": 11000000,
-          "label": "Value tier",
-          "description": "Young rising tackle",
-          "percentile": 62
+          "amount": 12576600,
+          "label": "Efficient",
+          "description": "85% of market value - high efficiency",
+          "percentile": 85,
+          "isRecommended": true
         },
         {
-          "amount": 18000000,
-          "label": "Market tier",
-          "description": "Solid starter pricing",
-          "percentile": 77
+          "amount": 14796000,
+          "label": "Market",
+          "description": "Fair market value for production",
+          "percentile": 100,
+          "isRecommended": false
+        },
+        {
+          "amount": 19234800,
+          "label": "Premium",
+          "description": "130% of market - overpay diminishes returns",
+          "percentile": 115,
+          "isRecommended": false
         }
       ],
       "context": "Moved from RT to LT, strong performance"
@@ -678,16 +849,25 @@
       },
       "salaryTiers": [
         {
-          "amount": 9000000,
-          "label": "Value tier",
-          "description": "Rookie contract steal",
-          "percentile": 58
+          "amount": 11360250,
+          "label": "Efficient",
+          "description": "85% of market value - high efficiency",
+          "percentile": 85,
+          "isRecommended": true
         },
         {
-          "amount": 16000000,
-          "label": "Market tier",
-          "description": "ROY-caliber value",
-          "percentile": 73
+          "amount": 13365000,
+          "label": "Market",
+          "description": "Fair market value for production",
+          "percentile": 100,
+          "isRecommended": false
+        },
+        {
+          "amount": 17374500,
+          "label": "Premium",
+          "description": "130% of market - overpay diminishes returns",
+          "percentile": 115,
+          "isRecommended": false
         }
       ],
       "context": "Rookie protecting Brady, immediate impact"
@@ -704,16 +884,25 @@
       },
       "salaryTiers": [
         {
-          "amount": 11000000,
-          "label": "Value tier",
-          "description": "Injury history discount",
-          "percentile": 60
+          "amount": 11061900,
+          "label": "Efficient",
+          "description": "85% of market value - high efficiency",
+          "percentile": 85,
+          "isRecommended": true
         },
         {
-          "amount": 18000000,
-          "label": "Market tier",
-          "description": "When healthy, elite",
-          "percentile": 74
+          "amount": 13014000,
+          "label": "Market",
+          "description": "Fair market value for production",
+          "percentile": 100,
+          "isRecommended": false
+        },
+        {
+          "amount": 16918200,
+          "label": "Premium",
+          "description": "130% of market - overpay diminishes returns",
+          "percentile": 115,
+          "isRecommended": false
         }
       ],
       "context": "Elite but struggles to stay healthy"
@@ -730,16 +919,25 @@
       },
       "salaryTiers": [
         {
-          "amount": 8000000,
-          "label": "Value tier",
-          "description": "Rookie starter value",
-          "percentile": 55
+          "amount": 9799650,
+          "label": "Efficient",
+          "description": "85% of market value - high efficiency",
+          "percentile": 85,
+          "isRecommended": true
         },
         {
-          "amount": 15000000,
-          "label": "Market tier",
-          "description": "High-upside rookie",
-          "percentile": 70
+          "amount": 11529000,
+          "label": "Market",
+          "description": "Fair market value for production",
+          "percentile": 100,
+          "isRecommended": false
+        },
+        {
+          "amount": 14987700,
+          "label": "Premium",
+          "description": "130% of market - overpay diminishes returns",
+          "percentile": 115,
+          "isRecommended": false
         }
       ],
       "context": "Top-10 pick, solid rookie season"
@@ -756,16 +954,25 @@
       },
       "salaryTiers": [
         {
-          "amount": 10000000,
-          "label": "Value tier",
-          "description": "Solid starter value",
-          "percentile": 58
+          "amount": 10281600,
+          "label": "Efficient",
+          "description": "85% of market value - high efficiency",
+          "percentile": 85,
+          "isRecommended": true
         },
         {
-          "amount": 17000000,
-          "label": "Market tier",
-          "description": "Mid-tier LT pricing",
-          "percentile": 72
+          "amount": 12096000,
+          "label": "Market",
+          "description": "Fair market value for production",
+          "percentile": 100,
+          "isRecommended": false
+        },
+        {
+          "amount": 15724800,
+          "label": "Premium",
+          "description": "130% of market - overpay diminishes returns",
+          "percentile": 115,
+          "isRecommended": false
         }
       ],
       "context": "Consistent left tackle, reliable starter"
@@ -782,16 +989,25 @@
       },
       "salaryTiers": [
         {
-          "amount": 9000000,
-          "label": "Value tier",
-          "description": "Veteran starter value",
-          "percentile": 54
+          "amount": 8812800,
+          "label": "Efficient",
+          "description": "85% of market value - high efficiency",
+          "percentile": 85,
+          "isRecommended": true
         },
         {
-          "amount": 16000000,
-          "label": "Market tier",
-          "description": "Proven veteran pricing",
-          "percentile": 68
+          "amount": 10368000,
+          "label": "Market",
+          "description": "Fair market value for production",
+          "percentile": 100,
+          "isRecommended": false
+        },
+        {
+          "amount": 13478400,
+          "label": "Premium",
+          "description": "130% of market - overpay diminishes returns",
+          "percentile": 115,
+          "isRecommended": false
         }
       ],
       "context": "Aging veteran, still serviceable"
@@ -808,16 +1024,25 @@
       },
       "salaryTiers": [
         {
-          "amount": 8000000,
-          "label": "Value tier",
-          "description": "High-upside rookie",
-          "percentile": 56
+          "amount": 9225900,
+          "label": "Efficient",
+          "description": "85% of market value - high efficiency",
+          "percentile": 85,
+          "isRecommended": true
         },
         {
-          "amount": 15000000,
-          "label": "Market tier",
-          "description": "Top-15 pick value",
-          "percentile": 71
+          "amount": 10854000,
+          "label": "Market",
+          "description": "Fair market value for production",
+          "percentile": 100,
+          "isRecommended": false
+        },
+        {
+          "amount": 14110200,
+          "label": "Premium",
+          "description": "130% of market - overpay diminishes returns",
+          "percentile": 115,
+          "isRecommended": false
         }
       ],
       "context": "Massive rookie, flashes of dominance"
@@ -834,16 +1059,25 @@
       },
       "salaryTiers": [
         {
-          "amount": 7000000,
-          "label": "Value tier",
-          "description": "Rookie learning curve",
-          "percentile": 52
+          "amount": 8170200,
+          "label": "Efficient",
+          "description": "85% of market value - high efficiency",
+          "percentile": 85,
+          "isRecommended": true
         },
         {
-          "amount": 14000000,
-          "label": "Market tier",
-          "description": "Top-5 pick upside",
-          "percentile": 68
+          "amount": 9612000,
+          "label": "Market",
+          "description": "Fair market value for production",
+          "percentile": 100,
+          "isRecommended": false
+        },
+        {
+          "amount": 12495600,
+          "label": "Premium",
+          "description": "130% of market - overpay diminishes returns",
+          "percentile": 115,
+          "isRecommended": false
         }
       ],
       "context": "Struggled early but improved late"
@@ -858,27 +1092,30 @@
       "stats": {
         "epa": 88.4,
         "prwr": 25.3,
-        "sacks": 15.0,
+        "sacks": 15,
         "pressures": 62
       },
       "salaryTiers": [
         {
-          "amount": 20000000,
-          "label": "Value tier",
-          "description": "DPOY-caliber value",
-          "percentile": 80
+          "amount": 20881011,
+          "label": "Efficient",
+          "description": "85% of market value - high efficiency",
+          "percentile": 85,
+          "isRecommended": true
         },
         {
-          "amount": 28000000,
-          "label": "Market tier",
-          "description": "Elite edge defender",
-          "percentile": 92
+          "amount": 24565895,
+          "label": "Market",
+          "description": "Fair market value for production",
+          "percentile": 100,
+          "isRecommended": false
         },
         {
-          "amount": 36000000,
-          "label": "Premium tier",
-          "description": "Peak overpay",
-          "percentile": 96
+          "amount": 31935663,
+          "label": "Premium",
+          "description": "130% of market - overpay diminishes returns",
+          "percentile": 115,
+          "isRecommended": false
         }
       ],
       "context": "DPOY candidate, dominant pass rusher"
@@ -891,21 +1128,30 @@
       "stats": {
         "epa": 82.7,
         "prwr": 23.8,
-        "sacks": 12.0,
+        "sacks": 12,
         "pressures": 57
       },
       "salaryTiers": [
         {
-          "amount": 19000000,
-          "label": "Value tier",
-          "description": "Elite disruptor value",
-          "percentile": 78
+          "amount": 19534611,
+          "label": "Efficient",
+          "description": "85% of market value - high efficiency",
+          "percentile": 85,
+          "isRecommended": true
         },
         {
-          "amount": 27000000,
-          "label": "Market tier",
-          "description": "Top-tier edge pricing",
-          "percentile": 90
+          "amount": 22981895,
+          "label": "Market",
+          "description": "Fair market value for production",
+          "percentile": 100,
+          "isRecommended": false
+        },
+        {
+          "amount": 29876463,
+          "label": "Premium",
+          "description": "130% of market - overpay diminishes returns",
+          "percentile": 115,
+          "isRecommended": false
         }
       ],
       "context": "All-Pro season, game-wrecker"
@@ -923,16 +1169,25 @@
       },
       "salaryTiers": [
         {
-          "amount": 18000000,
-          "label": "Value tier",
-          "description": "Elite edge value",
-          "percentile": 75
+          "amount": 18070105,
+          "label": "Efficient",
+          "description": "85% of market value - high efficiency",
+          "percentile": 85,
+          "isRecommended": true
         },
         {
-          "amount": 26000000,
-          "label": "Market tier",
-          "description": "Premium edge rusher",
-          "percentile": 88
+          "amount": 21258947,
+          "label": "Market",
+          "description": "Fair market value for production",
+          "percentile": 100,
+          "isRecommended": false
+        },
+        {
+          "amount": 27636632,
+          "label": "Premium",
+          "description": "130% of market - overpay diminishes returns",
+          "percentile": 115,
+          "isRecommended": false
         }
       ],
       "context": "Injury-shortened but elite when healthy"
@@ -950,22 +1205,25 @@
       },
       "salaryTiers": [
         {
-          "amount": 22000000,
-          "label": "Value tier",
-          "description": "Best defender value",
-          "percentile": 82
+          "amount": 22251032,
+          "label": "Efficient",
+          "description": "85% of market value - high efficiency",
+          "percentile": 85,
+          "isRecommended": true
         },
         {
-          "amount": 30000000,
-          "label": "Market tier",
-          "description": "Generational talent",
-          "percentile": 94
+          "amount": 26177684,
+          "label": "Market",
+          "description": "Fair market value for production",
+          "percentile": 100,
+          "isRecommended": false
         },
         {
-          "amount": 38000000,
-          "label": "Premium tier",
-          "description": "Peak overpay",
-          "percentile": 97
+          "amount": 34030989,
+          "label": "Premium",
+          "description": "130% of market - overpay diminishes returns",
+          "percentile": 115,
+          "isRecommended": false
         }
       ],
       "context": "3x DPOY, best defender in football"
@@ -983,16 +1241,25 @@
       },
       "salaryTiers": [
         {
-          "amount": 16000000,
-          "label": "Value tier",
-          "description": "Interior disruptor",
-          "percentile": 72
+          "amount": 16133179,
+          "label": "Efficient",
+          "description": "85% of market value - high efficiency",
+          "percentile": 85,
+          "isRecommended": true
         },
         {
-          "amount": 24000000,
-          "label": "Market tier",
-          "description": "Elite DT pricing",
-          "percentile": 86
+          "amount": 18980211,
+          "label": "Market",
+          "description": "Fair market value for production",
+          "percentile": 100,
+          "isRecommended": false
+        },
+        {
+          "amount": 24674274,
+          "label": "Premium",
+          "description": "130% of market - overpay diminishes returns",
+          "percentile": 115,
+          "isRecommended": false
         }
       ],
       "context": "Elite interior pass rusher, versatile"
@@ -1010,16 +1277,25 @@
       },
       "salaryTiers": [
         {
-          "amount": 17000000,
-          "label": "Value tier",
-          "description": "Versatile edge value",
-          "percentile": 74
+          "amount": 17196126,
+          "label": "Efficient",
+          "description": "85% of market value - high efficiency",
+          "percentile": 85,
+          "isRecommended": true
         },
         {
-          "amount": 25000000,
-          "label": "Market tier",
-          "description": "Elite edge pricing",
-          "percentile": 87
+          "amount": 20230737,
+          "label": "Market",
+          "description": "Fair market value for production",
+          "percentile": 100,
+          "isRecommended": false
+        },
+        {
+          "amount": 26299958,
+          "label": "Premium",
+          "description": "130% of market - overpay diminishes returns",
+          "percentile": 115,
+          "isRecommended": false
         }
       ],
       "context": "Dominant edge rusher, elite production"
@@ -1032,21 +1308,30 @@
       "stats": {
         "epa": 56.2,
         "prwr": 17.8,
-        "sacks": 5.0,
+        "sacks": 5,
         "pressures": 38
       },
       "salaryTiers": [
         {
-          "amount": 14000000,
-          "label": "Value tier",
-          "description": "Injury-limited value",
-          "percentile": 65
+          "amount": 13275032,
+          "label": "Efficient",
+          "description": "85% of market value - high efficiency",
+          "percentile": 85,
+          "isRecommended": true
         },
         {
-          "amount": 22000000,
-          "label": "Market tier",
-          "description": "Proven sack artist",
-          "percentile": 80
+          "amount": 15617684,
+          "label": "Market",
+          "description": "Fair market value for production",
+          "percentile": 100,
+          "isRecommended": false
+        },
+        {
+          "amount": 20302989,
+          "label": "Premium",
+          "description": "130% of market - overpay diminishes returns",
+          "percentile": 115,
+          "isRecommended": false
         }
       ],
       "context": "Injury-shortened, elite track record"
@@ -1059,21 +1344,30 @@
       "stats": {
         "epa": 12.4,
         "prwr": 8.2,
-        "sacks": 0.0,
+        "sacks": 0,
         "pressures": 8
       },
       "salaryTiers": [
         {
-          "amount": 12000000,
-          "label": "Value tier",
-          "description": "Injury year discount",
-          "percentile": 55
+          "amount": 2929011,
+          "label": "Efficient",
+          "description": "85% of market value - high efficiency",
+          "percentile": 85,
+          "isRecommended": true
         },
         {
-          "amount": 20000000,
-          "label": "Market tier",
-          "description": "Elite upside pricing",
-          "percentile": 72
+          "amount": 3445895,
+          "label": "Market",
+          "description": "Fair market value for production",
+          "percentile": 100,
+          "isRecommended": false
+        },
+        {
+          "amount": 4479663,
+          "label": "Premium",
+          "description": "130% of market - overpay diminishes returns",
+          "percentile": 115,
+          "isRecommended": false
         }
       ],
       "context": "Missed nearly entire season, elite track record"
@@ -1086,21 +1380,30 @@
       "stats": {
         "epa": 52.7,
         "prwr": 16.4,
-        "sacks": 6.0,
+        "sacks": 6,
         "pressures": 39
       },
       "salaryTiers": [
         {
-          "amount": 15000000,
-          "label": "Value tier",
-          "description": "Solid edge value",
-          "percentile": 66
+          "amount": 12448295,
+          "label": "Efficient",
+          "description": "85% of market value - high efficiency",
+          "percentile": 85,
+          "isRecommended": true
         },
         {
-          "amount": 23000000,
-          "label": "Market tier",
-          "description": "Playoff performer pricing",
-          "percentile": 82
+          "amount": 14645053,
+          "label": "Market",
+          "description": "Fair market value for production",
+          "percentile": 100,
+          "isRecommended": false
+        },
+        {
+          "amount": 19038568,
+          "label": "Premium",
+          "description": "130% of market - overpay diminishes returns",
+          "percentile": 115,
+          "isRecommended": false
         }
       ],
       "context": "Big-game player, consistent pressure"
@@ -1118,16 +1421,25 @@
       },
       "salaryTiers": [
         {
-          "amount": 12000000,
-          "label": "Value tier",
-          "description": "Rookie contract value",
-          "percentile": 68
+          "amount": 15235579,
+          "label": "Efficient",
+          "description": "85% of market value - high efficiency",
+          "percentile": 85,
+          "isRecommended": true
         },
         {
-          "amount": 20000000,
-          "label": "Market tier",
-          "description": "DROY performance",
-          "percentile": 84
+          "amount": 17924211,
+          "label": "Market",
+          "description": "Fair market value for production",
+          "percentile": 100,
+          "isRecommended": false
+        },
+        {
+          "amount": 23301474,
+          "label": "Premium",
+          "description": "130% of market - overpay diminishes returns",
+          "percentile": 115,
+          "isRecommended": false
         }
       ],
       "context": "Defensive Rookie of the Year, instant impact"
@@ -1140,21 +1452,30 @@
       "stats": {
         "epa": 58.3,
         "prwr": 18.1,
-        "sacks": 8.0,
+        "sacks": 8,
         "pressures": 41
       },
       "salaryTiers": [
         {
-          "amount": 13000000,
-          "label": "Value tier",
-          "description": "Proven pass rusher",
-          "percentile": 64
+          "amount": 13771074,
+          "label": "Efficient",
+          "description": "85% of market value - high efficiency",
+          "percentile": 85,
+          "isRecommended": true
         },
         {
-          "amount": 21000000,
-          "label": "Market tier",
-          "description": "Former sack leader",
-          "percentile": 78
+          "amount": 16201263,
+          "label": "Market",
+          "description": "Fair market value for production",
+          "percentile": 100,
+          "isRecommended": false
+        },
+        {
+          "amount": 21061642,
+          "label": "Premium",
+          "description": "130% of market - overpay diminishes returns",
+          "percentile": 115,
+          "isRecommended": false
         }
       ],
       "context": "Championship contributor, solid season"
@@ -1167,21 +1488,30 @@
       "stats": {
         "epa": 8.5,
         "prwr": 4.1,
-        "sacks": 0.0,
+        "sacks": 0,
         "pressures": 4
       },
       "salaryTiers": [
         {
-          "amount": 10000000,
-          "label": "Value tier",
-          "description": "Injury recovery discount",
-          "percentile": 50
+          "amount": 2007789,
+          "label": "Efficient",
+          "description": "85% of market value - high efficiency",
+          "percentile": 85,
+          "isRecommended": true
         },
         {
-          "amount": 18000000,
-          "label": "Market tier",
-          "description": "DROY upside",
-          "percentile": 68
+          "amount": 2362105,
+          "label": "Market",
+          "description": "Fair market value for production",
+          "percentile": 100,
+          "isRecommended": false
+        },
+        {
+          "amount": 3070737,
+          "label": "Premium",
+          "description": "130% of market - overpay diminishes returns",
+          "percentile": 115,
+          "isRecommended": false
         }
       ],
       "context": "ACL tear, elite potential when healthy"
@@ -1194,21 +1524,30 @@
       "stats": {
         "epa": 60.7,
         "prwr": 18.6,
-        "sacks": 9.0,
+        "sacks": 9,
         "pressures": 43
       },
       "salaryTiers": [
         {
-          "amount": 17000000,
-          "label": "Value tier",
-          "description": "Elite defender value",
-          "percentile": 70
+          "amount": 14337979,
+          "label": "Efficient",
+          "description": "85% of market value - high efficiency",
+          "percentile": 85,
+          "isRecommended": true
         },
         {
-          "amount": 25000000,
-          "label": "Market tier",
-          "description": "Former DPOY pricing",
-          "percentile": 84
+          "amount": 16868211,
+          "label": "Market",
+          "description": "Fair market value for production",
+          "percentile": 100,
+          "isRecommended": false
+        },
+        {
+          "amount": 21928674,
+          "label": "Premium",
+          "description": "130% of market - overpay diminishes returns",
+          "percentile": 115,
+          "isRecommended": false
         }
       ],
       "context": "Still elite, slight decline from peak"
@@ -1221,21 +1560,30 @@
       "stats": {
         "epa": 54.2,
         "prwr": 16.8,
-        "sacks": 8.0,
+        "sacks": 8,
         "pressures": 40
       },
       "salaryTiers": [
         {
-          "amount": 13000000,
-          "label": "Value tier",
-          "description": "Consistent rusher value",
-          "percentile": 62
+          "amount": 12802611,
+          "label": "Efficient",
+          "description": "85% of market value - high efficiency",
+          "percentile": 85,
+          "isRecommended": true
         },
         {
-          "amount": 21000000,
-          "label": "Market tier",
-          "description": "Proven edge rusher",
-          "percentile": 76
+          "amount": 15061895,
+          "label": "Market",
+          "description": "Fair market value for production",
+          "percentile": 100,
+          "isRecommended": false
+        },
+        {
+          "amount": 19580463,
+          "label": "Premium",
+          "description": "130% of market - overpay diminishes returns",
+          "percentile": 115,
+          "isRecommended": false
         }
       ],
       "context": "Traded twice, still productive"
@@ -1248,21 +1596,30 @@
       "stats": {
         "epa": 48.6,
         "prwr": 15.2,
-        "sacks": 8.0,
+        "sacks": 8,
         "pressures": 36
       },
       "salaryTiers": [
         {
-          "amount": 12000000,
-          "label": "Value tier",
-          "description": "Solid edge value",
-          "percentile": 60
+          "amount": 11479832,
+          "label": "Efficient",
+          "description": "85% of market value - high efficiency",
+          "percentile": 85,
+          "isRecommended": true
         },
         {
-          "amount": 20000000,
-          "label": "Market tier",
-          "description": "Breakout season pricing",
-          "percentile": 74
+          "amount": 13505684,
+          "label": "Market",
+          "description": "Fair market value for production",
+          "percentile": 100,
+          "isRecommended": false
+        },
+        {
+          "amount": 17557389,
+          "label": "Premium",
+          "description": "130% of market - overpay diminishes returns",
+          "percentile": 115,
+          "isRecommended": false
         }
       ],
       "context": "Strong season before ACL tear"
@@ -1282,22 +1639,25 @@
       },
       "salaryTiers": [
         {
-          "amount": 18000000,
-          "label": "Value tier",
-          "description": "Elite WR1 value",
-          "percentile": 80
+          "amount": 20032800,
+          "label": "Efficient",
+          "description": "85% of market value - high efficiency",
+          "percentile": 85,
+          "isRecommended": true
         },
         {
-          "amount": 26000000,
-          "label": "Market tier",
-          "description": "Top WR pricing",
-          "percentile": 92
+          "amount": 23568000,
+          "label": "Market",
+          "description": "Fair market value for production",
+          "percentile": 100,
+          "isRecommended": false
         },
         {
-          "amount": 34000000,
-          "label": "Premium tier",
-          "description": "Superstar overpay",
-          "percentile": 96
+          "amount": 30638400,
+          "label": "Premium",
+          "description": "130% of market - overpay diminishes returns",
+          "percentile": 115,
+          "isRecommended": false
         }
       ],
       "context": "Best WR in football, incredible chemistry with Rodgers"
@@ -1315,22 +1675,25 @@
       },
       "salaryTiers": [
         {
-          "amount": 17000000,
-          "label": "Value tier",
-          "description": "Elite speed threat",
-          "percentile": 78
+          "amount": 18870000,
+          "label": "Efficient",
+          "description": "85% of market value - high efficiency",
+          "percentile": 85,
+          "isRecommended": true
         },
         {
-          "amount": 25000000,
-          "label": "Market tier",
-          "description": "Game-breaking WR",
-          "percentile": 90
+          "amount": 22200000,
+          "label": "Market",
+          "description": "Fair market value for production",
+          "percentile": 100,
+          "isRecommended": false
         },
         {
-          "amount": 33000000,
-          "label": "Premium tier",
-          "description": "Superstar premium",
-          "percentile": 95
+          "amount": 28860000,
+          "label": "Premium",
+          "description": "130% of market - overpay diminishes returns",
+          "percentile": 115,
+          "isRecommended": false
         }
       ],
       "context": "Fastest player in NFL, deep threat extraordinaire"
@@ -1348,16 +1711,25 @@
       },
       "salaryTiers": [
         {
-          "amount": 16000000,
-          "label": "Value tier",
-          "description": "Elite possession WR",
-          "percentile": 76
+          "amount": 17482800,
+          "label": "Efficient",
+          "description": "85% of market value - high efficiency",
+          "percentile": 85,
+          "isRecommended": true
         },
         {
-          "amount": 24000000,
-          "label": "Market tier",
-          "description": "Proven WR1 pricing",
-          "percentile": 88
+          "amount": 20568000,
+          "label": "Market",
+          "description": "Fair market value for production",
+          "percentile": 100,
+          "isRecommended": false
+        },
+        {
+          "amount": 26738400,
+          "label": "Premium",
+          "description": "130% of market - overpay diminishes returns",
+          "percentile": 115,
+          "isRecommended": false
         }
       ],
       "context": "Incredible hands, first year in Arizona"
@@ -1375,16 +1747,25 @@
       },
       "salaryTiers": [
         {
-          "amount": 15000000,
-          "label": "Value tier",
-          "description": "Volume WR1 value",
-          "percentile": 74
+          "amount": 18033600,
+          "label": "Efficient",
+          "description": "85% of market value - high efficiency",
+          "percentile": 85,
+          "isRecommended": true
         },
         {
-          "amount": 23000000,
-          "label": "Market tier",
-          "description": "Reception leader pricing",
-          "percentile": 86
+          "amount": 21216000,
+          "label": "Market",
+          "description": "Fair market value for production",
+          "percentile": 100,
+          "isRecommended": false
+        },
+        {
+          "amount": 27580800,
+          "label": "Premium",
+          "description": "130% of market - overpay diminishes returns",
+          "percentile": 115,
+          "isRecommended": false
         }
       ],
       "context": "Led NFL in receptions, perfect fit in Buffalo"
@@ -1402,16 +1783,25 @@
       },
       "salaryTiers": [
         {
-          "amount": 12000000,
-          "label": "Value tier",
-          "description": "Young star value",
-          "percentile": 70
+          "amount": 16034400,
+          "label": "Efficient",
+          "description": "85% of market value - high efficiency",
+          "percentile": 85,
+          "isRecommended": true
         },
         {
-          "amount": 20000000,
-          "label": "Market tier",
-          "description": "Breakout WR pricing",
-          "percentile": 84
+          "amount": 18864000,
+          "label": "Market",
+          "description": "Fair market value for production",
+          "percentile": 100,
+          "isRecommended": false
+        },
+        {
+          "amount": 24523200,
+          "label": "Premium",
+          "description": "130% of market - overpay diminishes returns",
+          "percentile": 115,
+          "isRecommended": false
         }
       ],
       "context": "Physical freak, explosive playmaker"
@@ -1429,16 +1819,25 @@
       },
       "salaryTiers": [
         {
-          "amount": 11000000,
-          "label": "Value tier",
-          "description": "Emerging WR1 value",
-          "percentile": 68
+          "amount": 14769600,
+          "label": "Efficient",
+          "description": "85% of market value - high efficiency",
+          "percentile": 85,
+          "isRecommended": true
         },
         {
-          "amount": 19000000,
-          "label": "Market tier",
-          "description": "High-volume WR pricing",
-          "percentile": 82
+          "amount": 17376000,
+          "label": "Market",
+          "description": "Fair market value for production",
+          "percentile": 100,
+          "isRecommended": false
+        },
+        {
+          "amount": 22588800,
+          "label": "Premium",
+          "description": "130% of market - overpay diminishes returns",
+          "percentile": 115,
+          "isRecommended": false
         }
       ],
       "context": "Emerged as true WR1, elite route runner"
@@ -1456,16 +1855,25 @@
       },
       "salaryTiers": [
         {
-          "amount": 13000000,
-          "label": "Value tier",
-          "description": "Consistent possession WR",
-          "percentile": 70
+          "amount": 15667200,
+          "label": "Efficient",
+          "description": "85% of market value - high efficiency",
+          "percentile": 85,
+          "isRecommended": true
         },
         {
-          "amount": 21000000,
-          "label": "Market tier",
-          "description": "Proven WR1 pricing",
-          "percentile": 84
+          "amount": 18432000,
+          "label": "Market",
+          "description": "Fair market value for production",
+          "percentile": 100,
+          "isRecommended": false
+        },
+        {
+          "amount": 23961600,
+          "label": "Premium",
+          "description": "130% of market - overpay diminishes returns",
+          "percentile": 115,
+          "isRecommended": false
         }
       ],
       "context": "Mr. Reliable, elite route running"
@@ -1483,16 +1891,25 @@
       },
       "salaryTiers": [
         {
-          "amount": 10000000,
-          "label": "Value tier",
-          "description": "Rookie sensation value",
-          "percentile": 72
+          "amount": 16830000,
+          "label": "Efficient",
+          "description": "85% of market value - high efficiency",
+          "percentile": 85,
+          "isRecommended": true
         },
         {
-          "amount": 18000000,
-          "label": "Market tier",
-          "description": "OROY performance",
-          "percentile": 86
+          "amount": 19800000,
+          "label": "Market",
+          "description": "Fair market value for production",
+          "percentile": 100,
+          "isRecommended": false
+        },
+        {
+          "amount": 25740000,
+          "label": "Premium",
+          "description": "130% of market - overpay diminishes returns",
+          "percentile": 115,
+          "isRecommended": false
         }
       ],
       "context": "Offensive Rookie of the Year, historic season"
@@ -1510,16 +1927,25 @@
       },
       "salaryTiers": [
         {
-          "amount": 12000000,
-          "label": "Value tier",
-          "description": "Volume WR value",
-          "percentile": 66
+          "amount": 13912800,
+          "label": "Efficient",
+          "description": "85% of market value - high efficiency",
+          "percentile": 85,
+          "isRecommended": true
         },
         {
-          "amount": 20000000,
-          "label": "Market tier",
-          "description": "Proven WR1 pricing",
-          "percentile": 80
+          "amount": 16368000,
+          "label": "Market",
+          "description": "Fair market value for production",
+          "percentile": 100,
+          "isRecommended": false
+        },
+        {
+          "amount": 21278400,
+          "label": "Premium",
+          "description": "130% of market - overpay diminishes returns",
+          "percentile": 115,
+          "isRecommended": false
         }
       ],
       "context": "Productive despite inconsistent QB play"
@@ -1537,16 +1963,25 @@
       },
       "salaryTiers": [
         {
-          "amount": 13000000,
-          "label": "Value tier",
-          "description": "Red zone specialist",
-          "percentile": 68
+          "amount": 13158000,
+          "label": "Efficient",
+          "description": "85% of market value - high efficiency",
+          "percentile": 85,
+          "isRecommended": true
         },
         {
-          "amount": 21000000,
-          "label": "Market tier",
-          "description": "Proven touchdown maker",
-          "percentile": 82
+          "amount": 15480000,
+          "label": "Market",
+          "description": "Fair market value for production",
+          "percentile": 100,
+          "isRecommended": false
+        },
+        {
+          "amount": 20124000,
+          "label": "Premium",
+          "description": "130% of market - overpay diminishes returns",
+          "percentile": 115,
+          "isRecommended": false
         }
       ],
       "context": "TD machine, championship contributor"
@@ -1564,16 +1999,25 @@
       },
       "salaryTiers": [
         {
-          "amount": 11000000,
-          "label": "Value tier",
-          "description": "Red zone threat value",
-          "percentile": 65
+          "amount": 12790800,
+          "label": "Efficient",
+          "description": "85% of market value - high efficiency",
+          "percentile": 85,
+          "isRecommended": true
         },
         {
-          "amount": 19000000,
-          "label": "Market tier",
-          "description": "Veteran WR pricing",
-          "percentile": 78
+          "amount": 15048000,
+          "label": "Market",
+          "description": "Fair market value for production",
+          "percentile": 100,
+          "isRecommended": false
+        },
+        {
+          "amount": 19562400,
+          "label": "Premium",
+          "description": "130% of market - overpay diminishes returns",
+          "percentile": 115,
+          "isRecommended": false
         }
       ],
       "context": "Touchdown machine, elite in red zone"
@@ -1591,16 +2035,25 @@
       },
       "salaryTiers": [
         {
-          "amount": 12000000,
-          "label": "Value tier",
-          "description": "Efficient WR2 value",
-          "percentile": 67
+          "amount": 14341200,
+          "label": "Efficient",
+          "description": "85% of market value - high efficiency",
+          "percentile": 85,
+          "isRecommended": true
         },
         {
-          "amount": 20000000,
-          "label": "Market tier",
-          "description": "Reliable WR1/2 pricing",
-          "percentile": 81
+          "amount": 16872000,
+          "label": "Market",
+          "description": "Fair market value for production",
+          "percentile": 100,
+          "isRecommended": false
+        },
+        {
+          "amount": 21933600,
+          "label": "Premium",
+          "description": "130% of market - overpay diminishes returns",
+          "percentile": 115,
+          "isRecommended": false
         }
       ],
       "context": "Perfect complement to Metcalf, efficient"
@@ -1618,16 +2071,25 @@
       },
       "salaryTiers": [
         {
-          "amount": 14000000,
-          "label": "Value tier",
-          "description": "Proven WR1 value",
-          "percentile": 64
+          "amount": 11913600,
+          "label": "Efficient",
+          "description": "85% of market value - high efficiency",
+          "percentile": 85,
+          "isRecommended": true
         },
         {
-          "amount": 22000000,
-          "label": "Market tier",
-          "description": "Top WR pricing",
-          "percentile": 76
+          "amount": 14016000,
+          "label": "Market",
+          "description": "Fair market value for production",
+          "percentile": 100,
+          "isRecommended": false
+        },
+        {
+          "amount": 18220800,
+          "label": "Premium",
+          "description": "130% of market - overpay diminishes returns",
+          "percentile": 115,
+          "isRecommended": false
         }
       ],
       "context": "Productive despite QB carousel"
@@ -1645,16 +2107,25 @@
       },
       "salaryTiers": [
         {
-          "amount": 10000000,
-          "label": "Value tier",
-          "description": "Injury-limited value",
-          "percentile": 62
+          "amount": 11138400,
+          "label": "Efficient",
+          "description": "85% of market value - high efficiency",
+          "percentile": 85,
+          "isRecommended": true
         },
         {
-          "amount": 18000000,
-          "label": "Market tier",
-          "description": "When healthy, WR1",
-          "percentile": 76
+          "amount": 13104000,
+          "label": "Market",
+          "description": "Fair market value for production",
+          "percentile": 100,
+          "isRecommended": false
+        },
+        {
+          "amount": 17035200,
+          "label": "Premium",
+          "description": "130% of market - overpay diminishes returns",
+          "percentile": 115,
+          "isRecommended": false
         }
       ],
       "context": "Injury-shortened, championship contributor"
@@ -1672,16 +2143,25 @@
       },
       "salaryTiers": [
         {
-          "amount": 9000000,
-          "label": "Value tier",
-          "description": "Emerging star value",
-          "percentile": 64
+          "amount": 11587200,
+          "label": "Efficient",
+          "description": "85% of market value - high efficiency",
+          "percentile": 85,
+          "isRecommended": true
         },
         {
-          "amount": 17000000,
-        "label": "Market tier",
-          "description": "Productive despite QB issues",
-          "percentile": 78
+          "amount": 13632000,
+          "label": "Market",
+          "description": "Fair market value for production",
+          "percentile": 100,
+          "isRecommended": false
+        },
+        {
+          "amount": 17721600,
+          "label": "Premium",
+          "description": "130% of market - overpay diminishes returns",
+          "percentile": 115,
+          "isRecommended": false
         }
       ],
       "context": "Elite despite poor QB play"
@@ -1701,16 +2181,25 @@
       },
       "salaryTiers": [
         {
-          "amount": 18000000,
-          "label": "Value tier",
-          "description": "Lockdown corner value",
-          "percentile": 85
+          "amount": -15675360,
+          "label": "Efficient",
+          "description": "85% of market value - high efficiency",
+          "percentile": 85,
+          "isRecommended": true
         },
         {
-          "amount": 25000000,
-          "label": "Market tier",
-          "description": "Elite CB1 pricing",
-          "percentile": 94
+          "amount": -18441600,
+          "label": "Market",
+          "description": "Fair market value for production",
+          "percentile": 100,
+          "isRecommended": false
+        },
+        {
+          "amount": -23974080,
+          "label": "Premium",
+          "description": "130% of market - overpay diminishes returns",
+          "percentile": 115,
+          "isRecommended": false
         }
       ],
       "context": "Best cover corner in NFL, shutdown defender"
@@ -1728,16 +2217,25 @@
       },
       "salaryTiers": [
         {
-          "amount": 16000000,
-          "label": "Value tier",
-          "description": "Elite coverage value",
-          "percentile": 80
+          "amount": -13317120,
+          "label": "Efficient",
+          "description": "85% of market value - high efficiency",
+          "percentile": 85,
+          "isRecommended": true
         },
         {
-          "amount": 23000000,
-          "label": "Market tier",
-          "description": "Top CB pricing",
-          "percentile": 90
+          "amount": -15667200,
+          "label": "Market",
+          "description": "Fair market value for production",
+          "percentile": 100,
+          "isRecommended": false
+        },
+        {
+          "amount": -20367360,
+          "label": "Premium",
+          "description": "130% of market - overpay diminishes returns",
+          "percentile": 115,
+          "isRecommended": false
         }
       ],
       "context": "All-Pro corner, elite ball skills"
@@ -1755,16 +2253,25 @@
       },
       "salaryTiers": [
         {
-          "amount": 15000000,
-          "label": "Value tier",
-          "description": "Elite young corner",
-          "percentile": 78
+          "amount": -14773680,
+          "label": "Efficient",
+          "description": "85% of market value - high efficiency",
+          "percentile": 85,
+          "isRecommended": true
         },
         {
-          "amount": 22000000,
-          "label": "Market tier",
-          "description": "Top-tier CB pricing",
-          "percentile": 88
+          "amount": -17380800,
+          "label": "Market",
+          "description": "Fair market value for production",
+          "percentile": 100,
+          "isRecommended": false
+        },
+        {
+          "amount": -22595040,
+          "label": "Premium",
+          "description": "130% of market - overpay diminishes returns",
+          "percentile": 115,
+          "isRecommended": false
         }
       ],
       "context": "All-Pro season, elite coverage skills"
@@ -1782,16 +2289,25 @@
       },
       "salaryTiers": [
         {
-          "amount": 14000000,
-          "label": "Value tier",
-          "description": "Young elite corner",
-          "percentile": 75
+          "amount": -11271000,
+          "label": "Efficient",
+          "description": "85% of market value - high efficiency",
+          "percentile": 85,
+          "isRecommended": true
         },
         {
-          "amount": 21000000,
-          "label": "Market tier",
-          "description": "Top CB pricing",
-          "percentile": 86
+          "amount": -13260000,
+          "label": "Market",
+          "description": "Fair market value for production",
+          "percentile": 100,
+          "isRecommended": false
+        },
+        {
+          "amount": -17238000,
+          "label": "Premium",
+          "description": "130% of market - overpay diminishes returns",
+          "percentile": 115,
+          "isRecommended": false
         }
       ],
       "context": "Elite cover skills, some injury concerns"
@@ -1809,16 +2325,25 @@
       },
       "salaryTiers": [
         {
-          "amount": 13000000,
-          "label": "Value tier",
-          "description": "Elite but aging",
-          "percentile": 72
+          "amount": -9953160,
+          "label": "Efficient",
+          "description": "85% of market value - high efficiency",
+          "percentile": 85,
+          "isRecommended": true
         },
         {
-          "amount": 20000000,
-          "label": "Market tier",
-          "description": "Former DPOY pricing",
-          "percentile": 84
+          "amount": -11709600,
+          "label": "Market",
+          "description": "Fair market value for production",
+          "percentile": 100,
+          "isRecommended": false
+        },
+        {
+          "amount": -15222480,
+          "label": "Premium",
+          "description": "130% of market - overpay diminishes returns",
+          "percentile": 115,
+          "isRecommended": false
         }
       ],
       "context": "Former DPOY, still elite but aging"
@@ -1836,16 +2361,25 @@
       },
       "salaryTiers": [
         {
-          "amount": 12000000,
-          "label": "Value tier",
-          "description": "Veteran corner value",
-          "percentile": 68
+          "amount": -8427240,
+          "label": "Efficient",
+          "description": "85% of market value - high efficiency",
+          "percentile": 85,
+          "isRecommended": true
         },
         {
-          "amount": 19000000,
-          "label": "Market tier",
-          "description": "Proven veteran pricing",
-          "percentile": 80
+          "amount": -9914400,
+          "label": "Market",
+          "description": "Fair market value for production",
+          "percentile": 100,
+          "isRecommended": false
+        },
+        {
+          "amount": -12888720,
+          "label": "Premium",
+          "description": "130% of market - overpay diminishes returns",
+          "percentile": 115,
+          "isRecommended": false
         }
       ],
       "context": "Veteran corner, still productive"
@@ -1863,16 +2397,25 @@
       },
       "salaryTiers": [
         {
-          "amount": 13000000,
-          "label": "Value tier",
-          "description": "Solid CB1 value",
-          "percentile": 70
+          "amount": -10473360,
+          "label": "Efficient",
+          "description": "85% of market value - high efficiency",
+          "percentile": 85,
+          "isRecommended": true
         },
         {
-          "amount": 20000000,
-          "label": "Market tier",
-          "description": "Proven starter pricing",
-          "percentile": 82
+          "amount": -12321600,
+          "label": "Market",
+          "description": "Fair market value for production",
+          "percentile": 100,
+          "isRecommended": false
+        },
+        {
+          "amount": -16018080,
+          "label": "Premium",
+          "description": "130% of market - overpay diminishes returns",
+          "percentile": 115,
+          "isRecommended": false
         }
       ],
       "context": "Consistent starter, reliable coverage"
@@ -1890,16 +2433,25 @@
       },
       "salaryTiers": [
         {
-          "amount": 11000000,
-          "label": "Value tier",
-          "description": "Ball hawk value",
-          "percentile": 74
+          "amount": -12415440,
+          "label": "Efficient",
+          "description": "85% of market value - high efficiency",
+          "percentile": 85,
+          "isRecommended": true
         },
         {
-          "amount": 19000000,
-          "label": "Market tier",
-          "description": "INT leader pricing",
-          "percentile": 86
+          "amount": -14606400,
+          "label": "Market",
+          "description": "Fair market value for production",
+          "percentile": 100,
+          "isRecommended": false
+        },
+        {
+          "amount": -18988320,
+          "label": "Premium",
+          "description": "130% of market - overpay diminishes returns",
+          "percentile": 115,
+          "isRecommended": false
         }
       ],
       "context": "Led NFL in INTs, elite ball skills"
@@ -1917,16 +2469,25 @@
       },
       "salaryTiers": [
         {
-          "amount": 12000000,
-          "label": "Value tier",
-          "description": "Underrated corner value",
-          "percentile": 72
+          "amount": -11583120,
+          "label": "Efficient",
+          "description": "85% of market value - high efficiency",
+          "percentile": 85,
+          "isRecommended": true
         },
         {
-          "amount": 19000000,
-          "label": "Market tier",
-          "description": "Solid CB1 pricing",
-          "percentile": 84
+          "amount": -13627200,
+          "label": "Market",
+          "description": "Fair market value for production",
+          "percentile": 100,
+          "isRecommended": false
+        },
+        {
+          "amount": -17715360,
+          "label": "Premium",
+          "description": "130% of market - overpay diminishes returns",
+          "percentile": 115,
+          "isRecommended": false
         }
       ],
       "context": "Breakout season with Giants, All-Pro"
@@ -1944,16 +2505,25 @@
       },
       "salaryTiers": [
         {
-          "amount": 14000000,
-          "label": "Value tier",
-          "description": "Young elite corner",
-          "percentile": 73
+          "amount": -10265280,
+          "label": "Efficient",
+          "description": "85% of market value - high efficiency",
+          "percentile": 85,
+          "isRecommended": true
         },
         {
-          "amount": 21000000,
-          "label": "Market tier",
-          "description": "Top CB pricing",
-          "percentile": 85
+          "amount": -12076800,
+          "label": "Market",
+          "description": "Fair market value for production",
+          "percentile": 100,
+          "isRecommended": false
+        },
+        {
+          "amount": -15699840,
+          "label": "Premium",
+          "description": "130% of market - overpay diminishes returns",
+          "percentile": 115,
+          "isRecommended": false
         }
       ],
       "context": "Physical corner, elite in run support"
@@ -1971,16 +2541,25 @@
       },
       "salaryTiers": [
         {
-          "amount": 15000000,
-          "label": "Value tier",
-          "description": "Ball hawk extraordinaire",
-          "percentile": 78
+          "amount": -14045400,
+          "label": "Efficient",
+          "description": "85% of market value - high efficiency",
+          "percentile": 85,
+          "isRecommended": true
         },
         {
-          "amount": 22000000,
-          "label": "Market tier",
-          "description": "Elite playmaker pricing",
-          "percentile": 88
+          "amount": -16524000,
+          "label": "Market",
+          "description": "Fair market value for production",
+          "percentile": 100,
+          "isRecommended": false
+        },
+        {
+          "amount": -21481200,
+          "label": "Premium",
+          "description": "130% of market - overpay diminishes returns",
+          "percentile": 115,
+          "isRecommended": false
         }
       ],
       "context": "Led NFL in INTs, elite ball skills"
@@ -1998,16 +2577,25 @@
       },
       "salaryTiers": [
         {
-          "amount": 8000000,
-          "label": "Value tier",
-          "description": "Rookie upside value",
-          "percentile": 62
+          "amount": -6381120,
+          "label": "Efficient",
+          "description": "85% of market value - high efficiency",
+          "percentile": 85,
+          "isRecommended": true
         },
         {
-          "amount": 16000000,
-          "label": "Market tier",
-          "description": "High-upside rookie",
-          "percentile": 76
+          "amount": -7507200,
+          "label": "Market",
+          "description": "Fair market value for production",
+          "percentile": 100,
+          "isRecommended": false
+        },
+        {
+          "amount": -9759360,
+          "label": "Premium",
+          "description": "130% of market - overpay diminishes returns",
+          "percentile": 115,
+          "isRecommended": false
         }
       ],
       "context": "Rookie playmaker, aggressive coverage"
@@ -2025,16 +2613,25 @@
       },
       "salaryTiers": [
         {
-          "amount": 7000000,
-          "label": "Value tier",
-          "description": "Solid young corner",
-          "percentile": 58
+          "amount": -7837680,
+          "label": "Efficient",
+          "description": "85% of market value - high efficiency",
+          "percentile": 85,
+          "isRecommended": true
         },
         {
-          "amount": 14000000,
-          "label": "Market tier",
-          "description": "Emerging starter pricing",
-          "percentile": 72
+          "amount": -9220800,
+          "label": "Market",
+          "description": "Fair market value for production",
+          "percentile": 100,
+          "isRecommended": false
+        },
+        {
+          "amount": -11987040,
+          "label": "Premium",
+          "description": "130% of market - overpay diminishes returns",
+          "percentile": 115,
+          "isRecommended": false
         }
       ],
       "context": "Emerging corner, solid coverage"
@@ -2052,16 +2649,25 @@
       },
       "salaryTiers": [
         {
-          "amount": 11000000,
-          "label": "Value tier",
-          "description": "Veteran corner value",
-          "percentile": 66
+          "amount": -9294240,
+          "label": "Efficient",
+          "description": "85% of market value - high efficiency",
+          "percentile": 85,
+          "isRecommended": true
         },
         {
-          "amount": 18000000,
-          "label": "Market tier",
-          "description": "Proven veteran pricing",
-          "percentile": 78
+          "amount": -10934400,
+          "label": "Market",
+          "description": "Fair market value for production",
+          "percentile": 100,
+          "isRecommended": false
+        },
+        {
+          "amount": -14214720,
+          "label": "Premium",
+          "description": "130% of market - overpay diminishes returns",
+          "percentile": 115,
+          "isRecommended": false
         }
       ],
       "context": "Veteran corner, consistent coverage"
@@ -2079,16 +2685,25 @@
       },
       "salaryTiers": [
         {
-          "amount": 13000000,
-          "label": "Value tier",
-          "description": "Solid CB1 value",
-          "percentile": 71
+          "amount": -10820160,
+          "label": "Efficient",
+          "description": "85% of market value - high efficiency",
+          "percentile": 85,
+          "isRecommended": true
         },
         {
-          "amount": 20000000,
-          "label": "Market tier",
-          "description": "Proven starter pricing",
-          "percentile": 83
+          "amount": -12729600,
+          "label": "Market",
+          "description": "Fair market value for production",
+          "percentile": 100,
+          "isRecommended": false
+        },
+        {
+          "amount": -16548480,
+          "label": "Premium",
+          "description": "130% of market - overpay diminishes returns",
+          "percentile": 115,
+          "isRecommended": false
         }
       ],
       "context": "Former DROY, consistent starter"

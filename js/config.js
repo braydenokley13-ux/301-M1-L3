@@ -192,12 +192,49 @@ const CHART_COLORS = {
   average: '#6b7280'       // Gray
 };
 
+// Completion tier thresholds and claim codes
+const COMPLETION_TIERS = {
+  gold: {
+    minScore: 270,  // 90% of 300
+    name: 'Gold Tier',
+    badge: '🥇',
+    claimCode: 'GMCHALLENGE-GOLD-2026',
+    message: 'Outstanding! You\'ve mastered the efficiency frontier!',
+    color: '#FFD700'
+  },
+  silver: {
+    minScore: 240,  // 80% of 300
+    name: 'Silver Tier',
+    badge: '🥈',
+    claimCode: 'GMCHALLENGE-SILVER-2026',
+    message: 'Great work! You understand diminishing returns well!',
+    color: '#C0C0C0'
+  },
+  bronze: {
+    minScore: 210,  // 70% of 300
+    name: 'Bronze Tier',
+    badge: '🥉',
+    claimCode: 'GMCHALLENGE-BRONZE-2026',
+    message: 'Good job! You\'ve completed all scenarios!',
+    color: '#CD7F32'
+  },
+  participant: {
+    minScore: 0,
+    name: 'Participant',
+    badge: '🎓',
+    claimCode: 'GMCHALLENGE-COMPLETE-2026',
+    message: 'You\'ve completed the challenge! Keep practicing!',
+    color: '#6b7280'
+  }
+};
+
 // Export configurations
 if (typeof module !== 'undefined' && module.exports) {
   module.exports = {
     LEAGUE_CONFIG,
     SCORING,
     TUTORIAL_CONFIG,
-    CHART_COLORS
+    CHART_COLORS,
+    COMPLETION_TIERS
   };
 }

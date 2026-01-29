@@ -31,9 +31,11 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: var(--spacing-md);
-  background: var(--bg-secondary);
-  border-radius: var(--border-radius);
+  background: var(--gradient-card);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: var(--shadow-lg);
+  padding: var(--spacing-lg);
+  border-radius: var(--border-radius-lg);
   margin-bottom: var(--spacing-lg);
 }
 
@@ -50,9 +52,12 @@
 }
 
 .budget-value {
-  font-size: 1.5rem;
+  background: var(--gradient-primary);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
   font-weight: 700;
-  color: var(--text-primary);
+  font-size: 1.5rem;
 }
 
 .budget-value.warning {
@@ -85,9 +90,11 @@
 }
 
 .roster-slot.filled {
-  background: var(--bg-card);
+  animation: scaleIn 0.4s var(--ease-bounce);
+  background: linear-gradient(145deg, #ffffff, #f0f9ff);
+  box-shadow: var(--shadow-glow-blue);
+  border: 2px solid var(--color-primary);
   border-style: solid;
-  border-color: var(--color-primary);
 }
 
 .roster-position-label {
@@ -160,6 +167,11 @@
   background: var(--bg-secondary);
   border-radius: var(--border-radius);
   margin-bottom: var(--spacing-md);
+  transition: all 0.3s var(--ease-smooth);
+}
+
+.metric-card.updated {
+  animation: pulse-subtle 0.5s ease-in-out;
 }
 
 .metric-label {

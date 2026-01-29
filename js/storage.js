@@ -142,6 +142,36 @@ class SessionStorage {
   }
 
   /**
+   * Get completion tier based on total score
+   * @returns {string} Tier name (gold, silver, bronze, participant)
+   */
+  getCompletionTier() {
+    const score = this.session.totalScore;
+
+    if (score >= COMPLETION_TIERS.gold.minScore) return 'gold';
+    if (score >= COMPLETION_TIERS.silver.minScore) return 'silver';
+    if (score >= COMPLETION_TIERS.bronze.minScore) return 'bronze';
+    return 'participant';
+  }
+
+  /**
+   * Get claim code for current tier
+   * @returns {string} Claim code
+   */
+  getClaimCode() {
+    const tier = this.getCompletionTier();
+    return COMPLETION_TIERS[tier].claimCode;
+  }
+
+  /**
+   * Check if all scenarios are complete
+   * @returns {boolean} True if all 3 scenarios completed
+   */
+  isAllScenariosComplete() {
+    return Object.values(this.session.scenarios).every(s => s.completed);
+  }
+
+  /**
    * Check and award badges
    */
   checkBadges() {

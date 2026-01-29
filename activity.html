@@ -107,6 +107,12 @@
     </div>
   </main>
 
+  <footer class="footer">
+    <div class="container">
+      <p class="text-sm">Bow Sports Capital 2026</p>
+    </div>
+  </footer>
+
   <script src="js/config.js"></script>
   <script src="js/calculator.js"></script>
   <script src="js/storage.js"></script>
@@ -138,6 +144,7 @@
 
         // Initialize chart manager
         chartManager = new ChartManager();
+        window.chartManager = chartManager;
         chartManager.initializeCharts();
 
         // Set up event listeners

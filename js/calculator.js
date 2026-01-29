@@ -30,6 +30,27 @@ class EfficiencyCalculator {
   }
 
   /**
+   * Calculate market value for a player based on performance
+   * @param {Object} player - Player object with stats
+   * @param {string} position - Position code
+   * @returns {Object} Market value tiers
+   */
+  calculateMarketValue(player, position) {
+    const posConfig = this.config.positions[position];
+    const stat = this.getPlayerStat(player, position);
+    const normalizedStat = stat / posConfig.positionMax;
+
+    // Base market value scaled by position importance and efficiency threshold
+    const baseValue = posConfig.efficiencyThreshold * normalizedStat * 1.2;
+
+    return {
+      market: Math.round(baseValue),
+      min: Math.round(baseValue * 0.85),  // 15% below market
+      max: Math.round(baseValue * 1.30)   // 30% above market
+    };
+  }
+
+  /**
    * Get the relevant stat for a player based on league
    * @param {Object} player - Player object
    * @param {string} position - Position code

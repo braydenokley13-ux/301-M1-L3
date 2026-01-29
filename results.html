@@ -65,7 +65,7 @@
 
   <footer class="footer">
     <div class="container">
-      <p class="text-sm">&copy; 2024 The GM Challenge</p>
+      <p class="text-sm">Bow Sports Capital 2026</p>
     </div>
   </footer>
 
@@ -161,14 +161,22 @@
 
     function nextScenario() {
       const leagues = ['MLB_2019', 'NFL_2020', 'NBA_2019'];
-      const currentIndex = leagues.indexOf(currentLeague);
-      const nextIndex = (currentIndex + 1) % leagues.length;
-      const nextLeague = leagues[nextIndex];
 
-      if (storage.isScenarioCompleted(nextLeague)) {
-        window.location.href = 'index.html';
-      } else {
+      // Check if all scenarios are complete
+      if (storage.isAllScenariosComplete()) {
+        window.location.href = 'completion.html';
+        return;
+      }
+
+      // Find next incomplete scenario
+      const nextLeague = leagues.find(league =>
+        !storage.session.scenarios[league].completed
+      );
+
+      if (nextLeague) {
         window.location.href = `activity.html?league=${nextLeague}`;
+      } else {
+        window.location.href = 'completion.html';
       }
     }
 
