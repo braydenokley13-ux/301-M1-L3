@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Challenge Complete - The GM Challenge</title>
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/completion.css">
+</head>
+<body>
+  <div class="completion-hero">
+    <div class="confetti-container" id="confetti"></div>
+    <h1>🎉 Challenge Complete!</h1>
+    <div class="tier-badge-container" id="tier-badge">
+      <!-- Tier badge will be inserted here -->
+    </div>
+  </div>
+
+  <main class="main-content">
+    <div class="container">
+      <section class="card completion-summary">
+        <h2>Your Final Score</h2>
+        <div class="score-display">
+          <div class="score-number" id="final-score">0</div>
+          <div class="score-max">/ 300</div>
+        </div>
+        <div class="score-grade" id="grade"></div>
+
+        <div class="claim-code-section">
+          <h3>Your Claim Code</h3>
+          <div class="claim-code-box">
+            <div class="claim-code" id="claim-code">Loading...</div>
+            <button class="btn btn-secondary btn-sm" onclick="copyClaimCode()">
+              📋 Copy Code
+            </button>
+          </div>
+          <p class="claim-instructions text-muted">
+            Save this code to claim your achievement certificate
+          </p>
+        </div>
+      </section>
+
+      <section class="card scenario-breakdown">
+        <h3>Scenario Results</h3>
+        <div class="grid grid-3" id="scenario-scores">
+          <!-- Scenario scores will be loaded here -->
+        </div>
+      </section>
+
+      <section class="card badges-earned" id="badges-section" style="display: none;">
+        <h3>Badges Earned</h3>
+        <div class="flex gap-md" id="badges-display">
+          <!-- Badges will be loaded here -->
+        </div>
+      </section>
+
+      <div class="action-buttons">
+        <button class="btn btn-primary" onclick="window.location.href='index.html'">
+          Return to Home
+        </button>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p class="text-sm">Bow Sports Capital 2026</p>
+    </div>
+  </footer>
+
+  <script src="js/config.js"></script>
+  <script src="js/storage.js"></script>
+  <script src="js/utils.js"></script>
+  <script>
+    const storage = new SessionStorage();
+
+    document.addEventListener('DOMContentLoaded', () => {
+      // Redirect if not all scenarios complete
+      if (!storage.isAllScenariosComplete()) {
+        window.location.href = 'index.html';
+        return;
+      }
+
+      loadCompletionData();
+      triggerConfetti();
+    });
+
+    function loadCompletionData() {
+      const summary = storage.getSummary();
+      const tier = storage.getCompletionTier();
+      const tierInfo = COMPLETION_TIERS[tier];
+
+      // Display tier badge
+      document.getElementById('tier-badge').innerHTML = `
+        <div class="badge-icon" style="color: ${tierInfo.color}">${tierInfo.badge}</div>
+        <div class="badge-name">${tierInfo.name}</div>
+        <p class="badge-message">${tierInfo.message}</p>
+      `;
+
+      // Display final score
+      document.getElementById('final-score').textContent = summary.totalScore;
+      document.getElementById('grade').textContent = `Grade: ${summary.grade}`;
+
+      // Display claim code
+      document.getElementById('claim-code').textContent = tierInfo.claimCode;
+
+      // Display scenario breakdown
+      const scenarioScores = document.getElementById('scenario-scores');
+      const scenarios = storage.session.scenarios;
+
+      scenarioScores.innerHTML = Object.entries(scenarios).map(([league, data]) => `
+        <div class="metric-card">
+          <div class="metric-label">${LEAGUE_CONFIG[league].name}</div>
+          <div class="metric-value">${data.score}/100</div>
+          <div class="metric-sublabel">${formatTime(data.time)}</div>
+        </div>
+      `).join('');
+
+      // Display badges if any
+      const badges = storage.session.badges;
+      if (badges.length > 0) {
+        document.getElementById('badges-section').style.display = 'block';
+        document.getElementById('badges-display').innerHTML = badges.map(badgeId => {
+          const badge = getBadgeInfo(badgeId);
+          return `
+            <div class="card" style="text-align: center; min-width: 150px;">
+              <div style="font-size: 3rem;">${badge.icon}</div>
+              <h5 class="mt-sm mb-xs">${badge.name}</h5>
+              <p class="text-sm text-muted">${badge.description}</p>
+            </div>
+          `;
+        }).join('');
+      }
+    }
+
+    function copyClaimCode() {
+      const code = document.getElementById('claim-code').textContent;
+      navigator.clipboard.writeText(code).then(() => {
+        showToast('Claim code copied!', 'success');
+      });
+    }
+
+    function triggerConfetti() {
+      // Simple confetti animation
+      const container = document.getElementById('confetti');
+      for (let i = 0; i < 50; i++) {
+        const confetti = document.createElement('div');
+        confetti.className = 'confetti-piece';
+        confetti.style.left = Math.random() * 100 + '%';
+        confetti.style.animationDelay = Math.random() * 3 + 's';
+        confetti.style.backgroundColor = ['#FFD700', '#C0C0C0', '#CD7F32', '#2563eb', '#10b981'][Math.floor(Math.random() * 5)];
+        container.appendChild(confetti);
+      }
+    }
+  </script>
+</body>
+</html>
