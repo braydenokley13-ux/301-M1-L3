@@ -14,16 +14,25 @@
       },
       "salaryTiers": [
         {
-          "amount": 28000000,
-          "label": "Star tier",
-          "description": "Elite PG value",
-          "percentile": 85
+          "amount": 25335484,
+          "label": "Efficient",
+          "description": "85% of market value - high efficiency",
+          "percentile": 85,
+          "isRecommended": true
         },
         {
-          "amount": 37000000,
-          "label": "Supermax tier",
-          "description": "Superstar pricing",
-          "percentile": 95
+          "amount": 29806452,
+          "label": "Market",
+          "description": "Fair market value for production",
+          "percentile": 100,
+          "isRecommended": false
+        },
+        {
+          "amount": 38748387,
+          "label": "Premium",
+          "description": "130% of market - overpay diminishes returns",
+          "percentile": 115,
+          "isRecommended": false
         }
       ],
       "context": "Two-time MVP, greatest shooter ever"
@@ -42,16 +51,25 @@
       },
       "salaryTiers": [
         {
-          "amount": 25000000,
-          "label": "Star tier",
-          "description": "Triple-double machine",
-          "percentile": 82
+          "amount": 21650323,
+          "label": "Efficient",
+          "description": "85% of market value - high efficiency",
+          "percentile": 85,
+          "isRecommended": true
         },
         {
-          "amount": 35000000,
-          "label": "Supermax tier",
-          "description": "Former MVP pricing",
-          "percentile": 93
+          "amount": 25470968,
+          "label": "Market",
+          "description": "Fair market value for production",
+          "percentile": 100,
+          "isRecommended": false
+        },
+        {
+          "amount": 33112258,
+          "label": "Premium",
+          "description": "130% of market - overpay diminishes returns",
+          "percentile": 115,
+          "isRecommended": false
         }
       ],
       "context": "Third straight triple-double season, MVP pedigree"
@@ -70,16 +88,25 @@
       },
       "salaryTiers": [
         {
-          "amount": 23000000,
-          "label": "Star tier",
-          "description": "Clutch scorer value",
-          "percentile": 80
+          "amount": 21281806,
+          "label": "Efficient",
+          "description": "85% of market value - high efficiency",
+          "percentile": 85,
+          "isRecommended": true
         },
         {
-          "amount": 31000000,
-          "label": "Supermax tier",
-          "description": "Elite PG pricing",
-          "percentile": 91
+          "amount": 25037419,
+          "label": "Market",
+          "description": "Fair market value for production",
+          "percentile": 100,
+          "isRecommended": false
+        },
+        {
+          "amount": 32548645,
+          "label": "Premium",
+          "description": "130% of market - overpay diminishes returns",
+          "percentile": 115,
+          "isRecommended": false
         }
       ],
       "context": "Clutch performer, 'Dame Time' legend"
@@ -94,20 +121,29 @@
         "ws": 7.4,
         "ppg": 23.8,
         "apg": 6.9,
-        "rpg": 5.0
+        "rpg": 5
       },
       "salaryTiers": [
         {
-          "amount": 18000000,
-          "label": "Star tier",
-          "description": "Elite scorer value",
-          "percentile": 78
+          "amount": 20821161,
+          "label": "Efficient",
+          "description": "85% of market value - high efficiency",
+          "percentile": 85,
+          "isRecommended": true
         },
         {
-          "amount": 28000000,
-          "label": "Supermax tier",
-          "description": "Championship pedigree",
-          "percentile": 89
+          "amount": 24495484,
+          "label": "Market",
+          "description": "Fair market value for production",
+          "percentile": 100,
+          "isRecommended": false
+        },
+        {
+          "amount": 31844129,
+          "label": "Premium",
+          "description": "130% of market - overpay diminishes returns",
+          "percentile": 115,
+          "isRecommended": false
         }
       ],
       "context": "Elite ball-handler, championship experience"
@@ -126,16 +162,25 @@
       },
       "salaryTiers": [
         {
-          "amount": 16000000,
-          "label": "Star tier",
-          "description": "All-Star value",
-          "percentile": 75
+          "amount": 19531355,
+          "label": "Efficient",
+          "description": "85% of market value - high efficiency",
+          "percentile": 85,
+          "isRecommended": true
         },
         {
-          "amount": 24000000,
-          "label": "Supermax tier",
-          "description": "Franchise PG pricing",
-          "percentile": 86
+          "amount": 22978065,
+          "label": "Market",
+          "description": "Fair market value for production",
+          "percentile": 100,
+          "isRecommended": false
+        },
+        {
+          "amount": 29871484,
+          "label": "Premium",
+          "description": "130% of market - overpay diminishes returns",
+          "percentile": 115,
+          "isRecommended": false
         }
       ],
       "context": "Franchise player, All-Star third time"
@@ -154,16 +199,25 @@
       },
       "salaryTiers": [
         {
-          "amount": 10000000,
-          "label": "Value tier",
-          "description": "Young star value",
-          "percentile": 70
+          "amount": 17320258,
+          "label": "Efficient",
+          "description": "85% of market value - high efficiency",
+          "percentile": 85,
+          "isRecommended": true
         },
         {
-          "amount": 18000000,
-          "label": "Star tier",
-          "description": "All-around talent",
-          "percentile": 82
+          "amount": 20376774,
+          "label": "Market",
+          "description": "Fair market value for production",
+          "percentile": 100,
+          "isRecommended": false
+        },
+        {
+          "amount": 26489806,
+          "label": "Premium",
+          "description": "130% of market - overpay diminishes returns",
+          "percentile": 115,
+          "isRecommended": false
         }
       ],
       "context": "All-Star, elite passer and defender"
@@ -182,16 +236,25 @@
       },
       "salaryTiers": [
         {
-          "amount": 20000000,
-          "label": "Star tier",
-          "description": "Championship floor general",
-          "percentile": 76
+          "amount": 17688774,
+          "label": "Efficient",
+          "description": "85% of market value - high efficiency",
+          "percentile": 85,
+          "isRecommended": true
         },
         {
-          "amount": 28000000,
-          "label": "Supermax tier",
-          "description": "Veteran leader pricing",
-          "percentile": 87
+          "amount": 20810323,
+          "label": "Market",
+          "description": "Fair market value for production",
+          "percentile": 100,
+          "isRecommended": false
+        },
+        {
+          "amount": 27053419,
+          "label": "Premium",
+          "description": "130% of market - overpay diminishes returns",
+          "percentile": 115,
+          "isRecommended": false
         }
       ],
       "context": "Won championship, elite facilitator"
@@ -210,16 +273,25 @@
       },
       "salaryTiers": [
         {
-          "amount": 17000000,
-          "label": "Star tier",
-          "description": "Steady veteran value",
-          "percentile": 72
+          "amount": 16491097,
+          "label": "Efficient",
+          "description": "85% of market value - high efficiency",
+          "percentile": 85,
+          "isRecommended": true
         },
         {
-          "amount": 25000000,
-          "label": "Supermax tier",
-          "description": "Veteran starter pricing",
-          "percentile": 83
+          "amount": 19401290,
+          "label": "Market",
+          "description": "Fair market value for production",
+          "percentile": 100,
+          "isRecommended": false
+        },
+        {
+          "amount": 25221677,
+          "label": "Premium",
+          "description": "130% of market - overpay diminishes returns",
+          "percentile": 115,
+          "isRecommended": false
         }
       ],
       "context": "Underrated veteran, consistent performer"
@@ -233,21 +305,30 @@
         "per": 18.9,
         "ws": 5.3,
         "ppg": 21.1,
-        "apg": 7.0,
+        "apg": 7,
         "rpg": 3.9
       },
       "salaryTiers": [
         {
-          "amount": 14000000,
-          "label": "Star tier",
-          "description": "Breakout season value",
-          "percentile": 70
+          "amount": 17412387,
+          "label": "Efficient",
+          "description": "85% of market value - high efficiency",
+          "percentile": 85,
+          "isRecommended": true
         },
         {
-          "amount": 22000000,
-          "label": "Supermax tier",
-          "description": "Young All-Star pricing",
-          "percentile": 81
+          "amount": 20485161,
+          "label": "Market",
+          "description": "Fair market value for production",
+          "percentile": 100,
+          "isRecommended": false
+        },
+        {
+          "amount": 26630710,
+          "label": "Premium",
+          "description": "130% of market - overpay diminishes returns",
+          "percentile": 115,
+          "isRecommended": false
         }
       ],
       "context": "First All-Star appearance, breakout year"
@@ -262,20 +343,29 @@
         "ws": 5.9,
         "ppg": 21.2,
         "apg": 7.7,
-        "rpg": 5.0
+        "rpg": 5
       },
       "salaryTiers": [
         {
-          "amount": 15000000,
-          "label": "Star tier",
-          "description": "Two-way guard value",
-          "percentile": 71
+          "amount": 16951742,
+          "label": "Efficient",
+          "description": "85% of market value - high efficiency",
+          "percentile": 85,
+          "isRecommended": true
         },
         {
-          "amount": 23000000,
-          "label": "Supermax tier",
-          "description": "Elite defender pricing",
-          "percentile": 82
+          "amount": 19943226,
+          "label": "Market",
+          "description": "Fair market value for production",
+          "percentile": 100,
+          "isRecommended": false
+        },
+        {
+          "amount": 25926194,
+          "label": "Premium",
+          "description": "130% of market - overpay diminishes returns",
+          "percentile": 115,
+          "isRecommended": false
         }
       ],
       "context": "Elite two-way player, All-Defense caliber"
@@ -294,16 +384,25 @@
       },
       "salaryTiers": [
         {
-          "amount": 22000000,
-          "label": "Star tier",
-          "description": "Aging star value",
-          "percentile": 73
+          "amount": 18610065,
+          "label": "Efficient",
+          "description": "85% of market value - high efficiency",
+          "percentile": 85,
+          "isRecommended": true
         },
         {
-          "amount": 30000000,
-          "label": "Supermax tier",
-          "description": "Legacy contract pricing",
-          "percentile": 85
+          "amount": 21894194,
+          "label": "Market",
+          "description": "Fair market value for production",
+          "percentile": 100,
+          "isRecommended": false
+        },
+        {
+          "amount": 28462452,
+          "label": "Premium",
+          "description": "130% of market - overpay diminishes returns",
+          "percentile": 115,
+          "isRecommended": false
         }
       ],
       "context": "Future HOF, still effective at 33"
@@ -322,16 +421,25 @@
       },
       "salaryTiers": [
         {
-          "amount": 18000000,
-          "label": "Star tier",
-          "description": "Injury risk discount",
-          "percentile": 65
+          "amount": 17873032,
+          "label": "Efficient",
+          "description": "85% of market value - high efficiency",
+          "percentile": 85,
+          "isRecommended": true
         },
         {
-          "amount": 27000000,
-          "label": "Supermax tier",
-          "description": "Supermax contract burden",
-          "percentile": 78
+          "amount": 21027097,
+          "label": "Market",
+          "description": "Fair market value for production",
+          "percentile": 100,
+          "isRecommended": false
+        },
+        {
+          "amount": 27335226,
+          "label": "Premium",
+          "description": "130% of market - overpay diminishes returns",
+          "percentile": 115,
+          "isRecommended": false
         }
       ],
       "context": "Injury-plagued season, only 32 games"
@@ -350,16 +458,25 @@
       },
       "salaryTiers": [
         {
-          "amount": 12000000,
-          "label": "Value tier",
-          "description": "Solid starter value",
-          "percentile": 66
+          "amount": 15477677,
+          "label": "Efficient",
+          "description": "85% of market value - high efficiency",
+          "percentile": 85,
+          "isRecommended": true
         },
         {
-          "amount": 19000000,
-          "label": "Star tier",
-          "description": "Two-way guard pricing",
-          "percentile": 77
+          "amount": 18209032,
+          "label": "Market",
+          "description": "Fair market value for production",
+          "percentile": 100,
+          "isRecommended": false
+        },
+        {
+          "amount": 23671742,
+          "label": "Premium",
+          "description": "130% of market - overpay diminishes returns",
+          "percentile": 115,
+          "isRecommended": false
         }
       ],
       "context": "Elite defender, inconsistent offense"
@@ -378,16 +495,25 @@
       },
       "salaryTiers": [
         {
-          "amount": 10000000,
-          "label": "Value tier",
-          "description": "Emerging star value",
-          "percentile": 68
+          "amount": 15385548,
+          "label": "Efficient",
+          "description": "85% of market value - high efficiency",
+          "percentile": 85,
+          "isRecommended": true
         },
         {
-          "amount": 18000000,
-          "label": "Star tier",
-          "description": "Young star pricing",
-          "percentile": 79
+          "amount": 18100645,
+          "label": "Market",
+          "description": "Fair market value for production",
+          "percentile": 100,
+          "isRecommended": false
+        },
+        {
+          "amount": 23530839,
+          "label": "Premium",
+          "description": "130% of market - overpay diminishes returns",
+          "percentile": 115,
+          "isRecommended": false
         }
       ],
       "context": "Breakout sophomore season, elite speed"
@@ -406,16 +532,25 @@
       },
       "salaryTiers": [
         {
-          "amount": 8000000,
-          "label": "Value tier",
-          "description": "Rookie contract value",
-          "percentile": 65
+          "amount": 15017032,
+          "label": "Efficient",
+          "description": "85% of market value - high efficiency",
+          "percentile": 85,
+          "isRecommended": true
         },
         {
-          "amount": 16000000,
-          "label": "Star tier",
-          "description": "High-upside rookie",
-          "percentile": 76
+          "amount": 17667097,
+          "label": "Market",
+          "description": "Fair market value for production",
+          "percentile": 100,
+          "isRecommended": false
+        },
+        {
+          "amount": 22967226,
+          "label": "Premium",
+          "description": "130% of market - overpay diminishes returns",
+          "percentile": 115,
+          "isRecommended": false
         }
       ],
       "context": "Rookie sensation, elite passer and scorer"
@@ -436,16 +571,25 @@
       },
       "salaryTiers": [
         {
-          "amount": 30000000,
-          "label": "Star tier",
-          "description": "MVP-caliber value",
-          "percentile": 88
+          "amount": 25170968,
+          "label": "Efficient",
+          "description": "85% of market value - high efficiency",
+          "percentile": 85,
+          "isRecommended": true
         },
         {
-          "amount": 40000000,
-          "label": "Supermax tier",
-          "description": "Historic scoring season",
-          "percentile": 96
+          "amount": 29612903,
+          "label": "Market",
+          "description": "Fair market value for production",
+          "percentile": 100,
+          "isRecommended": false
+        },
+        {
+          "amount": 38496774,
+          "label": "Premium",
+          "description": "130% of market - overpay diminishes returns",
+          "percentile": 115,
+          "isRecommended": false
         }
       ],
       "context": "MVP, historic 36 PPG scoring season"
@@ -460,20 +604,29 @@
         "ws": 5.6,
         "ppg": 25.6,
         "apg": 5.5,
-        "rpg": 5.0
+        "rpg": 5
       },
       "salaryTiers": [
         {
-          "amount": 20000000,
-          "label": "Star tier",
-          "description": "Elite scorer value",
-          "percentile": 80
+          "amount": 18014516,
+          "label": "Efficient",
+          "description": "85% of market value - high efficiency",
+          "percentile": 85,
+          "isRecommended": true
         },
         {
-          "amount": 28000000,
-          "label": "Supermax tier",
-          "description": "Top SG pricing",
-          "percentile": 90
+          "amount": 21193548,
+          "label": "Market",
+          "description": "Fair market value for production",
+          "percentile": 100,
+          "isRecommended": false
+        },
+        {
+          "amount": 27551613,
+          "label": "Premium",
+          "description": "130% of market - overpay diminishes returns",
+          "percentile": 115,
+          "isRecommended": false
         }
       ],
       "context": "Elite scorer, carried Wizards offense"
@@ -486,22 +639,31 @@
       "stats": {
         "per": 19.8,
         "ws": 5.9,
-        "ppg": 21.0,
-        "apg": 3.0,
-        "rpg": 4.0
+        "ppg": 21,
+        "apg": 3,
+        "rpg": 4
       },
       "salaryTiers": [
         {
-          "amount": 18000000,
-          "label": "Star tier",
-          "description": "Scoring guard value",
-          "percentile": 75
+          "amount": 16287097,
+          "label": "Efficient",
+          "description": "85% of market value - high efficiency",
+          "percentile": 85,
+          "isRecommended": true
         },
         {
-          "amount": 26000000,
-          "label": "Supermax tier",
-          "description": "High-volume scorer",
-          "percentile": 86
+          "amount": 19161290,
+          "label": "Market",
+          "description": "Fair market value for production",
+          "percentile": 100,
+          "isRecommended": false
+        },
+        {
+          "amount": 24909677,
+          "label": "Premium",
+          "description": "130% of market - overpay diminishes returns",
+          "percentile": 115,
+          "isRecommended": false
         }
       ],
       "context": "Excellent second option, playoff performer"
@@ -520,16 +682,25 @@
       },
       "salaryTiers": [
         {
-          "amount": 19000000,
-          "label": "Star tier",
-          "description": "Young scorer value",
-          "percentile": 77
+          "amount": 16780645,
+          "label": "Efficient",
+          "description": "85% of market value - high efficiency",
+          "percentile": 85,
+          "isRecommended": true
         },
         {
-          "amount": 27000000,
-          "label": "Supermax tier",
-          "description": "Emerging superstar",
-          "percentile": 87
+          "amount": 19741935,
+          "label": "Market",
+          "description": "Fair market value for production",
+          "percentile": 100,
+          "isRecommended": false
+        },
+        {
+          "amount": 25664516,
+          "label": "Premium",
+          "description": "130% of market - overpay diminishes returns",
+          "percentile": 115,
+          "isRecommended": false
         }
       ],
       "context": "Elite young scorer, 26 PPG at age 22"
@@ -548,16 +719,25 @@
       },
       "salaryTiers": [
         {
-          "amount": 15000000,
-          "label": "Star tier",
-          "description": "Injury-limited value",
-          "percentile": 70
+          "amount": 16204839,
+          "label": "Efficient",
+          "description": "85% of market value - high efficiency",
+          "percentile": 85,
+          "isRecommended": true
         },
         {
-          "amount": 23000000,
-          "label": "Supermax tier",
-          "description": "When healthy, All-Star",
-          "percentile": 82
+          "amount": 19064516,
+          "label": "Market",
+          "description": "Fair market value for production",
+          "percentile": 100,
+          "isRecommended": false
+        },
+        {
+          "amount": 24783871,
+          "label": "Premium",
+          "description": "130% of market - overpay diminishes returns",
+          "percentile": 115,
+          "isRecommended": false
         }
       ],
       "context": "Injury-shortened, All-Star caliber when healthy"
@@ -576,16 +756,25 @@
       },
       "salaryTiers": [
         {
-          "amount": 14000000,
-          "label": "Star tier",
-          "description": "Young star value",
-          "percentile": 73
+          "amount": 15958065,
+          "label": "Efficient",
+          "description": "85% of market value - high efficiency",
+          "percentile": 85,
+          "isRecommended": true
         },
         {
-          "amount": 22000000,
-          "label": "Supermax tier",
-          "description": "Franchise player pricing",
-          "percentile": 84
+          "amount": 18774194,
+          "label": "Market",
+          "description": "Fair market value for production",
+          "percentile": 100,
+          "isRecommended": false
+        },
+        {
+          "amount": 24406452,
+          "label": "Premium",
+          "description": "130% of market - overpay diminishes returns",
+          "percentile": 115,
+          "isRecommended": false
         }
       ],
       "context": "Explosive scorer, playoff performer"
@@ -604,16 +793,25 @@
       },
       "salaryTiers": [
         {
-          "amount": 13000000,
-          "label": "Star tier",
-          "description": "Athletic scorer value",
-          "percentile": 68
+          "amount": 14312903,
+          "label": "Efficient",
+          "description": "85% of market value - high efficiency",
+          "percentile": 85,
+          "isRecommended": true
         },
         {
-          "amount": 20000000,
-          "label": "Supermax tier",
-          "description": "High-volume scorer",
-          "percentile": 78
+          "amount": 16838710,
+          "label": "Market",
+          "description": "Fair market value for production",
+          "percentile": 100,
+          "isRecommended": false
+        },
+        {
+          "amount": 21890323,
+          "label": "Premium",
+          "description": "130% of market - overpay diminishes returns",
+          "percentile": 115,
+          "isRecommended": false
         }
       ],
       "context": "Elite athlete, high-volume scorer"
@@ -628,20 +826,29 @@
         "ws": 5.3,
         "ppg": 21.2,
         "apg": 6.2,
-        "rpg": 6.0
+        "rpg": 6
       },
       "salaryTiers": [
         {
-          "amount": 18000000,
-          "label": "Star tier",
-          "description": "Mid-range specialist",
-          "percentile": 72
+          "amount": 15875806,
+          "label": "Efficient",
+          "description": "85% of market value - high efficiency",
+          "percentile": 85,
+          "isRecommended": true
         },
         {
-          "amount": 26000000,
-          "label": "Supermax tier",
-          "description": "All-Star veteran",
-          "percentile": 83
+          "amount": 18677419,
+          "label": "Market",
+          "description": "Fair market value for production",
+          "percentile": 100,
+          "isRecommended": false
+        },
+        {
+          "amount": 24280645,
+          "label": "Premium",
+          "description": "130% of market - overpay diminishes returns",
+          "percentile": 115,
+          "isRecommended": false
         }
       ],
       "context": "First year with Spurs, solid production"
@@ -660,16 +867,25 @@
       },
       "salaryTiers": [
         {
-          "amount": 16000000,
-          "label": "Star tier",
-          "description": "3-and-D specialist value",
-          "percentile": 74
+          "amount": 13737097,
+          "label": "Efficient",
+          "description": "85% of market value - high efficiency",
+          "percentile": 85,
+          "isRecommended": true
         },
         {
-          "amount": 24000000,
-          "label": "Supermax tier",
-          "description": "Championship pedigree",
-          "percentile": 85
+          "amount": 16161290,
+          "label": "Market",
+          "description": "Fair market value for production",
+          "percentile": 100,
+          "isRecommended": false
+        },
+        {
+          "amount": 21009677,
+          "label": "Premium",
+          "description": "130% of market - overpay diminishes returns",
+          "percentile": 115,
+          "isRecommended": false
         }
       ],
       "context": "Elite shooter, championship experience"
@@ -681,23 +897,32 @@
       "season": "2018-19",
       "stats": {
         "per": 18.2,
-        "ws": 7.0,
+        "ws": 7,
         "ppg": 18.3,
         "apg": 4.3,
-        "rpg": 6.0
+        "rpg": 6
       },
       "salaryTiers": [
         {
-          "amount": 15000000,
-          "label": "Star tier",
-          "description": "All-Star value",
-          "percentile": 71
+          "amount": 14970968,
+          "label": "Efficient",
+          "description": "85% of market value - high efficiency",
+          "percentile": 85,
+          "isRecommended": true
         },
         {
-          "amount": 23000000,
-          "label": "Supermax tier",
-          "description": "Complete two-way player",
-          "percentile": 82
+          "amount": 17612903,
+          "label": "Market",
+          "description": "Fair market value for production",
+          "percentile": 100,
+          "isRecommended": false
+        },
+        {
+          "amount": 22896774,
+          "label": "Premium",
+          "description": "130% of market - overpay diminishes returns",
+          "percentile": 115,
+          "isRecommended": false
         }
       ],
       "context": "All-Star, perfect complement to Giannis"
@@ -711,21 +936,30 @@
         "per": 20.8,
         "ws": 5.3,
         "ppg": 18.7,
-        "apg": 4.0,
+        "apg": 4,
         "rpg": 5.3
       },
       "salaryTiers": [
         {
-          "amount": 17000000,
-          "label": "Star tier",
-          "description": "Two-way star value",
-          "percentile": 75
+          "amount": 17109677,
+          "label": "Efficient",
+          "description": "85% of market value - high efficiency",
+          "percentile": 85,
+          "isRecommended": true
         },
         {
-          "amount": 25000000,
-          "label": "Supermax tier",
-          "description": "Elite defender pricing",
-          "percentile": 86
+          "amount": 20129032,
+          "label": "Market",
+          "description": "Fair market value for production",
+          "percentile": 100,
+          "isRecommended": false
+        },
+        {
+          "amount": 26167742,
+          "label": "Premium",
+          "description": "130% of market - overpay diminishes returns",
+          "percentile": 115,
+          "isRecommended": false
         }
       ],
       "context": "Elite two-way player, playoff experience"
@@ -744,16 +978,25 @@
       },
       "salaryTiers": [
         {
-          "amount": 11000000,
-          "label": "Value tier",
-          "description": "3-and-D role player",
-          "percentile": 62
+          "amount": 10858065,
+          "label": "Efficient",
+          "description": "85% of market value - high efficiency",
+          "percentile": 85,
+          "isRecommended": true
         },
         {
-          "amount": 18000000,
-          "label": "Star tier",
-          "description": "Solid starter pricing",
-          "percentile": 74
+          "amount": 12774194,
+          "label": "Market",
+          "description": "Fair market value for production",
+          "percentile": 100,
+          "isRecommended": false
+        },
+        {
+          "amount": 16606452,
+          "label": "Premium",
+          "description": "130% of market - overpay diminishes returns",
+          "percentile": 115,
+          "isRecommended": false
         }
       ],
       "context": "Injury-plagued, solid when healthy"
@@ -772,16 +1015,25 @@
       },
       "salaryTiers": [
         {
-          "amount": 10000000,
-          "label": "Value tier",
-          "description": "Veteran shooter value",
-          "percentile": 66
+          "amount": 13079032,
+          "label": "Efficient",
+          "description": "85% of market value - high efficiency",
+          "percentile": 85,
+          "isRecommended": true
         },
         {
-          "amount": 17000000,
-          "label": "Star tier",
-          "description": "Elite shooter pricing",
-          "percentile": 76
+          "amount": 15387097,
+          "label": "Market",
+          "description": "Fair market value for production",
+          "percentile": 100,
+          "isRecommended": false
+        },
+        {
+          "amount": 20003226,
+          "label": "Premium",
+          "description": "130% of market - overpay diminishes returns",
+          "percentile": 115,
+          "isRecommended": false
         }
       ],
       "context": "Elite shooter, veteran presence"
@@ -793,23 +1045,32 @@
       "season": "2018-19",
       "stats": {
         "per": 12.4,
-        "ws": 5.0,
+        "ws": 5,
         "ppg": 10.3,
         "apg": 1.6,
-        "rpg": 4.0
+        "rpg": 4
       },
       "salaryTiers": [
         {
-          "amount": 9000000,
-          "label": "Value tier",
-          "description": "3-and-D specialist",
-          "percentile": 64
+          "amount": 10200000,
+          "label": "Efficient",
+          "description": "85% of market value - high efficiency",
+          "percentile": 85,
+          "isRecommended": true
         },
         {
-          "amount": 15000000,
-          "label": "Star tier",
-          "description": "Championship contributor",
-          "percentile": 73
+          "amount": 12000000,
+          "label": "Market",
+          "description": "Fair market value for production",
+          "percentile": 100,
+          "isRecommended": false
+        },
+        {
+          "amount": 15600000,
+          "label": "Premium",
+          "description": "130% of market - overpay diminishes returns",
+          "percentile": 115,
+          "isRecommended": false
         }
       ],
       "context": "Won championship, elite 3-and-D"
@@ -824,20 +1085,29 @@
         "ws": 5.7,
         "ppg": 12.1,
         "apg": 5.7,
-        "rpg": 4.0
+        "rpg": 4
       },
       "salaryTiers": [
         {
-          "amount": 10000000,
-          "label": "Value tier",
-          "description": "Versatile role player",
-          "percentile": 65
+          "amount": 12420968,
+          "label": "Efficient",
+          "description": "85% of market value - high efficiency",
+          "percentile": 85,
+          "isRecommended": true
         },
         {
-          "amount": 17000000,
-          "label": "Star tier",
-          "description": "High-IQ veteran",
-          "percentile": 75
+          "amount": 14612903,
+          "label": "Market",
+          "description": "Fair market value for production",
+          "percentile": 100,
+          "isRecommended": false
+        },
+        {
+          "amount": 18996774,
+          "label": "Premium",
+          "description": "130% of market - overpay diminishes returns",
+          "percentile": 115,
+          "isRecommended": false
         }
       ],
       "context": "High-IQ playmaker, excellent shooter"
@@ -852,22 +1122,31 @@
       "stats": {
         "per": 22.4,
         "ws": 8.9,
-        "ppg": 28.0,
+        "ppg": 28,
         "apg": 4.1,
         "rpg": 8.2
       },
       "salaryTiers": [
         {
-          "amount": 25000000,
-          "label": "Star tier",
-          "description": "MVP candidate value",
-          "percentile": 83
+          "amount": 25386667,
+          "label": "Efficient",
+          "description": "85% of market value - high efficiency",
+          "percentile": 85,
+          "isRecommended": true
         },
         {
-          "amount": 33000000,
-          "label": "Supermax tier",
-          "description": "Elite two-way wing",
-          "percentile": 92
+          "amount": 29866667,
+          "label": "Market",
+          "description": "Fair market value for production",
+          "percentile": 100,
+          "isRecommended": false
+        },
+        {
+          "amount": 38826667,
+          "label": "Premium",
+          "description": "130% of market - overpay diminishes returns",
+          "percentile": 115,
+          "isRecommended": false
         }
       ],
       "context": "MVP candidate, elite two-way player"
@@ -880,22 +1159,31 @@
       "stats": {
         "per": 24.7,
         "ws": 8.8,
-        "ppg": 26.0,
+        "ppg": 26,
         "apg": 5.9,
         "rpg": 6.4
       },
       "salaryTiers": [
         {
-          "amount": 27000000,
-          "label": "Star tier",
-          "description": "Elite scorer value",
-          "percentile": 85
+          "amount": 27993333,
+          "label": "Efficient",
+          "description": "85% of market value - high efficiency",
+          "percentile": 85,
+          "isRecommended": true
         },
         {
-          "amount": 35000000,
-          "label": "Supermax tier",
-          "description": "Generational talent",
-          "percentile": 94
+          "amount": 32933333,
+          "label": "Market",
+          "description": "Fair market value for production",
+          "percentile": 100,
+          "isRecommended": false
+        },
+        {
+          "amount": 42813333,
+          "label": "Premium",
+          "description": "130% of market - overpay diminishes returns",
+          "percentile": 115,
+          "isRecommended": false
         }
       ],
       "context": "Two-time Finals MVP, elite scorer"
@@ -906,7 +1194,7 @@
       "team": "TOR",
       "season": "2018-19",
       "stats": {
-        "per": 26.0,
+        "per": 26,
         "ws": 10.8,
         "ppg": 26.6,
         "apg": 3.3,
@@ -914,16 +1202,25 @@
       },
       "salaryTiers": [
         {
-          "amount": 26000000,
-          "label": "Star tier",
-          "description": "Two-way superstar",
-          "percentile": 84
+          "amount": 29466667,
+          "label": "Efficient",
+          "description": "85% of market value - high efficiency",
+          "percentile": 85,
+          "isRecommended": true
         },
         {
-          "amount": 34000000,
-          "label": "Supermax tier",
-          "description": "Finals MVP pricing",
-          "percentile": 93
+          "amount": 34666667,
+          "label": "Market",
+          "description": "Fair market value for production",
+          "percentile": 100,
+          "isRecommended": false
+        },
+        {
+          "amount": 45066667,
+          "label": "Premium",
+          "description": "130% of market - overpay diminishes returns",
+          "percentile": 115,
+          "isRecommended": false
         }
       ],
       "context": "Finals MVP, championship run in Toronto"
@@ -942,16 +1239,25 @@
       },
       "salaryTiers": [
         {
-          "amount": 28000000,
-          "label": "Star tier",
-          "description": "All-time great value",
-          "percentile": 82
+          "amount": 29013333,
+          "label": "Efficient",
+          "description": "85% of market value - high efficiency",
+          "percentile": 85,
+          "isRecommended": true
         },
         {
-          "amount": 37000000,
-          "label": "Supermax tier",
-          "description": "GOAT-tier pricing",
-          "percentile": 91
+          "amount": 34133333,
+          "label": "Market",
+          "description": "Fair market value for production",
+          "percentile": 100,
+          "isRecommended": false
+        },
+        {
+          "amount": 44373333,
+          "label": "Premium",
+          "description": "130% of market - overpay diminishes returns",
+          "percentile": 115,
+          "isRecommended": false
         }
       ],
       "context": "Injury-shortened but still elite at 34"
@@ -966,20 +1272,29 @@
         "ws": 4.9,
         "ppg": 15.7,
         "apg": 2.1,
-        "rpg": 6.0
+        "rpg": 6
       },
       "salaryTiers": [
         {
-          "amount": 10000000,
-          "label": "Value tier",
-          "description": "Young star upside",
-          "percentile": 68
+          "amount": 17793333,
+          "label": "Efficient",
+          "description": "85% of market value - high efficiency",
+          "percentile": 85,
+          "isRecommended": true
         },
         {
-          "amount": 18000000,
-          "label": "Star tier",
-          "description": "High-potential wing",
-          "percentile": 79
+          "amount": 20933333,
+          "label": "Market",
+          "description": "Fair market value for production",
+          "percentile": 100,
+          "isRecommended": false
+        },
+        {
+          "amount": 27213333,
+          "label": "Premium",
+          "description": "130% of market - overpay diminishes returns",
+          "percentile": 115,
+          "isRecommended": false
         }
       ],
       "context": "Sophomore slump, high ceiling"
@@ -998,16 +1313,25 @@
       },
       "salaryTiers": [
         {
-          "amount": 12000000,
-          "label": "Value tier",
-          "description": "MIP value",
-          "percentile": 72
+          "amount": 21760000,
+          "label": "Efficient",
+          "description": "85% of market value - high efficiency",
+          "percentile": 85,
+          "isRecommended": true
         },
         {
-          "amount": 20000000,
-          "label": "Star tier",
-          "description": "Breakout star pricing",
-          "percentile": 83
+          "amount": 25600000,
+          "label": "Market",
+          "description": "Fair market value for production",
+          "percentile": 100,
+          "isRecommended": false
+        },
+        {
+          "amount": 33280000,
+          "label": "Premium",
+          "description": "130% of market - overpay diminishes returns",
+          "percentile": 115,
+          "isRecommended": false
         }
       ],
       "context": "Most Improved Player, championship contributor"
@@ -1026,16 +1350,25 @@
       },
       "salaryTiers": [
         {
-          "amount": 16000000,
-          "label": "Star tier",
-          "description": "Injury recovery value",
-          "percentile": 64
+          "amount": 16660000,
+          "label": "Efficient",
+          "description": "85% of market value - high efficiency",
+          "percentile": 85,
+          "isRecommended": true
         },
         {
-          "amount": 24000000,
-          "label": "Supermax tier",
-          "description": "Former All-Star pricing",
-          "percentile": 76
+          "amount": 19600000,
+          "label": "Market",
+          "description": "Fair market value for production",
+          "percentile": 100,
+          "isRecommended": false
+        },
+        {
+          "amount": 25480000,
+          "label": "Premium",
+          "description": "130% of market - overpay diminishes returns",
+          "percentile": 115,
+          "isRecommended": false
         }
       ],
       "context": "Recovering from gruesome injury"
@@ -1046,24 +1379,33 @@
       "team": "LAL",
       "season": "2018-19",
       "stats": {
-        "per": 15.0,
+        "per": 15,
         "ws": 2.9,
         "ppg": 18.3,
-        "apg": 3.0,
+        "apg": 3,
         "rpg": 5.1
       },
       "salaryTiers": [
         {
-          "amount": 11000000,
-          "label": "Value tier",
-          "description": "Young developing wing",
-          "percentile": 66
+          "amount": 17000000,
+          "label": "Efficient",
+          "description": "85% of market value - high efficiency",
+          "percentile": 85,
+          "isRecommended": true
         },
         {
-          "amount": 19000000,
-          "label": "Star tier",
-          "description": "High-upside wing",
-          "percentile": 77
+          "amount": 20000000,
+          "label": "Market",
+          "description": "Fair market value for production",
+          "percentile": 100,
+          "isRecommended": false
+        },
+        {
+          "amount": 26000000,
+          "label": "Premium",
+          "description": "130% of market - overpay diminishes returns",
+          "percentile": 115,
+          "isRecommended": false
         }
       ],
       "context": "Developing wing, injury concerns"
@@ -1076,22 +1418,31 @@
       "stats": {
         "per": 17.8,
         "ws": 5.6,
-        "ppg": 20.0,
+        "ppg": 20,
         "apg": 2.8,
         "rpg": 7.9
       },
       "salaryTiers": [
         {
-          "amount": 15000000,
-          "label": "Star tier",
-          "description": "Versatile scorer value",
-          "percentile": 70
+          "amount": 20173333,
+          "label": "Efficient",
+          "description": "85% of market value - high efficiency",
+          "percentile": 85,
+          "isRecommended": true
         },
         {
-          "amount": 23000000,
-          "label": "Supermax tier",
-          "description": "Solid starter pricing",
-          "percentile": 81
+          "amount": 23733333,
+          "label": "Market",
+          "description": "Fair market value for production",
+          "percentile": 100,
+          "isRecommended": false
+        },
+        {
+          "amount": 30853333,
+          "label": "Premium",
+          "description": "130% of market - overpay diminishes returns",
+          "percentile": 115,
+          "isRecommended": false
         }
       ],
       "context": "Traded mid-season, consistent scorer"
@@ -1105,21 +1456,30 @@
         "per": 16.4,
         "ws": 3.8,
         "ppg": 14.7,
-        "apg": 2.0,
+        "apg": 2,
         "rpg": 6.4
       },
       "salaryTiers": [
         {
-          "amount": 16000000,
-          "label": "Star tier",
-          "description": "3-and-D wing value",
-          "percentile": 67
+          "amount": 18586667,
+          "label": "Efficient",
+          "description": "85% of market value - high efficiency",
+          "percentile": 85,
+          "isRecommended": true
         },
         {
-          "amount": 24000000,
-          "label": "Supermax tier",
-          "description": "Overpaid role player",
-          "percentile": 78
+          "amount": 21866667,
+          "label": "Market",
+          "description": "Fair market value for production",
+          "percentile": 100,
+          "isRecommended": false
+        },
+        {
+          "amount": 28426667,
+          "label": "Premium",
+          "description": "130% of market - overpay diminishes returns",
+          "percentile": 115,
+          "isRecommended": false
         }
       ],
       "context": "Solid 3-and-D wing, injury concerns"
@@ -1132,22 +1492,31 @@
       "stats": {
         "per": 17.4,
         "ws": 5.6,
-        "ppg": 18.0,
-        "apg": 2.0,
+        "ppg": 18,
+        "apg": 2,
         "rpg": 4.1
       },
       "salaryTiers": [
         {
-          "amount": 12000000,
-          "label": "Value tier",
-          "description": "Efficient scorer value",
-          "percentile": 69
+          "amount": 19720000,
+          "label": "Efficient",
+          "description": "85% of market value - high efficiency",
+          "percentile": 85,
+          "isRecommended": true
         },
         {
-          "amount": 20000000,
-          "label": "Star tier",
-          "description": "Shooting specialist",
-          "percentile": 80
+          "amount": 23200000,
+          "label": "Market",
+          "description": "Fair market value for production",
+          "percentile": 100,
+          "isRecommended": false
+        },
+        {
+          "amount": 30160000,
+          "label": "Premium",
+          "description": "130% of market - overpay diminishes returns",
+          "percentile": 115,
+          "isRecommended": false
         }
       ],
       "context": "Efficient scorer, excellent shooter"
@@ -1161,21 +1530,30 @@
         "per": 21.3,
         "ws": 6.8,
         "ppg": 21.2,
-        "apg": 6.0,
+        "apg": 6,
         "rpg": 7.8
       },
       "salaryTiers": [
         {
-          "amount": 10000000,
-          "label": "Value tier",
-          "description": "Rookie sensation value",
-          "percentile": 74
+          "amount": 24140000,
+          "label": "Efficient",
+          "description": "85% of market value - high efficiency",
+          "percentile": 85,
+          "isRecommended": true
         },
         {
-          "amount": 18000000,
-          "label": "Star tier",
-          "description": "ROY performance",
-          "percentile": 85
+          "amount": 28400000,
+          "label": "Market",
+          "description": "Fair market value for production",
+          "percentile": 100,
+          "isRecommended": false
+        },
+        {
+          "amount": 36920000,
+          "label": "Premium",
+          "description": "130% of market - overpay diminishes returns",
+          "percentile": 115,
+          "isRecommended": false
         }
       ],
       "context": "Rookie of the Year, generational talent"
@@ -1194,16 +1572,25 @@
       },
       "salaryTiers": [
         {
-          "amount": 14000000,
-          "label": "Star tier",
-          "description": "Veteran scorer value",
-          "percentile": 68
+          "amount": 20626667,
+          "label": "Efficient",
+          "description": "85% of market value - high efficiency",
+          "percentile": 85,
+          "isRecommended": true
         },
         {
-          "amount": 22000000,
-          "label": "Supermax tier",
-          "description": "Injury-prone veteran",
-          "percentile": 79
+          "amount": 24266667,
+          "label": "Market",
+          "description": "Fair market value for production",
+          "percentile": 100,
+          "isRecommended": false
+        },
+        {
+          "amount": 31546667,
+          "label": "Premium",
+          "description": "130% of market - overpay diminishes returns",
+          "percentile": 115,
+          "isRecommended": false
         }
       ],
       "context": "Skilled scorer, injury history"
@@ -1216,22 +1603,31 @@
       "stats": {
         "per": 16.6,
         "ws": 3.8,
-        "ppg": 18.0,
+        "ppg": 18,
         "apg": 1.5,
-        "rpg": 4.0
+        "rpg": 4
       },
       "salaryTiers": [
         {
-          "amount": 9000000,
-          "label": "Value tier",
-          "description": "Efficient scorer value",
-          "percentile": 65
+          "amount": 18813333,
+          "label": "Efficient",
+          "description": "85% of market value - high efficiency",
+          "percentile": 85,
+          "isRecommended": true
         },
         {
-          "amount": 17000000,
-          "label": "Star tier",
-          "description": "Mid-tier scorer",
-          "percentile": 75
+          "amount": 22133333,
+          "label": "Market",
+          "description": "Fair market value for production",
+          "percentile": 100,
+          "isRecommended": false
+        },
+        {
+          "amount": 28773333,
+          "label": "Premium",
+          "description": "130% of market - overpay diminishes returns",
+          "percentile": 115,
+          "isRecommended": false
         }
       ],
       "context": "Efficient mid-range scorer"
@@ -1242,7 +1638,7 @@
       "team": "MIN",
       "season": "2018-19",
       "stats": {
-        "per": 14.0,
+        "per": 14,
         "ws": 1.4,
         "ppg": 18.1,
         "apg": 2.5,
@@ -1250,16 +1646,25 @@
       },
       "salaryTiers": [
         {
-          "amount": 17000000,
-          "label": "Star tier",
-          "description": "Underperforming max player",
-          "percentile": 60
+          "amount": 15866667,
+          "label": "Efficient",
+          "description": "85% of market value - high efficiency",
+          "percentile": 85,
+          "isRecommended": true
         },
         {
-          "amount": 25000000,
-          "label": "Supermax tier",
-          "description": "Overpaid disappointment",
-          "percentile": 72
+          "amount": 18666667,
+          "label": "Market",
+          "description": "Fair market value for production",
+          "percentile": 100,
+          "isRecommended": false
+        },
+        {
+          "amount": 24266667,
+          "label": "Premium",
+          "description": "130% of market - overpay diminishes returns",
+          "percentile": 115,
+          "isRecommended": false
         }
       ],
       "context": "Disappointing given max contract"
@@ -1280,16 +1685,25 @@
       },
       "salaryTiers": [
         {
-          "amount": 28000000,
-          "label": "Star tier",
-          "description": "MVP value",
-          "percentile": 87
+          "amount": 29861379,
+          "label": "Efficient",
+          "description": "85% of market value - high efficiency",
+          "percentile": 85,
+          "isRecommended": true
         },
         {
-          "amount": 37000000,
-          "label": "Supermax tier",
-          "description": "Dominant force pricing",
-          "percentile": 96
+          "amount": 35131034,
+          "label": "Market",
+          "description": "Fair market value for production",
+          "percentile": 100,
+          "isRecommended": false
+        },
+        {
+          "amount": 45670345,
+          "label": "Premium",
+          "description": "130% of market - overpay diminishes returns",
+          "percentile": 115,
+          "isRecommended": false
         }
       ],
       "context": "MVP, best player in the league"
@@ -1304,20 +1718,29 @@
         "ws": 9.4,
         "ppg": 25.9,
         "apg": 3.9,
-        "rpg": 12.0
+        "rpg": 12
       },
       "salaryTiers": [
         {
-          "amount": 26000000,
-          "label": "Star tier",
-          "description": "Elite two-way big",
-          "percentile": 85
+          "amount": 29228276,
+          "label": "Efficient",
+          "description": "85% of market value - high efficiency",
+          "percentile": 85,
+          "isRecommended": true
         },
         {
-          "amount": 34000000,
-          "label": "Supermax tier",
-          "description": "Superstar pricing",
-          "percentile": 94
+          "amount": 34386207,
+          "label": "Market",
+          "description": "Fair market value for production",
+          "percentile": 100,
+          "isRecommended": false
+        },
+        {
+          "amount": 44702069,
+          "label": "Premium",
+          "description": "130% of market - overpay diminishes returns",
+          "percentile": 115,
+          "isRecommended": false
         }
       ],
       "context": "Requested trade, still dominant"
@@ -1329,23 +1752,32 @@
       "season": "2018-19",
       "stats": {
         "per": 21.4,
-        "ws": 6.0,
+        "ws": 6,
         "ppg": 24.5,
         "apg": 5.4,
         "rpg": 7.5
       },
       "salaryTiers": [
         {
-          "amount": 22000000,
-          "label": "Star tier",
-          "description": "All-Star value",
-          "percentile": 78
+          "amount": 22580690,
+          "label": "Efficient",
+          "description": "85% of market value - high efficiency",
+          "percentile": 85,
+          "isRecommended": true
         },
         {
-          "amount": 30000000,
-          "label": "Supermax tier",
-          "description": "Max contract burden",
-          "percentile": 88
+          "amount": 26565517,
+          "label": "Market",
+          "description": "Fair market value for production",
+          "percentile": 100,
+          "isRecommended": false
+        },
+        {
+          "amount": 34535172,
+          "label": "Premium",
+          "description": "130% of market - overpay diminishes returns",
+          "percentile": 115,
+          "isRecommended": false
         }
       ],
       "context": "All-Star with Pistons, reinvented game"
@@ -1364,16 +1796,25 @@
       },
       "salaryTiers": [
         {
-          "amount": 19000000,
-          "label": "Star tier",
-          "description": "Veteran All-Star value",
-          "percentile": 76
+          "amount": 23108276,
+          "label": "Efficient",
+          "description": "85% of market value - high efficiency",
+          "percentile": 85,
+          "isRecommended": true
         },
         {
-          "amount": 27000000,
-          "label": "Supermax tier",
-          "description": "Veteran star pricing",
-          "percentile": 86
+          "amount": 27186207,
+          "label": "Market",
+          "description": "Fair market value for production",
+          "percentile": 100,
+          "isRecommended": false
+        },
+        {
+          "amount": 35342069,
+          "label": "Premium",
+          "description": "130% of market - overpay diminishes returns",
+          "percentile": 115,
+          "isRecommended": false
         }
       ],
       "context": "All-Star, mid-range maestro"
@@ -1392,16 +1833,25 @@
       },
       "salaryTiers": [
         {
-          "amount": 13000000,
-          "label": "Star tier",
-          "description": "Breakout season value",
-          "percentile": 72
+          "amount": 21736552,
+          "label": "Efficient",
+          "description": "85% of market value - high efficiency",
+          "percentile": 85,
+          "isRecommended": true
         },
         {
-          "amount": 21000000,
-          "label": "Supermax tier",
-          "description": "Emerging star pricing",
-          "percentile": 82
+          "amount": 25572414,
+          "label": "Market",
+          "description": "Fair market value for production",
+          "percentile": 100,
+          "isRecommended": false
+        },
+        {
+          "amount": 33244138,
+          "label": "Premium",
+          "description": "130% of market - overpay diminishes returns",
+          "percentile": 115,
+          "isRecommended": false
         }
       ],
       "context": "Breakout season, double-double machine"
@@ -1414,22 +1864,31 @@
       "stats": {
         "per": 19.9,
         "ws": 3.3,
-        "ppg": 17.0,
+        "ppg": 17,
         "apg": 2.2,
         "rpg": 10.9
       },
       "salaryTiers": [
         {
-          "amount": 18000000,
-          "label": "Star tier",
-          "description": "Injury-limited value",
-          "percentile": 68
+          "amount": 20997931,
+          "label": "Efficient",
+          "description": "85% of market value - high efficiency",
+          "percentile": 85,
+          "isRecommended": true
         },
         {
-          "amount": 26000000,
-          "label": "Supermax tier",
-          "description": "Former All-Star pricing",
-          "percentile": 79
+          "amount": 24703448,
+          "label": "Market",
+          "description": "Fair market value for production",
+          "percentile": 100,
+          "isRecommended": false
+        },
+        {
+          "amount": 32114483,
+          "label": "Premium",
+          "description": "130% of market - overpay diminishes returns",
+          "percentile": 115,
+          "isRecommended": false
         }
       ],
       "context": "Injury-plagued, still productive"
@@ -1443,21 +1902,30 @@
         "per": 17.7,
         "ws": 5.6,
         "ppg": 12.6,
-        "apg": 2.0,
+        "apg": 2,
         "rpg": 7.2
       },
       "salaryTiers": [
         {
-          "amount": 16000000,
-          "label": "Star tier",
-          "description": "Veteran glue guy",
-          "percentile": 70
+          "amount": 18676552,
+          "label": "Efficient",
+          "description": "85% of market value - high efficiency",
+          "percentile": 85,
+          "isRecommended": true
         },
         {
-          "amount": 24000000,
-          "label": "Supermax tier",
-          "description": "Veteran overpay",
-          "percentile": 80
+          "amount": 21972414,
+          "label": "Market",
+          "description": "Fair market value for production",
+          "percentile": 100,
+          "isRecommended": false
+        },
+        {
+          "amount": 28564138,
+          "label": "Premium",
+          "description": "130% of market - overpay diminishes returns",
+          "percentile": 115,
+          "isRecommended": false
         }
       ],
       "context": "Solid veteran, playoff experience"
@@ -1472,20 +1940,29 @@
         "ws": 3.8,
         "ppg": 18.7,
         "apg": 1.5,
-        "rpg": 9.0
+        "rpg": 9
       },
       "salaryTiers": [
         {
-          "amount": 10000000,
-          "label": "Value tier",
-          "description": "Stretch big value",
-          "percentile": 66
+          "amount": 17726897,
+          "label": "Efficient",
+          "description": "85% of market value - high efficiency",
+          "percentile": 85,
+          "isRecommended": true
         },
         {
-          "amount": 18000000,
-          "label": "Star tier",
-          "description": "Young shooter pricing",
-          "percentile": 76
+          "amount": 20855172,
+          "label": "Market",
+          "description": "Fair market value for production",
+          "percentile": 100,
+          "isRecommended": false
+        },
+        {
+          "amount": 27111724,
+          "label": "Premium",
+          "description": "130% of market - overpay diminishes returns",
+          "percentile": 115,
+          "isRecommended": false
         }
       ],
       "context": "Stretch big, inconsistent season"
@@ -1499,21 +1976,30 @@
         "per": 21.4,
         "ws": 5.9,
         "ppg": 19.5,
-        "apg": 2.0,
+        "apg": 2,
         "rpg": 9.8
       },
       "salaryTiers": [
         {
-          "amount": 11000000,
-          "label": "Value tier",
-          "description": "Young athletic big",
-          "percentile": 70
+          "amount": 22580690,
+          "label": "Efficient",
+          "description": "85% of market value - high efficiency",
+          "percentile": 85,
+          "isRecommended": true
         },
         {
-          "amount": 19000000,
-          "label": "Star tier",
-          "description": "Emerging star pricing",
-          "percentile": 81
+          "amount": 26565517,
+          "label": "Market",
+          "description": "Fair market value for production",
+          "percentile": 100,
+          "isRecommended": false
+        },
+        {
+          "amount": 34535172,
+          "label": "Premium",
+          "description": "130% of market - overpay diminishes returns",
+          "percentile": 115,
+          "isRecommended": false
         }
       ],
       "context": "Athletic rim-runner, improving shooter"
@@ -1532,16 +2018,25 @@
       },
       "salaryTiers": [
         {
-          "amount": 12000000,
-          "label": "Value tier",
-          "description": "Versatile big value",
-          "percentile": 71
+          "amount": 22053103,
+          "label": "Efficient",
+          "description": "85% of market value - high efficiency",
+          "percentile": 85,
+          "isRecommended": true
         },
         {
-          "amount": 20000000,
-          "label": "Star tier",
-          "description": "All-Star upside",
-          "percentile": 82
+          "amount": 25944828,
+          "label": "Market",
+          "description": "Fair market value for production",
+          "percentile": 100,
+          "isRecommended": false
+        },
+        {
+          "amount": 33728276,
+          "label": "Premium",
+          "description": "130% of market - overpay diminishes returns",
+          "percentile": 115,
+          "isRecommended": false
         }
       ],
       "context": "Breakout sixth man, future All-Star"
@@ -1552,24 +2047,33 @@
       "team": "NYK/DAL",
       "season": "2018-19",
       "stats": {
-        "per": 0.0,
-        "ws": 0.0,
-        "ppg": 0.0,
-        "apg": 0.0,
-        "rpg": 0.0
+        "per": 0,
+        "ws": 0,
+        "ppg": 0,
+        "apg": 0,
+        "rpg": 0
       },
       "salaryTiers": [
         {
-          "amount": 15000000,
-          "label": "Star tier",
-          "description": "Injury year discount",
-          "percentile": 55
+          "amount": 0,
+          "label": "Efficient",
+          "description": "85% of market value - high efficiency",
+          "percentile": 85,
+          "isRecommended": true
         },
         {
-          "amount": 23000000,
-          "label": "Supermax tier",
-          "description": "Former All-Star upside",
-          "percentile": 70
+          "amount": 0,
+          "label": "Market",
+          "description": "Fair market value for production",
+          "percentile": 100,
+          "isRecommended": false
+        },
+        {
+          "amount": 0,
+          "label": "Premium",
+          "description": "130% of market - overpay diminishes returns",
+          "percentile": 115,
+          "isRecommended": false
         }
       ],
       "context": "Missed entire season with ACL injury"
@@ -1588,16 +2092,25 @@
       },
       "salaryTiers": [
         {
-          "amount": 14000000,
-          "label": "Star tier",
-          "description": "Defensive anchor value",
-          "percentile": 68
+          "amount": 14666897,
+          "label": "Efficient",
+          "description": "85% of market value - high efficiency",
+          "percentile": 85,
+          "isRecommended": true
         },
         {
-          "amount": 22000000,
-          "label": "Supermax tier",
-          "description": "Championship pedigree",
-          "percentile": 78
+          "amount": 17255172,
+          "label": "Market",
+          "description": "Fair market value for production",
+          "percentile": 100,
+          "isRecommended": false
+        },
+        {
+          "amount": 22431724,
+          "label": "Premium",
+          "description": "130% of market - overpay diminishes returns",
+          "percentile": 115,
+          "isRecommended": false
         }
       ],
       "context": "DPOY-caliber, playmaking big"
@@ -1608,24 +2121,33 @@
       "team": "LAC",
       "season": "2018-19",
       "stats": {
-        "per": 24.0,
-        "ws": 6.0,
+        "per": 24,
+        "ws": 6,
         "ppg": 16.6,
-        "apg": 2.0,
+        "apg": 2,
         "rpg": 6.5
       },
       "salaryTiers": [
         {
-          "amount": 9000000,
-          "label": "Value tier",
-          "description": "6th Man value",
-          "percentile": 69
+          "amount": 25324138,
+          "label": "Efficient",
+          "description": "85% of market value - high efficiency",
+          "percentile": 85,
+          "isRecommended": true
         },
         {
-          "amount": 17000000,
-          "label": "Star tier",
-          "description": "6MOY pricing",
-          "percentile": 80
+          "amount": 29793103,
+          "label": "Market",
+          "description": "Fair market value for production",
+          "percentile": 100,
+          "isRecommended": false
+        },
+        {
+          "amount": 38731034,
+          "label": "Premium",
+          "description": "130% of market - overpay diminishes returns",
+          "percentile": 115,
+          "isRecommended": false
         }
       ],
       "context": "Sixth Man of the Year, energy big"
@@ -1637,23 +2159,32 @@
       "season": "2018-19",
       "stats": {
         "per": 17.7,
-        "ws": 3.0,
+        "ws": 3,
         "ppg": 14.9,
-        "apg": 1.0,
+        "apg": 1,
         "rpg": 7.6
       },
       "salaryTiers": [
         {
-          "amount": 9000000,
-          "label": "Value tier",
-          "description": "Rookie upside value",
-          "percentile": 64
+          "amount": 18676552,
+          "label": "Efficient",
+          "description": "85% of market value - high efficiency",
+          "percentile": 85,
+          "isRecommended": true
         },
         {
-          "amount": 17000000,
-          "label": "Star tier",
-          "description": "High-ceiling rookie",
-          "percentile": 75
+          "amount": 21972414,
+          "label": "Market",
+          "description": "Fair market value for production",
+          "percentile": 100,
+          "isRecommended": false
+        },
+        {
+          "amount": 28564138,
+          "label": "Premium",
+          "description": "130% of market - overpay diminishes returns",
+          "percentile": 115,
+          "isRecommended": false
         }
       ],
       "context": "High-upside rookie, injury concerns"
@@ -1672,16 +2203,25 @@
       },
       "salaryTiers": [
         {
-          "amount": 11000000,
-          "label": "Value tier",
-          "description": "Veteran role player",
-          "percentile": 65
+          "amount": 17199310,
+          "label": "Efficient",
+          "description": "85% of market value - high efficiency",
+          "percentile": 85,
+          "isRecommended": true
         },
         {
-          "amount": 18000000,
-          "label": "Star tier",
-          "description": "Solid starter pricing",
-          "percentile": 74
+          "amount": 20234483,
+          "label": "Market",
+          "description": "Fair market value for production",
+          "percentile": 100,
+          "isRecommended": false
+        },
+        {
+          "amount": 26304828,
+          "label": "Premium",
+          "description": "130% of market - overpay diminishes returns",
+          "percentile": 115,
+          "isRecommended": false
         }
       ],
       "context": "Versatile veteran, solid defender"
@@ -1702,16 +2242,25 @@
       },
       "salaryTiers": [
         {
-          "amount": 24000000,
-          "label": "Star tier",
-          "description": "Elite playmaking big",
-          "percentile": 84
+          "amount": 27925333,
+          "label": "Efficient",
+          "description": "85% of market value - high efficiency",
+          "percentile": 85,
+          "isRecommended": true
         },
         {
-          "amount": 32000000,
-          "label": "Supermax tier",
-          "description": "Unique talent pricing",
-          "percentile": 93
+          "amount": 32853333,
+          "label": "Market",
+          "description": "Fair market value for production",
+          "percentile": 100,
+          "isRecommended": false
+        },
+        {
+          "amount": 42709333,
+          "label": "Premium",
+          "description": "130% of market - overpay diminishes returns",
+          "percentile": 115,
+          "isRecommended": false
         }
       ],
       "context": "Best passing big ever, led Nuggets to 2nd seed"
@@ -1730,16 +2279,25 @@
       },
       "salaryTiers": [
         {
-          "amount": 25000000,
-          "label": "Star tier",
-          "description": "Dominant two-way center",
-          "percentile": 85
+          "amount": 28348444,
+          "label": "Efficient",
+          "description": "85% of market value - high efficiency",
+          "percentile": 85,
+          "isRecommended": true
         },
         {
-          "amount": 33000000,
-          "label": "Supermax tier",
-          "description": "Elite center pricing",
-          "percentile": 94
+          "amount": 33351111,
+          "label": "Market",
+          "description": "Fair market value for production",
+          "percentile": 100,
+          "isRecommended": false
+        },
+        {
+          "amount": 43356444,
+          "label": "Premium",
+          "description": "130% of market - overpay diminishes returns",
+          "percentile": 115,
+          "isRecommended": false
         }
       ],
       "context": "MVP candidate, dominant when healthy"
@@ -1758,16 +2316,25 @@
       },
       "salaryTiers": [
         {
-          "amount": 23000000,
-          "label": "Star tier",
-          "description": "Versatile big value",
-          "percentile": 82
+          "amount": 25175111,
+          "label": "Efficient",
+          "description": "85% of market value - high efficiency",
+          "percentile": 85,
+          "isRecommended": true
         },
         {
-          "amount": 31000000,
-          "label": "Supermax tier",
-          "description": "Modern big pricing",
-          "percentile": 91
+          "amount": 29617778,
+          "label": "Market",
+          "description": "Fair market value for production",
+          "percentile": 100,
+          "isRecommended": false
+        },
+        {
+          "amount": 38503111,
+          "label": "Premium",
+          "description": "130% of market - overpay diminishes returns",
+          "percentile": 115,
+          "isRecommended": false
         }
       ],
       "context": "Elite shooting big, All-Star"
@@ -1781,21 +2348,30 @@
         "per": 21.3,
         "ws": 11.7,
         "ppg": 15.9,
-        "apg": 2.0,
+        "apg": 2,
         "rpg": 12.9
       },
       "salaryTiers": [
         {
-          "amount": 21000000,
-          "label": "Star tier",
-          "description": "DPOY value",
-          "percentile": 80
+          "amount": 22530667,
+          "label": "Efficient",
+          "description": "85% of market value - high efficiency",
+          "percentile": 85,
+          "isRecommended": true
         },
         {
-          "amount": 29000000,
-          "label": "Supermax tier",
-          "description": "Defensive anchor pricing",
-          "percentile": 89
+          "amount": 26506667,
+          "label": "Market",
+          "description": "Fair market value for production",
+          "percentile": 100,
+          "isRecommended": false
+        },
+        {
+          "amount": 34458667,
+          "label": "Premium",
+          "description": "130% of market - overpay diminishes returns",
+          "percentile": 115,
+          "isRecommended": false
         }
       ],
       "context": "Two-time DPOY, elite rim protector"
@@ -1810,20 +2386,29 @@
         "ws": 8.1,
         "ppg": 20.8,
         "apg": 3.8,
-        "rpg": 12.0
+        "rpg": 12
       },
       "salaryTiers": [
         {
-          "amount": 18000000,
-          "label": "Star tier",
-          "description": "First-time All-Star",
-          "percentile": 77
+          "amount": 23694222,
+          "label": "Efficient",
+          "description": "85% of market value - high efficiency",
+          "percentile": 85,
+          "isRecommended": true
         },
         {
-          "amount": 26000000,
-          "label": "Supermax tier",
-          "description": "All-Star center pricing",
-          "percentile": 86
+          "amount": 27875556,
+          "label": "Market",
+          "description": "Fair market value for production",
+          "percentile": 100,
+          "isRecommended": false
+        },
+        {
+          "amount": 36238222,
+          "label": "Premium",
+          "description": "130% of market - overpay diminishes returns",
+          "percentile": 115,
+          "isRecommended": false
         }
       ],
       "context": "First All-Star appearance, breakout season"
@@ -1842,16 +2427,25 @@
       },
       "salaryTiers": [
         {
-          "amount": 16000000,
-          "label": "Star tier",
-          "description": "Rim-running big value",
-          "percentile": 75
+          "amount": 22742222,
+          "label": "Efficient",
+          "description": "85% of market value - high efficiency",
+          "percentile": 85,
+          "isRecommended": true
         },
         {
-          "amount": 24000000,
-          "label": "Supermax tier",
-          "description": "Lob threat pricing",
-          "percentile": 84
+          "amount": 26755556,
+          "label": "Market",
+          "description": "Fair market value for production",
+          "percentile": 100,
+          "isRecommended": false
+        },
+        {
+          "amount": 34782222,
+          "label": "Premium",
+          "description": "130% of market - overpay diminishes returns",
+          "percentile": 115,
+          "isRecommended": false
         }
       ],
       "context": "Elite rim-runner, perfect for Rockets system"
@@ -1870,16 +2464,25 @@
       },
       "salaryTiers": [
         {
-          "amount": 19000000,
-          "label": "Star tier",
-          "description": "Double-double machine",
-          "percentile": 76
+          "amount": 21472889,
+          "label": "Efficient",
+          "description": "85% of market value - high efficiency",
+          "percentile": 85,
+          "isRecommended": true
         },
         {
-          "amount": 27000000,
-          "label": "Supermax tier",
-          "description": "Elite rebounder pricing",
-          "percentile": 85
+          "amount": 25262222,
+          "label": "Market",
+          "description": "Fair market value for production",
+          "percentile": 100,
+          "isRecommended": false
+        },
+        {
+          "amount": 32840889,
+          "label": "Premium",
+          "description": "130% of market - overpay diminishes returns",
+          "percentile": 115,
+          "isRecommended": false
         }
       ],
       "context": "Led league in rebounds, All-Star"
@@ -1898,16 +2501,25 @@
       },
       "salaryTiers": [
         {
-          "amount": 14000000,
-          "label": "Star tier",
-          "description": "Stretch big value",
-          "percentile": 72
+          "amount": 19886222,
+          "label": "Efficient",
+          "description": "85% of market value - high efficiency",
+          "percentile": 85,
+          "isRecommended": true
         },
         {
-          "amount": 22000000,
-          "label": "Supermax tier",
-          "description": "Modern center pricing",
-          "percentile": 82
+          "amount": 23395556,
+          "label": "Market",
+          "description": "Fair market value for production",
+          "percentile": 100,
+          "isRecommended": false
+        },
+        {
+          "amount": 30414222,
+          "label": "Premium",
+          "description": "130% of market - overpay diminishes returns",
+          "percentile": 115,
+          "isRecommended": false
         }
       ],
       "context": "Led league in blocks, stretch five"
@@ -1926,16 +2538,25 @@
       },
       "salaryTiers": [
         {
-          "amount": 17000000,
-          "label": "Star tier",
-          "description": "Veteran playmaker",
-          "percentile": 70
+          "amount": 16712889,
+          "label": "Efficient",
+          "description": "85% of market value - high efficiency",
+          "percentile": 85,
+          "isRecommended": true
         },
         {
-          "amount": 25000000,
-          "label": "Supermax tier",
-          "description": "Championship contributor",
-          "percentile": 80
+          "amount": 19662222,
+          "label": "Market",
+          "description": "Fair market value for production",
+          "percentile": 100,
+          "isRecommended": false
+        },
+        {
+          "amount": 25560889,
+          "label": "Premium",
+          "description": "130% of market - overpay diminishes returns",
+          "percentile": 115,
+          "isRecommended": false
         }
       ],
       "context": "Won championship with Toronto, high-IQ big"
@@ -1954,16 +2575,25 @@
       },
       "salaryTiers": [
         {
-          "amount": 18000000,
-          "label": "Star tier",
-          "description": "Versatile veteran value",
-          "percentile": 73
+          "amount": 18828444,
+          "label": "Efficient",
+          "description": "85% of market value - high efficiency",
+          "percentile": 85,
+          "isRecommended": true
         },
         {
-          "amount": 26000000,
-          "label": "Supermax tier",
-          "description": "All-Star veteran pricing",
-          "percentile": 83
+          "amount": 22151111,
+          "label": "Market",
+          "description": "Fair market value for production",
+          "percentile": 100,
+          "isRecommended": false
+        },
+        {
+          "amount": 28796444,
+          "label": "Premium",
+          "description": "130% of market - overpay diminishes returns",
+          "percentile": 115,
+          "isRecommended": false
         }
       ],
       "context": "Complete two-way big, playoff experience"
@@ -1974,7 +2604,7 @@
       "team": "OKC",
       "season": "2018-19",
       "stats": {
-        "per": 18.0,
+        "per": 18,
         "ws": 5.5,
         "ppg": 13.9,
         "apg": 1.6,
@@ -1982,16 +2612,25 @@
       },
       "salaryTiers": [
         {
-          "amount": 16000000,
-          "label": "Star tier",
-          "description": "Physical presence value",
-          "percentile": 71
+          "amount": 19040000,
+          "label": "Efficient",
+          "description": "85% of market value - high efficiency",
+          "percentile": 85,
+          "isRecommended": true
         },
         {
-          "amount": 24000000,
-          "label": "Supermax tier",
-          "description": "Overpaid role player",
-          "percentile": 81
+          "amount": 22400000,
+          "label": "Market",
+          "description": "Fair market value for production",
+          "percentile": 100,
+          "isRecommended": false
+        },
+        {
+          "amount": 29120000,
+          "label": "Premium",
+          "description": "130% of market - overpay diminishes returns",
+          "percentile": 115,
+          "isRecommended": false
         }
       ],
       "context": "Physical screener, solid rebounder"
@@ -2003,23 +2642,32 @@
       "season": "2018-19",
       "stats": {
         "per": 20.8,
-        "ws": 4.0,
+        "ws": 4,
         "ppg": 12.3,
         "apg": 0.8,
         "rpg": 11.3
       },
       "salaryTiers": [
         {
-          "amount": 17000000,
-          "label": "Star tier",
-          "description": "Shot-blocking big",
-          "percentile": 68
+          "amount": 22001778,
+          "label": "Efficient",
+          "description": "85% of market value - high efficiency",
+          "percentile": 85,
+          "isRecommended": true
         },
         {
-          "amount": 25000000,
-          "label": "Supermax tier",
-          "description": "Overpaid contract",
-          "percentile": 77
+          "amount": 25884444,
+          "label": "Market",
+          "description": "Fair market value for production",
+          "percentile": 100,
+          "isRecommended": false
+        },
+        {
+          "amount": 33649778,
+          "label": "Premium",
+          "description": "130% of market - overpay diminishes returns",
+          "percentile": 115,
+          "isRecommended": false
         }
       ],
       "context": "Elite shot-blocker, limited offensive game"
@@ -2038,16 +2686,25 @@
       },
       "salaryTiers": [
         {
-          "amount": 13000000,
-          "label": "Value tier",
-          "description": "Stretch big value",
-          "percentile": 70
+          "amount": 18511111,
+          "label": "Efficient",
+          "description": "85% of market value - high efficiency",
+          "percentile": 85,
+          "isRecommended": true
         },
         {
-          "amount": 21000000,
-          "label": "Star tier",
-          "description": "3-and-D big pricing",
-          "percentile": 81
+          "amount": 21777778,
+          "label": "Market",
+          "description": "Fair market value for production",
+          "percentile": 100,
+          "isRecommended": false
+        },
+        {
+          "amount": 28311111,
+          "label": "Premium",
+          "description": "130% of market - overpay diminishes returns",
+          "percentile": 115,
+          "isRecommended": false
         }
       ],
       "context": "Reinvented as stretch five, elite defense"
@@ -2066,16 +2723,25 @@
       },
       "salaryTiers": [
         {
-          "amount": 10000000,
-          "label": "Value tier",
-          "description": "Rookie #1 pick value",
-          "percentile": 68
+          "amount": 19992000,
+          "label": "Efficient",
+          "description": "85% of market value - high efficiency",
+          "percentile": 85,
+          "isRecommended": true
         },
         {
-          "amount": 18000000,
-          "label": "Star tier",
-          "description": "High-ceiling rookie",
-          "percentile": 78
+          "amount": 23520000,
+          "label": "Market",
+          "description": "Fair market value for production",
+          "percentile": 100,
+          "isRecommended": false
+        },
+        {
+          "amount": 30576000,
+          "label": "Premium",
+          "description": "130% of market - overpay diminishes returns",
+          "percentile": 115,
+          "isRecommended": false
         }
       ],
       "context": "#1 overall pick, solid rookie season"
@@ -2094,16 +2760,25 @@
       },
       "salaryTiers": [
         {
-          "amount": 13000000,
-          "label": "Value tier",
-          "description": "Traditional big value",
-          "percentile": 69
+          "amount": 22953778,
+          "label": "Efficient",
+          "description": "85% of market value - high efficiency",
+          "percentile": 85,
+          "isRecommended": true
         },
         {
-          "amount": 21000000,
-          "label": "Star tier",
-          "description": "Solid starter pricing",
-          "percentile": 80
+          "amount": 27004444,
+          "label": "Market",
+          "description": "Fair market value for production",
+          "percentile": 100,
+          "isRecommended": false
+        },
+        {
+          "amount": 35105778,
+          "label": "Premium",
+          "description": "130% of market - overpay diminishes returns",
+          "percentile": 115,
+          "isRecommended": false
         }
       ],
       "context": "Traded mid-season, strong post presence"

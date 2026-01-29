@@ -164,14 +164,19 @@ class DraftEngine {
     const primaryStat = this.calculator.getPlayerStat(player, position);
     const rating = getStarRating(player.salaryTiers[0].percentile || 50);
 
-    const tiers = player.salaryTiers.map(tier =>
-      '<div class="tier-option" onclick="selectPlayer(\'' + player.id + '\', ' + tier.amount + ')">' +
-      '<div class="tier-info">' +
-      '<div class="tier-amount">' + formatCurrency(tier.amount, true) + '</div>' +
-      '<div class="tier-label">' + tier.label + '</div>' +
-      '<div class="tier-description">' + tier.description + '</div>' +
-      '</div></div>'
-    ).join('');
+    const tiers = player.salaryTiers.map(tier => {
+      const recommendedClass = tier.isRecommended ? ' tier-recommended' : '';
+      const recommendedBadge = tier.isRecommended ?
+        '<span class="tier-badge">⚡ Recommended</span>' : '';
+
+      return '<div class="tier-option' + recommendedClass + '" onclick="selectPlayer(\'' + player.id + '\', ' + tier.amount + ')">' +
+        recommendedBadge +
+        '<div class="tier-info">' +
+        '<div class="tier-amount">' + formatCurrency(tier.amount, true) + '</div>' +
+        '<div class="tier-label">' + tier.label + '</div>' +
+        '<div class="tier-description">' + tier.description + '</div>' +
+        '</div></div>';
+    }).join('');
 
     return '<div class="player-card">' +
       '<div class="player-card-header">' +
