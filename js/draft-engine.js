@@ -11,6 +11,8 @@ class DraftEngine {
     this.currentPositionIndex = 0;
     this.startTime = Date.now();
     this.draftHistory = [];
+    this.pendingOffers = []; // Offers that haven't been validated yet
+    this.rejections = []; // Track rejected offers
   }
 
   async initialize() {
@@ -45,17 +47,15 @@ class DraftEngine {
 
     if (!player) return;
 
-    // Check if player accepts the offer
-    if (!this.playerAcceptsOffer(player, salary, currentPosition)) {
-      showToast(`${player.name} rejected your offer of ${formatCurrency(salary, true)}. Try a higher tier!`, 'warning');
-      return;
-    }
-
     const winContribution = this.calculator.calculateWinContribution(player, salary, currentPosition);
 
+    // Store the offer (don't check acceptance yet)
     this.roster[currentPosition] = { player, salary, winContribution };
     this.draftHistory.push({ position: currentPosition, player, salary });
+    this.pendingOffers.push({ position: currentPosition, player, salary });
     this.currentPositionIndex++;
+
+    showToast(`Offer made to ${player.name} for ${formatCurrency(salary, true)}`, 'info');
 
     this.updateUI();
 
@@ -204,7 +204,27 @@ class DraftEngine {
       return;
     }
 
-    const players = this.players[currentPosition];
+    let players = [...this.players[currentPosition]]; // Clone array for sorting
+
+    // Apply sorting based on sort-select dropdown
+    const sortValue = document.getElementById('sort-select')?.value || 'stat-desc';
+
+    if (sortValue === 'stat-desc') {
+      players.sort((a, b) => {
+        const statA = this.calculator.getPlayerStat(a, currentPosition);
+        const statB = this.calculator.getPlayerStat(b, currentPosition);
+        return statB - statA; // Highest first
+      });
+    } else if (sortValue === 'stat-asc') {
+      players.sort((a, b) => {
+        const statA = this.calculator.getPlayerStat(a, currentPosition);
+        const statB = this.calculator.getPlayerStat(b, currentPosition);
+        return statA - statB; // Lowest first
+      });
+    } else if (sortValue === 'name-asc') {
+      players.sort((a, b) => a.name.localeCompare(b.name)); // A-Z
+    }
+
     const html = players.map(player => this.renderPlayerCard(player, currentPosition));
     playerGrid.innerHTML = html.join('');
   }
@@ -294,25 +314,52 @@ class DraftEngine {
   }
 
   /**
-   * Build optimal frontier curve based on efficiency thresholds
+   * Build optimal efficiency frontier curve
+   * Shows the theoretical maximum wins per dollar spent
    */
   buildOptimalFrontierData() {
+    // Create a smooth curve showing the efficiency frontier
+    // This represents getting top players at the "Efficient" tier
     const points = [];
-    let totalSpent = 0;
-    let totalWins = 0;
+    const numPoints = 20; // Number of points for smooth curve
+
+    // Get max possible spending (all premium tiers) and min spending
+    let maxSpending = 0;
+    let totalWeight = 0;
 
     for (const position of this.config.draftOrder) {
       const posConfig = this.config.positions[position];
+      maxSpending += posConfig.efficiencyThreshold * 1.3; // Premium tier
+      totalWeight += posConfig.positionWeight;
+    }
 
-      // Optimal point: 80% of efficiency threshold for ~85% of max production
-      const optimalSalary = posConfig.efficiencyThreshold * 0.8;
-      const optimalWins = (posConfig.positionWeight * 100 * 0.85);
+    // Generate curve points from 0 to max spending
+    for (let i = 0; i <= numPoints; i++) {
+      const spending = (maxSpending / numPoints) * i;
+      const spendingPerPosition = spending / this.config.draftOrder.length;
 
-      totalSpent += optimalSalary;
-      totalWins += optimalWins;
+      let totalWins = 0;
+
+      // Calculate wins if this spending level was distributed optimally
+      for (const position of this.config.draftOrder) {
+        const posConfig = this.config.positions[position];
+
+        // Assume we get a top player (stat = positionMax)
+        const normalizedStat = 1.0;
+
+        // Apply diminishing returns based on salary
+        const efficiencyFactor = 1 - Math.exp(-spendingPerPosition / posConfig.efficiencyThreshold);
+
+        // Calculate wins for this position
+        const wins = normalizedStat * efficiencyFactor * posConfig.positionWeight * 100;
+        totalWins += wins;
+      }
+
+      // Cap at 100 wins
+      totalWins = Math.min(totalWins, 100);
 
       points.push({
-        spending: totalSpent / 1000000,
+        spending: spending / 1000000,
         wins: totalWins
       });
     }
@@ -324,10 +371,39 @@ class DraftEngine {
   }
 
   submitRoster() {
+    // Validate all pending offers
+    this.rejections = [];
+    for (const offer of this.pendingOffers) {
+      const accepted = this.playerAcceptsOffer(offer.player, offer.salary, offer.position);
+      if (!accepted) {
+        this.rejections.push({
+          player: offer.player.name,
+          position: offer.position,
+          salary: offer.salary
+        });
+      }
+    }
+
+    // Show rejection results if any
+    if (this.rejections.length > 0) {
+      const rejectionList = this.rejections.map(r =>
+        `${r.player} (${this.config.positions[r.position].name}) - ${formatCurrency(r.salary, true)}`
+      ).join('\n');
+
+      alert(`⚠️ NEGOTIATION RESULTS\n\n${this.rejections.length} offer(s) rejected:\n\n${rejectionList}\n\nYou will lose ${this.rejections.length * 5} points for failed negotiations.`);
+    } else {
+      showToast('All offers accepted! Excellent negotiation!', 'success');
+    }
+
     const totalSpent = calculateTotalSalary(this.roster);
     const timeSpent = Date.now() - this.startTime;
     const metrics = this.calculator.calculateRosterEfficiency(this.roster, totalSpent);
     const scores = this.calculator.calculateScore(metrics, timeSpent);
+
+    // Apply rejection penalty (5 points per rejection)
+    const rejectionPenalty = this.rejections.length * 5;
+    scores.total = Math.max(0, scores.total - rejectionPenalty);
+    scores.strategic = Math.max(0, scores.strategic - rejectionPenalty);
 
     const results = {
       league: this.leagueKey,
@@ -335,7 +411,9 @@ class DraftEngine {
       metrics,
       scores,
       time: timeSpent,
-      score: scores.total
+      score: scores.total,
+      rejections: this.rejections.length,
+      rejectionPenalty
     };
 
     this.storage.completeScenario(this.leagueKey, results);
